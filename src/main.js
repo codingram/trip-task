@@ -19,14 +19,15 @@ import {
   faParachuteBox,
   faEnvelope,
   faPlane,
-  faHotel
-  // faTrain,
-  // faBus,
-  // faTaxi,
-  // faPassport,
-  // faHome,
-  // faGiftCard,
-  // faEllipsisHAlt
+  faHotel,
+  faTrain,
+  faBus,
+  faTaxi,
+  faPassport,
+  faHome,
+  faGift,
+  faEllipsisH,
+  faDotCircle
 } from "@fortawesome/free-solid-svg-icons"; //fas fa
 import { faFacebookF, faTwitter } from "@fortawesome/free-brands-svg-icons"; //fab
 import {} from "@fortawesome/free-regular-svg-icons"; //far
@@ -36,14 +37,15 @@ library.add(
   faUser,
   faParachuteBox,
   faPlane,
-  faHotel
-  // faTrain,
-  // faBus,
-  // faTaxi,
-  // faPassport,
-  // faHome,
-  // faGiftCard,
-  // faEllipsisHAlt
+  faHotel,
+  faTrain,
+  faBus,
+  faTaxi,
+  faPassport,
+  faHome,
+  faGift,
+  faEllipsisH,
+  faDotCircle
 ); //fas
 library.add(faEnvelope); //far
 library.add(faFacebookF, faTwitter); //fab

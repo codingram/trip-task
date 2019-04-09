@@ -1,43 +1,70 @@
 <template>
   <div>
-    <b-navbar>
-      <b-navbar-nav>
-        <div>
-          <b-col md="2">
-            <img
-              src="../assets/ImagesS/sitelogo.png"
-              alt="Sitelogo"
-              width="150px"
-            />
-          </b-col>
-        </div>
+    <b-navbar toggleable="lg" class="mx-5 px-5 py-0">
+      <b-navbar-brand href="#">
+        <img
+          src="../assets/ImagesS/sitelogo.png"
+          alt="sitelogo"
+          height="42px"
+        />
+      </b-navbar-brand>
 
-        <div class="mx-auto">
-          <b-col md="8">
-            <div>
-              <ul>
-                <li><font-awesome-icon :icon="['fas', 'plane']" />Flights</li>
-                <li><font-awesome-icon :icon="['fas', 'hotel']" />Hotels</li>
-                <li>
-                  <font-awesome-icon :icon="['fas', 'parachute-box']" />Holidays
-                </li>
-                <li><font-awesome-icon :icon="['fas', 'plane']" />Trains</li>
-                <li><font-awesome-icon :icon="['fas', 'plane']" />Buses</li>
-                <li><font-awesome-icon :icon="['fas', 'plane']" />Cabs</li>
-                <li><font-awesome-icon :icon="['fas', 'plane']" />Visa</li>
-                <li><font-awesome-icon :icon="['fas', 'plane']" />Homestays</li>
-                <li><font-awesome-icon :icon="['fas', 'plane']" />Giftcards</li>
-                <li><font-awesome-icon :icon="['fas', 'plane']" />More</li>
-              </ul>
-            </div>
+      <b-navbar-toggle target="nav-collapse"></b-navbar-toggle>
+      <div>
+        <b-col md="8">
+          <b-collapse id="nav-collapse" is-nav>
+            <b-navbar-nav>
+              <b-nav-item href="#" style="text-align:center">
+                <font-awesome-icon :icon="['fas', 'plane']" />
+                <span style="display:block"> Flights </span>
+              </b-nav-item>
+              <b-nav-item href="#" style="text-align:center">
+                <font-awesome-icon :icon="['fas', 'hotel']" />
+                <span style="display:block"> Hotels </span>
+              </b-nav-item>
+              <b-nav-item href="#" style="text-align:center">
+                <font-awesome-icon :icon="['fas', 'parachute-box']" />
+                <span style="display:block"> Holidays </span>
+              </b-nav-item>
+              <b-nav-item href="#" style="text-align:center">
+                <font-awesome-icon :icon="['fas', 'train']" />
+                <span style="display:block"> Trains </span>
+              </b-nav-item>
+              <b-nav-item href="#" style="text-align:center">
+                <font-awesome-icon :icon="['fas', 'bus']" />
+                <span style="display:block"> Buses </span>
+              </b-nav-item>
+              <b-nav-item href="#" style="text-align:center">
+                <font-awesome-icon :icon="['fas', 'taxi']" />
+                <span style="display:block"> Cabs </span>
+              </b-nav-item>
+              <b-nav-item href="#" style="text-align:center">
+                <font-awesome-icon :icon="['fas', 'passport']" />
+                <span style="display:block"> Visa </span>
+              </b-nav-item>
+              <b-nav-item href="#" style="text-align:center">
+                <font-awesome-icon :icon="['fas', 'home']" />
+                <span style="display:block"> Homestays </span>
+              </b-nav-item>
+              <b-nav-item href="#" style="text-align:center">
+                <font-awesome-icon :icon="['fas', 'gift']" />
+                <span style="display:block"> Giftcards </span>
+              </b-nav-item>
+              <b-nav-item href="#" style="text-align:center">
+                <font-awesome-icon :icon="['fas', 'ellipsis-h']" />
+                <span style="display:block"> More </span>
+              </b-nav-item>
+            </b-navbar-nav>
+          </b-collapse>
+        </b-col>
+      </div>
+      <div class="ml-auto">
+        <b-row>
+          <b-col>
+            Login or Create Account
           </b-col>
-        </div>
-        <div>
-          <b-col md="2">
-            <b-nav-item> </b-nav-item>
-          </b-col>
-        </div>
-      </b-navbar-nav>
+        </b-row>
+      </div>
     </b-navbar>
   </div>
 </template>
