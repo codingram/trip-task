@@ -12,13 +12,15 @@ Vue.use(BootstrapVue);
 // fontawesome import
 import { FontAwesomeIcon } from "@fortawesome/vue-fontawesome";
 import { library } from "@fortawesome/fontawesome-svg-core";
-import {} from "@fortawesome/free-solid-svg-icons"; //fas fa
-import {} from "@fortawesome/free-brands-svg-icons"; //fab
-import {} from "@fortawesome/free-regular-svg-icons"; //far
 
-library.add(); //fas
-library.add(); //far
-library.add(); //fab
+import { faEnvelopeOpenText, faUser } from "@fortawesome/free-solid-svg-icons"; //fas fa
+import { faFacebookF, faTwitter } from "@fortawesome/free-brands-svg-icons"; //fab
+import { faEnvelope } from "@fortawesome/free-regular-svg-icons"; //far
+
+library.add(faEnvelopeOpenText, faUser); //fas
+library.add(faEnvelope); //far
+library.add(faFacebookF, faTwitter); //fab
+
 Vue.component("font-awesome-icon", FontAwesomeIcon);
 
 // vue-swiper import
