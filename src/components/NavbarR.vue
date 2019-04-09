@@ -2,7 +2,7 @@
   <div>
     <b-navbar toggleable="lg" class="mx-5 px-5 py-0">
       <b-navbar-brand href="#">
-        <img src="../assets/sitelogo.png" alt="img" height="42px" />
+        <img src="../assets/imagesR/sitelogo.png" alt="img" height="40px" />
       </b-navbar-brand>
 
       <b-navbar-toggle target="nav-collapse"></b-navbar-toggle>
@@ -54,7 +54,7 @@ export default {
   line-height: 40px;
 }
 .navbar-brand {
-  padding-top: 10;
+  padding-top: 10px;
 }
 
 .navbar {
