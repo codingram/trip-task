@@ -13,11 +13,38 @@ Vue.use(BootstrapVue);
 import { FontAwesomeIcon } from "@fortawesome/vue-fontawesome";
 import { library } from "@fortawesome/fontawesome-svg-core";
 
-import { faEnvelopeOpenText, faUser } from "@fortawesome/free-solid-svg-icons"; //fas fa
+import {
+  faEnvelopeOpenText,
+  faUser,
+  faParachuteBox,
+  faEnvelope,
+  faPlane,
+  faHotel
+  // faTrain,
+  // faBus,
+  // faTaxi,
+  // faPassport,
+  // faHome,
+  // faGiftCard,
+  // faEllipsisHAlt
+} from "@fortawesome/free-solid-svg-icons"; //fas fa
 import { faFacebookF, faTwitter } from "@fortawesome/free-brands-svg-icons"; //fab
-import { faEnvelope } from "@fortawesome/free-regular-svg-icons"; //far
+import {} from "@fortawesome/free-regular-svg-icons"; //far
 
-library.add(faEnvelopeOpenText, faUser); //fas
+library.add(
+  faEnvelopeOpenText,
+  faUser,
+  faParachuteBox,
+  faPlane,
+  faHotel
+  // faTrain,
+  // faBus,
+  // faTaxi,
+  // faPassport,
+  // faHome,
+  // faGiftCard,
+  // faEllipsisHAlt
+); //fas
 library.add(faEnvelope); //far
 library.add(faFacebookF, faTwitter); //fab
 
