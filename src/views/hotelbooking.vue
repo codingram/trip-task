@@ -2,23 +2,24 @@
   <div>
     <NavbarS></NavbarS>
     <citysearch></citysearch>
-    <!-- <breadcum></breadcum> -->
+
     <roominfo></roominfo>
+    <reviews></reviews>
   </div>
 </template>
 
 <script>
 import NavbarS from "@/components/NavbarS.vue";
 import citysearch from "@/components/citysearch.vue";
-// import breadcum from "@/components/breadcum.vue";
+import reviews from "@/components/reviews.vue";
 import roominfo from "@/components/roominfo.vue";
 export default {
   name: "NavBar",
   components: {
     NavbarS,
     citysearch,
-    // breadcum,
-    roominfo
+    roominfo,
+    reviews
   },
   data() {
     return {};
