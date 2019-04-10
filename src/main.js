@@ -32,12 +32,16 @@ import {
   faMapMarkerAlt,
   faStar,
   faGlobeEurope,
-  faCaretDown
+  faCaretDown,
+  faWifi,
+  faUtensils,
+  faParking
 } from "@fortawesome/free-solid-svg-icons"; //fas fa
 import {
   faFacebookF,
   faTwitter,
-  faTripadvisor
+  faTripadvisor,
+  faCentos
 } from "@fortawesome/free-brands-svg-icons"; //fab
 import { faCircle } from "@fortawesome/free-regular-svg-icons"; //far
 
@@ -59,10 +63,14 @@ library.add(
   faMapMarkerAlt,
   faStar,
   faGlobeEurope,
-  faCaretDown
+  faCaretDown,
+  faWifi,
+  faUtensils,
+  faParking
+  
 ); //fas
 library.add(faEnvelope, faCircle); //far
-library.add(faFacebookF, faTwitter, faTripadvisor); //fab
+library.add(faFacebookF, faTwitter, faTripadvisor, faCentos); //fab
 
 Vue.component("font-awesome-icon", FontAwesomeIcon);
 

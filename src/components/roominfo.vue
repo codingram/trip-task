@@ -17,16 +17,16 @@
               <md-card-media>
                 <!-- swiper -->
                 <swiper :options="swiperOption">
-                  <swiper-slide class="swiper-style">Slide 1</swiper-slide>
-                  <swiper-slide class="swiper-style">Slide 2</swiper-slide>
-                  <swiper-slide class="swiper-style">Slide 3</swiper-slide>
-                  <swiper-slide class="swiper-style">Slide 4</swiper-slide>
-                  <swiper-slide class="swiper-style">Slide 5</swiper-slide>
-                  <swiper-slide class="swiper-style">Slide 6</swiper-slide>
-                  <swiper-slide class="swiper-style">Slide 7</swiper-slide>
-                  <swiper-slide class="swiper-style">Slide 8</swiper-slide>
-                  <swiper-slide class="swiper-style">Slide 9</swiper-slide>
-                  <swiper-slide class="swiper-style">Slide 10</swiper-slide>
+                  <swiper-slide class="swiper-style"></swiper-slide>
+                  <swiper-slide class="swiper-style"></swiper-slide>
+                  <swiper-slide class="swiper-style"></swiper-slide>
+                  <swiper-slide class="swiper-style"></swiper-slide>
+                  <swiper-slide class="swiper-style"></swiper-slide>
+                  <swiper-slide class="swiper-style"></swiper-slide>
+                  <swiper-slide class="swiper-style"></swiper-slide>
+                  <swiper-slide class="swiper-style"></swiper-slide>
+                  <swiper-slide class="swiper-style"></swiper-slide>
+                  <swiper-slide class="swiper-style"></swiper-slide>
                   <div class="swiper-pagination" slot="pagination"></div>
                   <div class="swiper-button-prev" slot="button-prev"></div>
                   <div class="swiper-button-next" slot="button-next"></div>
@@ -144,7 +144,7 @@ export default {
 @import "../assets/scss/_svariables.scss";
 .swiper-style {
   height: 250px;
-  background-image: url(../assets/img1.jpg);
+  background-image: url(../assets/ImagesS/roomimage.jpeg);
 }
 .outline-whole-row {
   border: 1px solid;
@@ -192,4 +192,6 @@ export default {
   font-size: 14px;
   color: $textwhitecolor;
 }
+.swiper-button-next {
+  color: red;}
 </style>

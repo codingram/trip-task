@@ -30,7 +30,7 @@ export default {
 .breadcrum-style {
   background-color: white;
   padding-bottom: 0px;
-      padding-top: 18px;
-      padding-left: 0px;
+  padding-top: 18px;
+  padding-left: 0px;
 }
 </style>
