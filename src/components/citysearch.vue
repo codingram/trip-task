@@ -1,43 +1,45 @@
 <template>
   <div>
-    <b-row>
-      <b-col>
-        <div class="whole-div">
-          <b-row>
-            <b-col md="10" class="mx-auto p-0">
-              <b-row>
-                <div class="col-md-10 p-0">
-                  <b-col
-                    md="2"
-                    v-for="city in cities"
-                    v-bind:key="city.index"
-                    style="display:inline-block"
-                  >
-                    <div class="m-2">
-                      <b-row>
-                        <div class="col-blue-color p-2 boxhead-style">
-                          <div class="boxhead-font-size ">
-                            {{ city.cityhead }}
+    <b-container fluid>
+      <b-row>
+        <b-col>
+          <div class="whole-div">
+            <b-row>
+              <b-col md="10" class="mx-auto p-0">
+                <b-row>
+                  <div class="col-md-10 p-0 ">
+                    <b-col
+                      md="2"
+                      v-for="city in cities"
+                      v-bind:key="city.index"
+                      class="city-display pl-0"
+                    >
+                      <div class="m-2">
+                        <b-row>
+                          <div class="col-blue-color p-2 pl-0 boxhead-style">
+                            <div class="boxhead-font-size ">
+                              {{ city.cityhead }}
+                            </div>
+                            <div class="boxtext-font-size">
+                              {{ city.cityname }}
+                            </div>
                           </div>
-                          <div class="boxtext-font-size">
-                            {{ city.cityname }}
-                          </div>
-                        </div>
-                      </b-row>
-                    </div>
-                  </b-col>
-                </div>
-                <div class="col-md-2 mx-auto my-auto text-left p-0  ">
-                  <div class=" ">
-                    <button class="search-box-margin">SEARCH</button>
+                        </b-row>
+                      </div>
+                    </b-col>
                   </div>
-                </div>
-              </b-row>
-            </b-col></b-row
-          >
-        </div>
-      </b-col>
-    </b-row>
+                  <div class="col-md-2 mx-auto my-auto text-left p-0  ">
+                    <div class=" ">
+                      <button class="search-box-margin">SEARCH</button>
+                    </div>
+                  </div>
+                </b-row>
+              </b-col>
+            </b-row>
+          </div>
+        </b-col>
+      </b-row>
+    </b-container>
   </div>
 </template>
 <script>
@@ -72,7 +74,7 @@ export default {
   background-color: rgb(4, 3, 37);
 }
 .col-blue-color {
-  background-color: rgba(236, 238, 247, 0.3);
+  background-color: rgba(167, 211, 181, 0.3);
 }
 .boxhead-font-size {
   font-size: 10px;
@@ -88,6 +90,9 @@ export default {
   border-radius: 2px;
   height: 44px;
   text-align: left;
+}
+.city-display {
+  display: inline-block;
 }
 .search-box-margin {
   margin-left: -244px;
