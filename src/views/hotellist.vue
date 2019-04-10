@@ -7,7 +7,11 @@
       <b-container>
         <div class="div-85 mx-auto">
           <b-row class="px-0 m-0">
-            <b-col md="3 pl-0"></b-col>
+            <b-col md="3 pl-0">
+              <LeftsideTitle></LeftsideTitle>
+              <CompoListSelector></CompoListSelector>
+              <FilterCheckbox></FilterCheckbox>
+            </b-col>
             <b-col md="9 p-0">
               <Hotelcard></Hotelcard>
             </b-col>
@@ -22,12 +26,18 @@
 import NavbarR from "@/components/listcomponents/NavbarR.vue";
 import SearchArea from "@/components/listcomponents/SearchArea.vue";
 import Hotelcard from "@/components/listcomponents/Hotelcard.vue";
+import LeftsideTitle from "@/components/listcomponents/LeftsideTitle.vue";
+import CompoListSelector from "@/components/listcomponents/CompoListSelector.vue";
+import FilterCheckbox from "@/components/listcomponents/FilterCheckbox.vue";
 export default {
   name: "NavBar",
   components: {
     NavbarR,
     SearchArea,
-    Hotelcard
+    Hotelcard,
+    LeftsideTitle,
+    CompoListSelector,
+    FilterCheckbox
   },
   data() {
     return {};
@@ -39,7 +49,7 @@ export default {
 @import "../assets/scss/_rvariables.scss";
 .body-div {
   background-color: $bodybackgroundcolor !important;
-  height: 500px;
+  height: auto;
 
   .div-85 {
     width: 85%;
