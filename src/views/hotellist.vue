@@ -7,8 +7,8 @@
       <b-container>
         <div class="div-85 mx-auto">
           <b-row class="px-0 m-0">
-            <b-col md="4 pl-0"></b-col>
-            <b-col md="8 p-0">
+            <b-col md="3 pl-0"></b-col>
+            <b-col md="9 p-0">
               <Hotelcard></Hotelcard>
             </b-col>
           </b-row>

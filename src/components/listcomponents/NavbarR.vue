@@ -54,6 +54,7 @@ export default {
   color: #717171;
   font-size: 11px;
   font-weight: 900;
+  padding-bottom: 3px;
 
   &:hover {
     background: $navhover;

@@ -190,7 +190,7 @@ export default {
     }
 
     .searchbtn {
-      background-color: $orangrbtn;
+      background-color: $orangebtn;
       color: #fff;
       font-size: 12px;
     }

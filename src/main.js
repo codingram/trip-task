@@ -27,7 +27,11 @@ import {
   faHome,
   faGift,
   faEllipsisH,
-  faDotCircle
+  faDotCircle,
+  faBookmark,
+  faMapMarkerAlt,
+  faStar,
+  faGlobeEurope
 } from "@fortawesome/free-solid-svg-icons"; //fas fa
 import { faFacebookF, faTwitter } from "@fortawesome/free-brands-svg-icons"; //fab
 import {} from "@fortawesome/free-regular-svg-icons"; //far
@@ -45,7 +49,11 @@ library.add(
   faHome,
   faGift,
   faEllipsisH,
-  faDotCircle
+  faDotCircle,
+  faBookmark,
+  faMapMarkerAlt,
+  faStar,
+  faGlobeEurope
 ); //fas
 library.add(faEnvelope); //far
 library.add(faFacebookF, faTwitter); //fab
