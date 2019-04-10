@@ -64,7 +64,7 @@
               <b-row>
                 <b-col md="6">
                   <div class="text-left outline-inside-text">
-                    <span>Standard room-queen Size bed</span><br>
+                    <span>Standard room-queen Size bed</span><br />
                     <span>Non-Refundable</span><br />
                     <span>Rooms Only</span><br />
                   </div>
@@ -81,12 +81,12 @@
               </b-row>
 
               <b-row>
-                <b-col >
+                <b-col>
                   <div class="text-left outline-inside-text">
                     <span>OTHERS ROOMS</span>
                   </div>
                 </b-col>
-                <b-col >
+                <b-col>
                   <div class="text-right outline-button ">
                     <button class="booknow-box-button">book this now</button>
                   </div>
@@ -144,7 +144,7 @@ export default {
 @import "../assets/scss/_svariables.scss";
 .swiper-style {
   height: 250px;
-  background-color: lightblue;
+  background-image: url(../assets/img1.jpg);
 }
 .outline-whole-row {
   border: 1px solid;
@@ -171,15 +171,16 @@ export default {
 }
 .outline-whole-row3 {
   border: 1px solid gray;
-  font-size: 12px;
+  font-size: 11px;
   padding: 3px;
-  width: 277px;
+  width: 244px;
   margin-top: 31px;
-  margin-left: 78px;
-  height: 27px;
+  margin-left: 278px;
+  height: 28px;
   text-align: center;
   border-radius: 3px;
   color: red;
+  background-color: #ff00002e;
 }
 .booknow-box-button {
   background: $allgradientbluecolor;

@@ -1,9 +1,9 @@
 <template>
   <div>
     <b-container fluid>
-      <b-row>
+      <b-row class="whole-div">
         <b-col>
-          <div class="whole-div">
+          <div >
             <b-row>
               <b-col md="10" class="mx-auto p-0">
                 <b-row>
@@ -49,7 +49,7 @@ export default {
       cities: [
         {
           cityhead: "CITY, AREA, OR HOTEL",
-          cityname: "Ibis One Central"
+          cityname: "Ibis One Central..."
         },
         {
           cityhead: "CHECK-IN",
@@ -71,7 +71,7 @@ export default {
 <style lang="scss">
 @import "../assets/scss/_svariables.scss";
 .whole-div {
-  background-color: rgb(4, 3, 37);
+  background-color: #100f38;
 }
 .col-blue-color {
   background-color: rgba(167, 211, 181, 0.3);

@@ -11,7 +11,7 @@
 
       <b-navbar-toggle target="nav-collapse"></b-navbar-toggle>
       <div>
-        <b-col md="8">
+        <b-col md="8" class="icon-text-font">
           <b-collapse id="nav-collapse" is-nav>
             <b-navbar-nav>
               <b-nav-item href="#" style="text-align:center">
@@ -52,18 +52,23 @@
               </b-nav-item>
               <b-nav-item href="#" style="text-align:center">
                 <font-awesome-icon :icon="['fas', 'ellipsis-h']" />
-                <span style="display:block"> More </span>
+                <span style="display:block">
+                  More </span>
               </b-nav-item>
             </b-navbar-nav>
           </b-collapse>
         </b-col>
       </div>
       <div class="ml-auto">
-        <b-row>
-          <b-col>
-            Login or Create Account
-          </b-col>
-        </b-row>
+        <b-col>
+          <b-row>
+            <button class="my-button">my</button>
+            <b-col class="login-font-size">
+              <span>Login or</span><br />
+              <span> Create Account </span></b-col
+            >
+          </b-row>
+        </b-col>
       </div>
     </b-navbar>
   </div>
@@ -79,5 +84,19 @@ ul > li {
 .content-inline {
   display: inline;
   list-style-type: none;
+}
+.icon-text-font {
+  font-size: 14px;
+  padding-right: 3px;
+}
+.my-button {
+  border-radius: 365%;
+  color: white;
+  background-color: rgba(138, 193, 138, 0.99);
+  border: none;
+  height: 25px;
+}
+.login-font-size {
+  font-size: 11px;
 }
 </style>
