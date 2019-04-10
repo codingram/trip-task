@@ -1,6 +1,6 @@
 <template>
   <div>
-    <b-row>
+    <b-row class="m-0 p-0">
       <b-col>
         <div class="whole-div">
           <b-row>
@@ -33,8 +33,8 @@
                   </div>
                 </div>
               </b-row>
-            </b-col></b-row
-          >
+            </b-col>
+            </b-row>
         </div>
       </b-col>
     </b-row>
@@ -72,7 +72,7 @@ export default {
   background-color: rgb(4, 3, 37);
 }
 .col-blue-color {
-  background-color: rgba(236, 238, 247, 0.3);
+  background-color: rgba(167, 211, 181, 0.3);
 }
 .boxhead-font-size {
   font-size: 10px;
