@@ -1,5 +1,6 @@
 <template>
   <div class="mt-4">
+    <div class="ListSelectortitleText mt-3 mb-2">{{ filtertoptitle }}</div>
     <div class="border checkboxfilter px-2">
       <div class="border-bottom">
         <div class="checkbox-heading">
@@ -47,12 +48,19 @@
 
 <script>
 export default {
-  name: "ListSelector"
+  name: "ListSelector",
+  props: {
+    filtertoptitle: String
+  }
 };
 </script>
 <style scoped lang="scss">
 @import "../../assets/scss/_rvariables.scss";
-
+.ListSelectortitleText {
+  color: $dimfont;
+  font-size: 12px;
+  font-weight: 700;
+}
 .checkboxfilter {
   background-color: #ffffff;
   font-size: 10px;

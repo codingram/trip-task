@@ -1,136 +1,146 @@
 <template>
-  <div class="mt-3">
-    <b-row class="border m-0">
-      <b-col md="10" class="p-0 card-hotel-descriptionSide">
-        <b-row class="p-2">
-          <b-col md="4" class="card-hotel-image-slider">
-            <div style="height:150px" class="hotel-swiper">
-              <!-- swiper1 -->
-              <swiper
-                :options="swiperOptionTop"
-                class="gallery-top"
-                ref="swiperTop"
-              >
-                <swiper-slide class="slide-1"></swiper-slide>
-                <swiper-slide class="slide-2"></swiper-slide>
-                <swiper-slide class="slide-3"></swiper-slide>
-                <swiper-slide class="slide-4"></swiper-slide>
-                <swiper-slide class="slide-5"></swiper-slide>
-              </swiper>
-              <!-- swiper2 Thumbs -->
-              <swiper
-                :options="swiperOptionThumbs"
-                class="gallery-thumbs"
-                ref="swiperThumbs"
-              >
-                <swiper-slide class="slide-1"></swiper-slide>
-                <swiper-slide class="slide-2"></swiper-slide>
-                <swiper-slide class="slide-3"></swiper-slide>
-                <swiper-slide class="slide-4"></swiper-slide>
-                <swiper-slide class="slide-5"></swiper-slide>
-              </swiper>
-            </div>
-          </b-col>
-          <b-col md="8" class="card-hotel-details pl-1">
-            <div class="card-hotel-name">
-              Ibis One Central Hotel
-              <span>
-                <font-awesome-icon :icon="['fas', 'star']" class="staricon" />
-                <font-awesome-icon :icon="['fas', 'star']" class="staricon" />
-                <font-awesome-icon :icon="['fas', 'star']" class="staricon" />
-                <font-awesome-icon :icon="['fas', 'star']" class="staricon" />
-                <font-awesome-icon :icon="['fas', 'star']" class="staricon" />
-              </span>
-            </div>
-            <div class="card-hotel-place">
-              Dubai, Dubai, UAE, Dubai
-            </div>
-            <div class="card-hotel-maplink">
-              <a href="#">View On Map</a>
-              <font-awesome-icon
-                :icon="['fas', 'map-marker-alt']"
-                class="mapicon mx-2"
-              />
-              <span class="card-hotel-landmark">
-                1.7km from Dubai International Finance Center
-              </span>
-            </div>
-            <div class="card-hotel-overallRating">
-              <span class="hotel-rating">
+  <div>
+    <div class="mt-3" v-for="card in cards" :key="card.index">
+      <b-row class="border m-0">
+        <b-col md="10" class="p-0 card-hotel-descriptionSide">
+          <b-row class="p-2">
+            <b-col md="4" class="card-hotel-image-slider">
+              <div style="height:150px" class="hotel-swiper">
+                <!-- swiper1 -->
+                <swiper
+                  :options="swiperOptionTop"
+                  class="gallery-top"
+                  ref="swiperTop"
+                >
+                  <swiper-slide class="slide-1"></swiper-slide>
+                  <swiper-slide class="slide-2"></swiper-slide>
+                  <swiper-slide class="slide-3"></swiper-slide>
+                  <swiper-slide class="slide-4"></swiper-slide>
+                  <swiper-slide class="slide-5"></swiper-slide>
+                </swiper>
+                <!-- swiper2 Thumbs -->
+                <swiper
+                  :options="swiperOptionThumbs"
+                  class="gallery-thumbs"
+                  ref="swiperThumbs"
+                >
+                  <swiper-slide class="slide-1"></swiper-slide>
+                  <swiper-slide class="slide-2"></swiper-slide>
+                  <swiper-slide class="slide-3"></swiper-slide>
+                  <swiper-slide class="slide-4"></swiper-slide>
+                  <swiper-slide class="slide-5"></swiper-slide>
+                </swiper>
+              </div>
+            </b-col>
+            <b-col md="8" class="card-hotel-details pl-1">
+              <div class="card-hotel-name">
+                {{ card.hotelName }}
+                <span>
+                  <font-awesome-icon :icon="['fas', 'star']" class="staricon" />
+                  <font-awesome-icon :icon="['fas', 'star']" class="staricon" />
+                  <font-awesome-icon :icon="['fas', 'star']" class="staricon" />
+                  <font-awesome-icon :icon="['fas', 'star']" class="staricon" />
+                  <font-awesome-icon :icon="['fas', 'star']" class="staricon" />
+                </span>
+              </div>
+              <div class="card-hotel-place">
+                {{ card.hotelPlace }}
+              </div>
+              <div class="card-hotel-maplink">
+                <a href="#">View On Map</a>
                 <font-awesome-icon
-                  :icon="['fas', 'globe-europe']"
-                  class="globeicon mr-1"
+                  :icon="['fas', 'map-marker-alt']"
+                  class="mapicon mx-2"
                 />
-                3.8/5
-              </span>
-              <span class="hotel-reviewCount">(16 reviews)</span>
-            </div>
-            <div class="card-hotel-latestReview">
-              <span class="hotel-latestRating">4</span>
-              <span class="hotel-raterUsername">Ashish Abraham</span>
-              <span class="hotel-reviewDate">(Feb 27, 2019)</span>
-            </div>
-            <div class="card-hotel-description">
-              <span class="hotel-description">
-                Located at a distance of 8 km from the Du...
-              </span>
-              <a href="#">more</a>
-            </div>
-            <div class="card-hotel-review">
-              <span class="hotel-review">
-                Shop till you drop at the Dubai Mall (3.5 km away).
-              </span>
-            </div>
-            <div class="card-hotel-review">
-              <span class="hotel-review">
-                Try a wide variety of Indian delicacies at Dip In Brilliat
-                (300m).
-              </span>
-            </div>
-          </b-col>
-        </b-row>
-        <div class="card-hotel-deals mt-4">
-          <b-col md="12">
-            <b-row>
-              <b-col md="1" class="p-0 ml-2">
-                <span class="deal-logo">DEALS</span>
+                <span class="card-hotel-landmark">
+                  {{ card.hotelLandmark }}
+                </span>
+              </div>
+              <div class="card-hotel-overallRating">
+                <span class="hotel-rating">
+                  <font-awesome-icon
+                    :icon="['fas', 'globe-europe']"
+                    class="globeicon mr-1"
+                  />
+                  {{ card.hotelRating }}
+                </span>
+                <span class="hotel-reviewCount">{{
+                  card.hotelReviewCount
+                }}</span>
+              </div>
+              <div class="card-hotel-latestReview">
+                <span class="hotel-latestRating">{{ card.latestRating }}</span>
+                <span class="hotel-raterUsername">{{
+                  card.raterUsername
+                }}</span>
+                <span class="hotel-reviewDate">{{ card.reviewDate }}</span>
+              </div>
+              <div class="card-hotel-description">
+                <span class="hotel-description">
+                  {{ card.hotelDescription }}
+                </span>
+                <a href="#">more</a>
+              </div>
+              <div class="card-hotel-review">
+                <span class="hotel-review">
+                  {{ card.hotelReview1 }}
+                </span>
+              </div>
+              <div class="card-hotel-review">
+                <span class="hotel-review">
+                  {{ card.hotelReview2 }}
+                </span>
+              </div>
+            </b-col>
+          </b-row>
+          <div v-if="card.showDeal">
+            <div class="card-hotel-deals mt-4">
+              <b-col md="12">
+                <b-row>
+                  <b-col md="1" class="p-0 ml-2">
+                    <span class="deal-logo">DEALS</span>
+                  </b-col>
+                  <b-col md="8" class="pr-5">
+                    <p class="deal-text">
+                      {{ card.dealText }}
+                    </p>
+                  </b-col>
+                </b-row>
               </b-col>
-              <b-col md="8" class="pr-5">
-                <p class="deal-text">
-                  Get cashback of Rs. 270 to all credit and debit cards within
-                  next 72 hours, T&C's apply
-                </p>
-              </b-col>
-            </b-row>
-          </b-col>
-        </div>
-      </b-col>
-      <b-col md="2" class="card-hotel-bookingSide px-2">
-        <div>
-          <span class="mmt-assured-logo">
-            <font-awesome-icon
-              :icon="['fas', 'bookmark']"
-              class="bookmarkicon"
-            />MMT ASSURED
-          </span>
-        </div>
-        <div class="hotel-price mt-3 text-right">
-          <span class="red-price">Rs. 3,009</span>
-        </div>
-        <div class="hotel-pricetime">
-          <span class="pricetime">per room/night</span>
-        </div>
-        <div class="hotel-breakfast mb-2">
-          <span class="breakfast">Includes Breakfast</span>
-        </div>
-        <div class="hotel-freeCancellation">
-          <span class="freeCancellation">Free Cancellation</span>
-        </div>
-        <div class="choosebtndiv">
-          <button class="btn choosebtn px-3">Choose Dates</button>
-        </div>
-      </b-col>
-    </b-row>
+            </div>
+          </div>
+        </b-col>
+        <b-col md="2" class="card-hotel-bookingSide px-2">
+          <div>
+            <span class="mmt-assured-logo">
+              <font-awesome-icon
+                :icon="['fas', 'bookmark']"
+                class="bookmarkicon"
+              />MMT ASSURED
+            </span>
+          </div>
+          <div class="hotel-price mt-3 text-right">
+            <span class="red-price">Rs. 3,009</span>
+          </div>
+          <div class="hotel-pricetime">
+            <span class="pricetime">per room/night</span>
+          </div>
+          <div v-if="card.breakfast">
+            <div class="hotel-breakfast mb-2">
+              <span class="breakfast">Includes Breakfast</span>
+            </div>
+          </div>
+          <div v-if="card.freeCancellation">
+            <div class="hotel-freeCancellation">
+              <span class="freeCancellation">Free Cancellation</span>
+            </div>
+          </div>
+          <div class="choosebtndiv">
+            <button class="btn choosebtn px-3">Choose Dates</button>
+          </div>
+        </b-col>
+      </b-row>
+    </div>
   </div>
 </template>
 
@@ -139,6 +149,218 @@ export default {
   name: "HotelCard",
   data() {
     return {
+      cards: [
+        {
+          hotelName: "Ibis One Central Hotel",
+          hotelPlace: "Dubai, Dubai, UAE, Dubai",
+          hotelLandmark: "1.7km from Dubai International Finance Center",
+          hotelRating: "3.8/5",
+          hotelReviewCount: "(16 reviews)",
+          latestRating: "4",
+          raterUsername: "Ashish Abraham",
+          reviewDate: "(Feb 27, 2019)",
+          hotelDescription: "Located at a distance of 8 km from the Du...",
+          hotelReview1: "Shop till you drop at the Dubai Mall (3.5 km away).",
+          hotelReview2:
+            "Try a wide variety of Indian delicacies at Dip In Brilliat (300m).",
+          showDeal: true,
+          dealText:
+            "Get cashback of Rs. 270 to all credit and debit cards within next 72 hours, T&C's apply",
+          price: "Rs. 3,009",
+          pricetime: "per room/night",
+          breakfast: true,
+          freeCancellation: true
+        },
+        {
+          hotelName: "Ibis One Central Hotel",
+          hotelPlace: "Dubai, Dubai, UAE, Dubai",
+          hotelLandmark: "1.7km from Dubai International Finance Center",
+          hotelRating: "3.8/5",
+          hotelReviewCount: "(16 reviews)",
+          latestRating: "4",
+          raterUsername: "Ashish Abraham",
+          reviewDate: "(Feb 27, 2019)",
+          hotelDescription: "Located at a distance of 8 km from the Du...",
+          hotelReview1: "Shop till you drop at the Dubai Mall (3.5 km away).",
+          hotelReview2:
+            "Try a wide variety of Indian delicacies at Dip In Brilliat (300m).",
+          showDeal: true,
+          dealText:
+            "Get cashback of Rs. 270 to all credit and debit cards within next 72 hours, T&C's apply",
+          price: "Rs. 3,009",
+          pricetime: "per room/night",
+          breakfast: true,
+          freeCancellation: true
+        },
+        {
+          hotelName: "Ibis One Central Hotel",
+          hotelPlace: "Dubai, Dubai, UAE, Dubai",
+          hotelLandmark: "1.7km from Dubai International Finance Center",
+          hotelRating: "3.8/5",
+          hotelReviewCount: "(16 reviews)",
+          latestRating: "4",
+          raterUsername: "Ashish Abraham",
+          reviewDate: "(Feb 27, 2019)",
+          hotelDescription: "Located at a distance of 8 km from the Du...",
+          hotelReview1: "Shop till you drop at the Dubai Mall (3.5 km away).",
+          hotelReview2:
+            "Try a wide variety of Indian delicacies at Dip In Brilliat (300m).",
+          showDeal: true,
+          dealText:
+            "Get cashback of Rs. 270 to all credit and debit cards within next 72 hours, T&C's apply",
+          price: "Rs. 3,009",
+          pricetime: "per room/night",
+          breakfast: true,
+          freeCancellation: true
+        },
+        {
+          hotelName: "Ibis One Central Hotel",
+          hotelPlace: "Dubai, Dubai, UAE, Dubai",
+          hotelLandmark: "1.7km from Dubai International Finance Center",
+          hotelRating: "3.8/5",
+          hotelReviewCount: "(16 reviews)",
+          latestRating: "4",
+          raterUsername: "Ashish Abraham",
+          reviewDate: "(Feb 27, 2019)",
+          hotelDescription: "Located at a distance of 8 km from the Du...",
+          hotelReview1: "Shop till you drop at the Dubai Mall (3.5 km away).",
+          hotelReview2:
+            "Try a wide variety of Indian delicacies at Dip In Brilliat (300m).",
+          showDeal: true,
+          dealText:
+            "Get cashback of Rs. 270 to all credit and debit cards within next 72 hours, T&C's apply",
+          price: "Rs. 3,009",
+          pricetime: "per room/night",
+          breakfast: true,
+          freeCancellation: true
+        },
+        {
+          hotelName: "Ibis One Central Hotel",
+          hotelPlace: "Dubai, Dubai, UAE, Dubai",
+          hotelLandmark: "1.7km from Dubai International Finance Center",
+          hotelRating: "3.8/5",
+          hotelReviewCount: "(16 reviews)",
+          latestRating: "4",
+          raterUsername: "Ashish Abraham",
+          reviewDate: "(Feb 27, 2019)",
+          hotelDescription: "Located at a distance of 8 km from the Du...",
+          hotelReview1: "Shop till you drop at the Dubai Mall (3.5 km away).",
+          hotelReview2:
+            "Try a wide variety of Indian delicacies at Dip In Brilliat (300m).",
+          showDeal: true,
+          dealText:
+            "Get cashback of Rs. 270 to all credit and debit cards within next 72 hours, T&C's apply",
+          price: "Rs. 3,009",
+          pricetime: "per room/night",
+          breakfast: true,
+          freeCancellation: true
+        },
+        {
+          hotelName: "Ibis One Central Hotel",
+          hotelPlace: "Dubai, Dubai, UAE, Dubai",
+          hotelLandmark: "1.7km from Dubai International Finance Center",
+          hotelRating: "3.8/5",
+          hotelReviewCount: "(16 reviews)",
+          latestRating: "4",
+          raterUsername: "Ashish Abraham",
+          reviewDate: "(Feb 27, 2019)",
+          hotelDescription: "Located at a distance of 8 km from the Du...",
+          hotelReview1: "Shop till you drop at the Dubai Mall (3.5 km away).",
+          hotelReview2:
+            "Try a wide variety of Indian delicacies at Dip In Brilliat (300m).",
+          showDeal: true,
+          dealText:
+            "Get cashback of Rs. 270 to all credit and debit cards within next 72 hours, T&C's apply",
+          price: "Rs. 3,009",
+          pricetime: "per room/night",
+          breakfast: true,
+          freeCancellation: true
+        },
+        {
+          hotelName: "Ibis One Central Hotel",
+          hotelPlace: "Dubai, Dubai, UAE, Dubai",
+          hotelLandmark: "1.7km from Dubai International Finance Center",
+          hotelRating: "3.8/5",
+          hotelReviewCount: "(16 reviews)",
+          latestRating: "4",
+          raterUsername: "Ashish Abraham",
+          reviewDate: "(Feb 27, 2019)",
+          hotelDescription: "Located at a distance of 8 km from the Du...",
+          hotelReview1: "Shop till you drop at the Dubai Mall (3.5 km away).",
+          hotelReview2:
+            "Try a wide variety of Indian delicacies at Dip In Brilliat (300m).",
+          showDeal: true,
+          dealText:
+            "Get cashback of Rs. 270 to all credit and debit cards within next 72 hours, T&C's apply",
+          price: "Rs. 3,009",
+          pricetime: "per room/night",
+          breakfast: true,
+          freeCancellation: true
+        },
+        {
+          hotelName: "Ibis One Central Hotel",
+          hotelPlace: "Dubai, Dubai, UAE, Dubai",
+          hotelLandmark: "1.7km from Dubai International Finance Center",
+          hotelRating: "3.8/5",
+          hotelReviewCount: "(16 reviews)",
+          latestRating: "4",
+          raterUsername: "Ashish Abraham",
+          reviewDate: "(Feb 27, 2019)",
+          hotelDescription: "Located at a distance of 8 km from the Du...",
+          hotelReview1: "Shop till you drop at the Dubai Mall (3.5 km away).",
+          hotelReview2:
+            "Try a wide variety of Indian delicacies at Dip In Brilliat (300m).",
+          showDeal: true,
+          dealText:
+            "Get cashback of Rs. 270 to all credit and debit cards within next 72 hours, T&C's apply",
+          price: "Rs. 3,009",
+          pricetime: "per room/night",
+          breakfast: true,
+          freeCancellation: true
+        },
+        {
+          hotelName: "Ibis One Central Hotel",
+          hotelPlace: "Dubai, Dubai, UAE, Dubai",
+          hotelLandmark: "1.7km from Dubai International Finance Center",
+          hotelRating: "3.8/5",
+          hotelReviewCount: "(16 reviews)",
+          latestRating: "4",
+          raterUsername: "Ashish Abraham",
+          reviewDate: "(Feb 27, 2019)",
+          hotelDescription: "Located at a distance of 8 km from the Du...",
+          hotelReview1: "Shop till you drop at the Dubai Mall (3.5 km away).",
+          hotelReview2:
+            "Try a wide variety of Indian delicacies at Dip In Brilliat (300m).",
+          showDeal: true,
+          dealText:
+            "Get cashback of Rs. 270 to all credit and debit cards within next 72 hours, T&C's apply",
+          price: "Rs. 3,009",
+          pricetime: "per room/night",
+          breakfast: true,
+          freeCancellation: true
+        },
+        {
+          hotelName: "Ibis One Central Hotel",
+          hotelPlace: "Dubai, Dubai, UAE, Dubai",
+          hotelLandmark: "1.7km from Dubai International Finance Center",
+          hotelRating: "3.8/5",
+          hotelReviewCount: "(16 reviews)",
+          latestRating: "4",
+          raterUsername: "Ashish Abraham",
+          reviewDate: "(Feb 27, 2019)",
+          hotelDescription: "Located at a distance of 8 km from the Du...",
+          hotelReview1: "Shop till you drop at the Dubai Mall (3.5 km away).",
+          hotelReview2:
+            "Try a wide variety of Indian delicacies at Dip In Brilliat (300m).",
+          showDeal: true,
+          dealText:
+            "Get cashback of Rs. 270 to all credit and debit cards within next 72 hours, T&C's apply",
+          price: "Rs. 3,009",
+          pricetime: "per room/night",
+          breakfast: true,
+          freeCancellation: true
+        }
+      ],
       swiperOptionTop: {
         spaceBetween: 10,
         loop: true,

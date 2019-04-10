@@ -3,7 +3,6 @@
     <NavbarR></NavbarR>
     <div class="body-div">
       <SearchArea></SearchArea>
-
       <b-container>
         <div class="div-85 mx-auto">
           <b-row class="px-0 m-0">
@@ -11,6 +10,11 @@
               <LeftsideTitle></LeftsideTitle>
               <CompoListSelector></CompoListSelector>
               <FilterCheckbox></FilterCheckbox>
+              <FilterCheckbox
+                filtertoptitle="Hotel Facilities"
+              ></FilterCheckbox>
+              <Filterinput></Filterinput>
+              <!-- <ListComponent></ListComponent> -->
             </b-col>
             <b-col md="9 p-0">
               <Hotelcard></Hotelcard>
@@ -29,6 +33,8 @@ import Hotelcard from "@/components/listcomponents/Hotelcard.vue";
 import LeftsideTitle from "@/components/listcomponents/LeftsideTitle.vue";
 import CompoListSelector from "@/components/listcomponents/CompoListSelector.vue";
 import FilterCheckbox from "@/components/listcomponents/FilterCheckbox.vue";
+import Filterinput from "@/components/listcomponents/Filterinput.vue";
+// import ListComponent from "@/components/listcomponents/ListComponent.vue";
 export default {
   name: "NavBar",
   components: {
@@ -37,7 +43,9 @@ export default {
     Hotelcard,
     LeftsideTitle,
     CompoListSelector,
-    FilterCheckbox
+    FilterCheckbox,
+    Filterinput
+    // ListComponent
   },
   data() {
     return {};
