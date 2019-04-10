@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="mt-3">
     <b-row class="border m-0">
       <b-col md="10" class="p-0 card-hotel-descriptionSide">
         <b-row class="p-2">
@@ -308,7 +308,7 @@ export default {
   background-color: $bodybackgroundcolor;
   .mmt-assured-logo {
     background-color: $mmtAssuredbg;
-    font-size: 8px;
+    font-size: 9px;
     color: #fff;
     font-weight: bold;
     padding: 5px 6px;
@@ -341,6 +341,15 @@ export default {
     .breakfast {
       color: $greentext;
       font-size: 10px;
+    }
+  }
+
+  .hotel-freeCancellation {
+    text-align: right;
+    padding-right: 5px;
+    .freeCancellation {
+      font-size: 11px;
+      color: $greentext;
     }
   }
 
