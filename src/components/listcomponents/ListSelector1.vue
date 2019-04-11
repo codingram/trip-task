@@ -2,24 +2,24 @@
   <div>
     <div class="ListSelectortitleText mt-3">Price</div>
     <b-row class="mx-2 mt-2 textarrange">
-      <b-col cols="3" class="border px-2">
+      <b-col cols="3" class="border px-1">
         <a href="#">
-          <span class="textchanges">Under ₹2000</span>
+          <span class="textchanges">Under<br />₹ 2,000</span>
         </a>
       </b-col>
-      <b-col cols="3" class="border px-2">
+      <b-col cols="3" class="border px-1">
         <a href="#">
-          <span class="textchanges">₹2001 to ₹4000</span>
+          <span class="textchanges">₹ 2,001<br />to<br />₹ 4,000</span>
         </a>
       </b-col>
-      <b-col cols="3" class="border px-2">
+      <b-col cols="3" class="border px-1">
         <a href="#">
-          <span class="textchanges">₹4001 to ₹6000</span>
+          <span class="textchanges">₹ 4,001<br />to<br />₹ 6,000</span>
         </a>
       </b-col>
-      <b-col cols="3" class="border px-2">
+      <b-col cols="3" class="border px-1">
         <a href="#">
-          <span class="textchanges">₹6001 & Above</span>
+          <span class="textchanges">₹ 6,001 & Above</span>
         </a>
       </b-col>
     </b-row>

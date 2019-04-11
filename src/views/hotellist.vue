@@ -6,7 +6,7 @@
       <b-container>
         <div class="div-85 mx-auto">
           <b-row class="px-0 m-0">
-            <b-col md="3 pl-0">
+            <b-col md="3 pl-0 pt-2">
               <LeftsideTitle></LeftsideTitle>
               <CompoListSelector></CompoListSelector>
               <CheckboxComponentscroll></CheckboxComponentscroll>

@@ -3,16 +3,18 @@
     <b-container>
       <div class="backimage mx-auto">
         <div class="mx-2 pt-1 links">
-          <a href="#" class="border-bottom">Home</a>
+          <a href="#" class="border-bottom mr-1">Home</a>
           »
-          <a href="#" class="border-bottom">International Hotels</a>
+          <a href="#" class="border-bottom mr-1 ml-1">International Hotels</a>
           »
-          <a href="#" class="border-bottom">United Arab Emeriates Hotels</a>
+          <a href="#" class="border-bottom mr-1 ml-1"
+            >United Arab Emeriates Hotels</a
+          >
           »
           <a href="#">{{ backimgTitle }}</a>
         </div>
         <div class="text-center">
-          <p class="backimgtitle font-weight-bold">{{ backimgTitle }}</p>
+          <p class="backimgtitle font-weight-bold mb-0">{{ backimgTitle }}</p>
           <div class="backimgtext" v-html="backimgText"></div>
         </div>
         <div class="mt-5 mx-4">
@@ -31,15 +33,22 @@
             </b-col>
             <b-col md="1" class="nights-number">
               <div class="night-title">NIGHT</div>
-              <div><input type="number" class="searchbox-night-hotel" /></div>
+              <div>
+                <input
+                  type="number"
+                  class="searchbox-night-hotel"
+                  min="0"
+                  value="1"
+                />
+              </div>
             </b-col>
             <b-col md="2" class="rooms-select">
               <div class="rooms-title">ROOMS/GUESTS</div>
               <div>
                 <select class="searchbox-rooms-hotel">
                   <option value="">1 Room, 2 Guests</option>
-                  <option value="">1 Room, 2 Guests</option>
-                  <option value="">1 Room, 2 Guests</option>
+                  <option value="">1 Room, 3 Guests</option>
+                  <option value="">1 Room, 4 Guests</option>
                 </select>
               </div>
             </b-col>
@@ -70,7 +79,7 @@ export default {
 .backimage {
   background: linear-gradient(rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.25)),
     url("../../assets/imagesR/backimage.jpg");
-  height: 230px;
+  height: 210px;
   background-size: cover;
   width: 85%;
   background-position: center;
