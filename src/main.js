@@ -35,7 +35,8 @@ import {
   faCaretDown,
   faWifi,
   faUtensils,
-  faParking
+  faParking,
+  faSuitcaseRolling
 } from "@fortawesome/free-solid-svg-icons"; //fas fa
 import {
   faFacebookF,
@@ -66,8 +67,8 @@ library.add(
   faCaretDown,
   faWifi,
   faUtensils,
-  faParking
-  
+  faParking,
+  faSuitcaseRolling
 ); //fas
 library.add(faEnvelope, faCircle); //far
 library.add(faFacebookF, faTwitter, faTripadvisor, faCentos); //fab

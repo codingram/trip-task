@@ -65,7 +65,7 @@ export default {
   background-color: #ffffff;
   font-size: 10px;
   color: $dimfont;
-  height: 170px;
+  height: 162px;
   padding: 0px;
   overflow-y: scroll;
 

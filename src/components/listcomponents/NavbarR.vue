@@ -33,10 +33,34 @@
 
         <!-- Right aligned nav items -->
         <b-navbar-nav class="ml-5">
-          <b-nav-item href="#" class="right-items">TRIPS</b-nav-item>
-          <b-nav-item href="#" class="right-items">SUPPORT</b-nav-item>
-          <b-nav-item href="#" class="right-items">LOGIN</b-nav-item>
-          <b-nav-item href="#" class="right-items">SIGNUP</b-nav-item>
+          <b-nav-item href="#" class="with-icon-link text-center">
+            <span class="font-weight-normal">
+              <font-awesome-icon
+                :icon="['fas', 'suitcase-rolling']"
+                class="tripicon"
+              />
+              <span class="d-block">
+                TRIPS
+              </span>
+            </span>
+          </b-nav-item>
+          <b-nav-item href="#" class="right-items with-icon-link text-center">
+            <span class="font-weight-normal"
+              ><span class="border px-2 py-1 rounded">24X7</span>
+              <span class="d-block">
+                SUPPORT
+              </span></span
+            >
+          </b-nav-item>
+          <b-nav-item href="#" class="right-items">
+            <span class="font-weight-normal"
+              ><font-awesome-icon :icon="['fas', 'user']" class="tripicon" />
+              LOGIN</span
+            >
+          </b-nav-item>
+          <b-nav-item href="#" class="right-items"
+            ><span class="font-weight-normal">SIGNUP</span></b-nav-item
+          >
         </b-navbar-nav>
       </b-collapse>
     </b-navbar>
@@ -52,14 +76,18 @@ export default {
 @import "../../assets/scss/_rvariables.scss";
 .navbar-light .navbar-nav .nav-link {
   color: #717171;
-  font-size: 11px;
+  font-size: 10px;
   font-weight: 900;
-  padding-bottom: 3px;
+  // padding-bottom: 3px;
+  padding: 6px;
 
   &:hover {
     background: $navhover;
     color: white;
   }
+}
+.right-items {
+  font-weight: 100 !important;
 }
 .navbar-nav {
   height: 40px;
@@ -80,5 +108,13 @@ export default {
     position: absolute;
     right: 0;
   }
+}
+
+.with-icon-link {
+  line-height: 20px;
+}
+
+.tripicon {
+  font-size: 15px;
 }
 </style>
