@@ -1,11 +1,19 @@
 <template>
   <div>
-    <div class="mt-3" v-for="card in cards" :key="card.index">
+    <div class="sortby text-right mt-4 mb-2">
+      Sort By:
+      <select class="selectType ml-2">
+        <option value="">Popularity</option>
+        <option value="">Popularity</option>
+        <option value="">Popularity</option>
+      </select>
+    </div>
+    <div class="mb-3" v-for="card in cards" :key="card.index">
       <b-row class="border m-0">
         <b-col md="10" class="p-0 card-hotel-descriptionSide">
           <b-row class="p-2">
             <b-col md="4" class="card-hotel-image-slider">
-              <div style="height:150px" class="hotel-swiper">
+              <div class="hotel-swiper">
                 <!-- swiper1 -->
                 <swiper
                   :options="swiperOptionTop"
@@ -69,10 +77,12 @@
                 }}</span>
               </div>
               <div class="card-hotel-latestReview">
-                <span class="hotel-latestRating">{{ card.latestRating }}</span>
-                <span class="hotel-raterUsername">{{
-                  card.raterUsername
-                }}</span>
+                <span class="hotel-latestRating mr-1">
+                  {{ card.latestRating }}
+                </span>
+                <span class="hotel-raterUsername mr-1">
+                  {{ card.raterUsername }}
+                </span>
                 <span class="hotel-reviewDate">{{ card.reviewDate }}</span>
               </div>
               <div class="card-hotel-description">
@@ -96,7 +106,7 @@
           <div v-if="card.showDeal">
             <div class="card-hotel-deals mt-4">
               <b-col md="12">
-                <b-row>
+                <b-row class="py-2">
                   <b-col md="1" class="p-0 ml-2">
                     <span class="deal-logo">DEALS</span>
                   </b-col>
@@ -153,7 +163,7 @@ export default {
         {
           hotelName: "Ibis One Central Hotel",
           hotelPlace: "Dubai, Dubai, UAE, Dubai",
-          hotelLandmark: "1.7km from Dubai International Finance Center",
+          hotelLandmark: "1.7 km from Dubai International Finance Center",
           hotelRating: "3.8/5",
           hotelReviewCount: "(16 reviews)",
           latestRating: "4",
@@ -174,7 +184,7 @@ export default {
         {
           hotelName: "Ibis One Central Hotel",
           hotelPlace: "Dubai, Dubai, UAE, Dubai",
-          hotelLandmark: "1.7km from Dubai International Finance Center",
+          hotelLandmark: "1.7 km from Dubai International Finance Center",
           hotelRating: "3.8/5",
           hotelReviewCount: "(16 reviews)",
           latestRating: "4",
@@ -195,7 +205,7 @@ export default {
         {
           hotelName: "Ibis One Central Hotel",
           hotelPlace: "Dubai, Dubai, UAE, Dubai",
-          hotelLandmark: "1.7km from Dubai International Finance Center",
+          hotelLandmark: "1.7 km from Dubai International Finance Center",
           hotelRating: "3.8/5",
           hotelReviewCount: "(16 reviews)",
           latestRating: "4",
@@ -216,7 +226,7 @@ export default {
         {
           hotelName: "Ibis One Central Hotel",
           hotelPlace: "Dubai, Dubai, UAE, Dubai",
-          hotelLandmark: "1.7km from Dubai International Finance Center",
+          hotelLandmark: "1.7 km from Dubai International Finance Center",
           hotelRating: "3.8/5",
           hotelReviewCount: "(16 reviews)",
           latestRating: "4",
@@ -237,7 +247,7 @@ export default {
         {
           hotelName: "Ibis One Central Hotel",
           hotelPlace: "Dubai, Dubai, UAE, Dubai",
-          hotelLandmark: "1.7km from Dubai International Finance Center",
+          hotelLandmark: "1.7 km from Dubai International Finance Center",
           hotelRating: "3.8/5",
           hotelReviewCount: "(16 reviews)",
           latestRating: "4",
@@ -258,7 +268,7 @@ export default {
         {
           hotelName: "Ibis One Central Hotel",
           hotelPlace: "Dubai, Dubai, UAE, Dubai",
-          hotelLandmark: "1.7km from Dubai International Finance Center",
+          hotelLandmark: "1.7 km from Dubai International Finance Center",
           hotelRating: "3.8/5",
           hotelReviewCount: "(16 reviews)",
           latestRating: "4",
@@ -279,7 +289,7 @@ export default {
         {
           hotelName: "Ibis One Central Hotel",
           hotelPlace: "Dubai, Dubai, UAE, Dubai",
-          hotelLandmark: "1.7km from Dubai International Finance Center",
+          hotelLandmark: "1.7 km from Dubai International Finance Center",
           hotelRating: "3.8/5",
           hotelReviewCount: "(16 reviews)",
           latestRating: "4",
@@ -300,7 +310,7 @@ export default {
         {
           hotelName: "Ibis One Central Hotel",
           hotelPlace: "Dubai, Dubai, UAE, Dubai",
-          hotelLandmark: "1.7km from Dubai International Finance Center",
+          hotelLandmark: "1.7 km from Dubai International Finance Center",
           hotelRating: "3.8/5",
           hotelReviewCount: "(16 reviews)",
           latestRating: "4",
@@ -321,7 +331,7 @@ export default {
         {
           hotelName: "Ibis One Central Hotel",
           hotelPlace: "Dubai, Dubai, UAE, Dubai",
-          hotelLandmark: "1.7km from Dubai International Finance Center",
+          hotelLandmark: "1.7 km from Dubai International Finance Center",
           hotelRating: "3.8/5",
           hotelReviewCount: "(16 reviews)",
           latestRating: "4",
@@ -342,7 +352,7 @@ export default {
         {
           hotelName: "Ibis One Central Hotel",
           hotelPlace: "Dubai, Dubai, UAE, Dubai",
-          hotelLandmark: "1.7km from Dubai International Finance Center",
+          hotelLandmark: "1.7 km from Dubai International Finance Center",
           hotelRating: "3.8/5",
           hotelReviewCount: "(16 reviews)",
           latestRating: "4",
@@ -388,10 +398,23 @@ export default {
 </script>
 <style scoped lang="scss">
 @import "../../assets/scss/_rvariables.scss";
+.sortby {
+  font-size: 10px;
+  color: $dimfont;
+  .selectType {
+    padding: 1px;
+    background-color: #fff;
+    width: 15%;
+    color: $dimfont;
+  }
+}
 // swiper slide
 .card-hotel-descriptionSide {
   background-color: #fff;
   .card-hotel-image-slider {
+    .hotel-swiper {
+      height: 165px;
+    }
     .swiper-slide {
       background-size: cover;
       background-position: center;
@@ -434,7 +457,7 @@ export default {
     //*****swiper thumbnail end*****
   }
   .card-hotel-details {
-    line-height: 20px;
+    line-height: 22px;
     .card-hotel-name {
       font-weight: 700;
       color: $cardhotelname;
@@ -484,10 +507,6 @@ export default {
         border-radius: 4px;
         padding: 0 2px;
       }
-      .hotel-raterUsername {
-      }
-      .hotel-reviewDate {
-      }
     }
     .card-hotel-description {
       font-size: 10px;
@@ -536,7 +555,7 @@ export default {
     padding: 5px 6px;
 
     .bookmarkicon {
-      font-size: 24px;
+      font-size: 25px;
       position: relative;
       top: 9px;
       margin-right: 2px;
@@ -570,7 +589,7 @@ export default {
     text-align: right;
     padding-right: 5px;
     .freeCancellation {
-      font-size: 11px;
+      font-size: 10px;
       color: $greentext;
     }
   }

@@ -6,14 +6,15 @@
       <b-container>
         <div class="div-85 mx-auto">
           <b-row class="px-0 m-0">
-            <b-col md="3 pl-0">
+            <b-col md="3 pl-0 pt-2">
               <LeftsideTitle></LeftsideTitle>
               <CompoListSelector></CompoListSelector>
-              <FilterCheckbox></FilterCheckbox>
-              <FilterCheckbox
+              <CheckboxComponentscroll></CheckboxComponentscroll>
+              <CheckboxComponentscroll
                 filtertoptitle="Hotel Facilities"
-              ></FilterCheckbox>
+              ></CheckboxComponentscroll>
               <Filterinput></Filterinput>
+              <CheckboxComponentnoscroll></CheckboxComponentnoscroll>
               <ListComponent></ListComponent>
             </b-col>
             <b-col md="9 p-0">
@@ -33,7 +34,8 @@ import SearchArea from "@/components/listcomponents/SearchArea.vue";
 import Hotelcard from "@/components/listcomponents/Hotelcard.vue";
 import LeftsideTitle from "@/components/listcomponents/LeftsideTitle.vue";
 import CompoListSelector from "@/components/listcomponents/CompoListSelector.vue";
-import FilterCheckbox from "@/components/listcomponents/FilterCheckbox.vue";
+import CheckboxComponentscroll from "@/components/listcomponents/CheckboxComponentscroll.vue";
+import CheckboxComponentnoscroll from "@/components/listcomponents/CheckboxComponentnoscroll.vue";
 import Filterinput from "@/components/listcomponents/Filterinput.vue";
 import ListComponent from "@/components/listcomponents/ListComponent.vue";
 import BottomFooter from "@/components/listcomponents/BottomFooter.vue";
@@ -45,7 +47,8 @@ export default {
     Hotelcard,
     LeftsideTitle,
     CompoListSelector,
-    FilterCheckbox,
+    CheckboxComponentscroll,
+    CheckboxComponentnoscroll,
     Filterinput,
     ListComponent,
     BottomFooter

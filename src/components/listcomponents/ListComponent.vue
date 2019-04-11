@@ -59,10 +59,7 @@
         </div>
       </template>
     </FilterList>
-    <!--***********
-     ***************
-     ***************
-     ***************-->
+    <!--***********-->
     <FilterList filtertoptitle="Hotels In Nearby Cities">
       <template slot="listLoopData">
         <div class="border-bottom" v-for="City in Cities" :key="City.index">
@@ -78,15 +75,11 @@
     <!--*********Route Information******-->
     <FilterList filtertoptitle="Premium Hotels In Dubai">
       <template slot="listLoopData">
-        <div
-          class="border-bottom"
-          v-for="PremiumHotel in PremiumHotels"
-          :key="PremiumHotel.index"
-        >
+        <div class="border-bottom" v-for="Route in Routes" :key="Route.index">
           <div class="list-heading">
-            <a href="#">{{ PremiumHotel.name }}</a>
+            <a href="#">{{ Route.name }}</a>
             <span class="float-right">
-              {{ PremiumHotel.number }}
+              {{ Route.number }}
             </span>
           </div>
         </div>
@@ -256,7 +249,7 @@ export default {
           number: "100"
         }
       ],
-      PremiumHotels: [
+      Routes: [
         {
           name: "Deira, Dubai",
           number: "100"

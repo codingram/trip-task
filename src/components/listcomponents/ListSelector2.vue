@@ -4,27 +4,57 @@
     <b-row class="mx-2 mt-2 textarrange">
       <b-col class="widthadjust border px-2 py-2">
         <a href="#">
-          <span class="textchanges">1★</span>
+          <span class="textchanges"
+            >1
+            <span
+              ><font-awesome-icon
+                :icon="['fas', 'star']"
+                class="staricon"/></span
+          ></span>
         </a>
       </b-col>
       <b-col class="widthadjust border px-2 py-2">
         <a href="#">
-          <span class="textchanges">2★</span>
+          <span class="textchanges"
+            >2
+            <span
+              ><font-awesome-icon
+                :icon="['fas', 'star']"
+                class="staricon"/></span
+          ></span>
         </a>
       </b-col>
       <b-col class="widthadjust border px-2 py-2">
         <a href="#">
-          <span class="textchanges">3★</span>
+          <span class="textchanges"
+            >3
+            <span
+              ><font-awesome-icon
+                :icon="['fas', 'star']"
+                class="staricon"/></span
+          ></span>
         </a>
       </b-col>
       <b-col class="widthadjust border px-2 py-2">
         <a href="#">
-          <span class="textchanges">4★</span>
+          <span class="textchanges"
+            >4
+            <span
+              ><font-awesome-icon
+                :icon="['fas', 'star']"
+                class="staricon"/></span
+          ></span>
         </a>
       </b-col>
       <b-col class="widthadjust border px-2 py-2">
         <a href="#">
-          <span class="textchanges">5★</span>
+          <span class="textchanges"
+            >5
+            <span
+              ><font-awesome-icon
+                :icon="['fas', 'star']"
+                class="staricon"/></span
+          ></span>
         </a>
       </b-col>
     </b-row>
@@ -50,7 +80,9 @@ export default {
   color: $dimmerfont;
   font-size: 11px;
 }
-
+.staricon {
+  font-size: 9px;
+}
 .ListSelectortitleText {
   color: $dimfont;
   font-size: 12px;

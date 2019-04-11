@@ -1,16 +1,24 @@
 <template>
   <div class="footerbg">
+    <div class="title-row">
+      <b-container>
+        <b-row class="width-85 py-2">
+          <b-col md="2" class="px-1 footer-title">Product Offerings</b-col>
+          <b-col md="2" class="px-1 footer-title">Hotels</b-col>
+          <b-col md="2" class="px-1 footer-title"
+            >Top International Hotels</b-col
+          >
+          <b-col md="2" class="px-1 footer-title">
+            International Hotel Cities
+          </b-col>
+          <b-col md="2" class="px-1 footer-title">International Hotels</b-col>
+          <b-col md="2" class="px-1 footer-title">Follow Us</b-col>
+        </b-row>
+      </b-container>
+    </div>
     <b-container>
-      <b-row class="py-2">
-        <b-col md="2" class="footer-title">Product Offerings</b-col>
-        <b-col md="2" class="footer-title">Hotels</b-col>
-        <b-col md="2" class="footer-title">Top International Hotels</b-col>
-        <b-col md="2" class="footer-title">International Hotel Cities</b-col>
-        <b-col md="2" class="footer-title">International Hotels</b-col>
-        <b-col md="2" class="footer-title">Follow Us</b-col>
-      </b-row>
-      <b-row class="py-2">
-        <b-col md="2" class="footer-text">
+      <b-row class="width-85 py-2">
+        <b-col md="2" class="px-1 footer-text">
           <ul class="p-0">
             <li><a href="#">Flights</a></li>
             <li><a href="#">Flight+Hotel Deals</a></li>
@@ -26,7 +34,7 @@
             <li><a href="#">B2B</a></li>
           </ul>
         </b-col>
-        <b-col md="2" class="footer-text">
+        <b-col md="2" class="px-1 footer-text">
           <ul class="p-0">
             <li><a href="#">Hotels in Jaipur</a></li>
             <li><a href="#">Hotels in Ooty</a></li>
@@ -42,7 +50,7 @@
             <li><a href="#">Hotels in Pune</a></li>
           </ul>
         </b-col>
-        <b-col md="2" class="footer-text">
+        <b-col md="2" class="px-1 footer-text">
           <ul class="p-0">
             <li><a href="#">Hotels in Maldives</a></li>
             <li><a href="#">Hotels in London</a></li>
@@ -58,7 +66,7 @@
             <li><a href="#">Hotels in Tokyo</a></li>
           </ul>
         </b-col>
-        <b-col md="2" class="footer-text"
+        <b-col md="2" class="px-1 footer-text"
           ><ul class="p-0">
             <li><a href="#">Hotels in Shanghai</a></li>
             <li><a href="#">Hotels in Venice</a></li>
@@ -74,7 +82,7 @@
             <li><a href="#">Hotels in Amsterdam</a></li>
           </ul></b-col
         >
-        <b-col md="2" class="footer-text"
+        <b-col md="2" class="px-1 footer-text"
           ><ul class="p-0">
             <li><a href="#">Hotels in Singapore</a></li>
             <li><a href="#">Hotels in Bangkok</a></li>
@@ -90,7 +98,7 @@
             <li><a href="#">Hotels in Macau</a></li>
           </ul></b-col
         >
-        <b-col md="2" class="footer-text">Follow Us</b-col>
+        <b-col md="2" class="px-1 footer-text">Follow Us</b-col>
       </b-row>
     </b-container>
   </div>
@@ -107,15 +115,23 @@ export default {
 <style scoped lang="scss">
 @import "../../assets/scss/_rvariables.scss";
 .footerbg {
+  .width-85 {
+    width: 85%;
+    margin: auto;
+  }
   background-color: $footerbgcolor;
+  .title-row {
+    border-top: 2px solid #3564b2;
+    border-bottom: 2px solid #3564b2;
+  }
   .footer-title {
     color: #d3daff;
-    font-size: 12px;
+    font-size: 11px;
     font-weight: 700;
   }
   .footer-text {
     color: #d3daff;
-    font-size: 12px;
+    font-size: 11px;
     line-height: 19px;
 
     ul {
