@@ -45,22 +45,22 @@
             </span>
           </b-nav-item>
           <b-nav-item href="#" class="right-items with-icon-link text-center">
-            <span class="font-weight-normal"
-              ><span class="border px-2 py-1 rounded">24X7</span>
+            <span class="font-weight-normal">
+              <span class="border px-2 py-1 rounded">24X7</span>
               <span class="d-block">
                 SUPPORT
-              </span></span
-            >
+              </span>
+            </span>
           </b-nav-item>
           <b-nav-item href="#" class="right-items">
-            <span class="font-weight-normal"
-              ><font-awesome-icon :icon="['fas', 'user']" class="tripicon" />
-              LOGIN</span
-            >
+            <span class="font-weight-normal">
+              <font-awesome-icon :icon="['fas', 'user']" class="tripicon" />
+              LOGIN
+            </span>
           </b-nav-item>
-          <b-nav-item href="#" class="right-items"
-            ><span class="font-weight-normal">SIGNUP</span></b-nav-item
-          >
+          <b-nav-item href="#" class="right-items">
+            <span class="font-weight-normal">SIGNUP</span>
+          </b-nav-item>
         </b-navbar-nav>
       </b-collapse>
     </b-navbar>
@@ -78,7 +78,6 @@ export default {
   color: #717171;
   font-size: 10px;
   font-weight: 900;
-  // padding-bottom: 3px;
   padding: 6px;
 
   &:hover {

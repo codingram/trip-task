@@ -94,7 +94,7 @@ export default {
     font-size: 16px;
 
     .green-text {
-      color: green;
+      color: #60ae20;
       font-weight: 700;
     }
   }

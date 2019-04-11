@@ -1,6 +1,14 @@
 <template>
   <div>
-    <div class="mt-3" v-for="card in cards" :key="card.index">
+    <div class="sortby text-right mt-4 mb-2">
+      Sort By:
+      <select class="selectType ml-2">
+        <option value="">Popularity</option>
+        <option value="">Popularity</option>
+        <option value="">Popularity</option>
+      </select>
+    </div>
+    <div class="mb-3" v-for="card in cards" :key="card.index">
       <b-row class="border m-0">
         <b-col md="10" class="p-0 card-hotel-descriptionSide">
           <b-row class="p-2">
@@ -388,6 +396,16 @@ export default {
 </script>
 <style scoped lang="scss">
 @import "../../assets/scss/_rvariables.scss";
+.sortby {
+  font-size: 10px;
+  color: $dimfont;
+  .selectType {
+    padding: 1px;
+    background-color: #fff;
+    width: 15%;
+    color: $dimfont;
+  }
+}
 // swiper slide
 .card-hotel-descriptionSide {
   background-color: #fff;
@@ -484,10 +502,6 @@ export default {
         border-radius: 4px;
         padding: 0 2px;
       }
-      .hotel-raterUsername {
-      }
-      .hotel-reviewDate {
-      }
     }
     .card-hotel-description {
       font-size: 10px;
@@ -536,7 +550,7 @@ export default {
     padding: 5px 6px;
 
     .bookmarkicon {
-      font-size: 24px;
+      font-size: 25px;
       position: relative;
       top: 9px;
       margin-right: 2px;
