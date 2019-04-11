@@ -121,8 +121,8 @@ export default {
   }
   background-color: $footerbgcolor;
   .title-row {
-    border-top: 3px solid #3564b2;
-    border-top: 3px solid #3564b2;
+    border-top: 2px solid #3564b2;
+    border-bottom: 2px solid #3564b2;
   }
   .footer-title {
     color: #d3daff;
