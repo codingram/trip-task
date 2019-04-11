@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="table-outline">
     <b-container>
       <!-- <b-row>
         <b-col>
@@ -14,10 +14,10 @@
 
       <b-row>
         <b-col>
-          <table class="table table-bordered">
+          <table class="table table-bordered mb-0">
             <thead>
               <tr class="row-gray-color">
-                <th scope="col">ROOM TYPE</th>
+                <th scope="col" class="roomtype-width">ROOM TYPE</th>
                 <th scope="col">OPTIONS</th>
                 <th scope="col" class="td-max-width">INCLUDED IN THIS PRICE</th>
                 <th scope="col">PRICE</th>
@@ -33,19 +33,16 @@
                 <td class="option-bg price-td-width px-5"><price></price></td>
               </tr>
               <tr>
-                
                 <td class="option-row-style p-0"><options2></options2></td>
                 <td class="option-row-style p-0"><options3></options3></td>
                 <td class=" price-td-width px-5"><price></price></td>
               </tr>
               <tr>
-                
                 <td class="option-row-style p-0"><options2></options2></td>
                 <td class="option-row-style p-0"><options3></options3></td>
                 <td class=" price-td-width px-5"><price></price></td>
               </tr>
               <tr>
-                
                 <td class="option-row-style p-0"><options2></options2></td>
                 <td class="option-row-style p-0"><options3></options3></td>
                 <td class=" price-td-width px-5"><price></price></td>
@@ -55,7 +52,7 @@
           <table class="table table-bordered">
             <thead>
               <tr class="row-gray-color">
-                <th scope="col">ROOM TYPE</th>
+                <th scope="col" class="roomtype-width">ROOM TYPE</th>
                 <th scope="col">OPTIONS</th>
                 <th scope="col" class="td-max-width">INCLUDED IN THIS PRICE</th>
                 <th scope="col">PRICE</th>
@@ -63,27 +60,21 @@
             </thead>
             <tbody>
               <tr>
-                <th scope="row">2</th>
+                <th scope="row" rowspan="4"><roomtype1></roomtype1></th>
+              </tr>
+              <tr>
                 <td class="option-row-style p-0"><options2></options2></td>
-                <td class="option-row-style p-0 td-max-width ">
-                  <options3></options3>
-                </td>
+                <td class="option-row-style p-0"><options3></options3></td>
                 <td class=" price-td-width px-5"><price></price></td>
               </tr>
               <tr>
-                <th scope="row">3</th>
                 <td class="option-row-style p-0"><options2></options2></td>
-                <td class="option-row-style p-0 td-max-width">
-                  <options3></options3>
-                </td>
+                <td class="option-row-style p-0"><options3></options3></td>
                 <td class=" price-td-width px-5"><price></price></td>
               </tr>
               <tr>
-                <th scope="row">3</th>
                 <td class="option-row-style p-0"><options2></options2></td>
-                <td class="option-row-style p-0 td-max-width">
-                  <options3></options3>
-                </td>
+                <td class="option-row-style p-0"><options3></options3></td>
                 <td class=" price-td-width px-5"><price></price></td>
               </tr>
             </tbody>
@@ -137,5 +128,11 @@ export default {
 .price-td-width {
   max-width: 167px;
   font-size: 12px;
+}
+.roomtype-width {
+  width: 108px;
+}
+.table-outline {
+  outline: none;
 }
 </style>
