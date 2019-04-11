@@ -2,6 +2,15 @@
   <div>
     <b-container>
       <div class="backimage mx-auto">
+        <div class="mx-2 pt-1 links">
+          <a href="#" class="border-bottom">Home</a>
+          »
+          <a href="#" class="border-bottom">International Hotels</a>
+          »
+          <a href="#" class="border-bottom">United Arab Emeriates Hotels</a>
+          »
+          <a href="#">{{ backimgTitle }}</a>
+        </div>
         <div class="text-center">
           <p class="backimgtitle font-weight-bold">{{ backimgTitle }}</p>
           <div class="backimgtext" v-html="backimgText"></div>
@@ -61,11 +70,21 @@ export default {
 .backimage {
   background: linear-gradient(rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.25)),
     url("../../assets/imagesR/backimage.jpg");
-  height: 220px;
+  height: 230px;
   background-size: cover;
   width: 85%;
   background-position: center;
   color: #fff;
+
+  .links {
+    font-size: 10px;
+    transform: scale(0.95, 1.2);
+    a {
+      text-decoration: none;
+      color: #fff;
+      // letter-spacing: 0px;
+    }
+  }
 
   .backimgtitle {
     font-size: 32px;

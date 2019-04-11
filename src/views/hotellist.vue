@@ -14,7 +14,7 @@
                 filtertoptitle="Hotel Facilities"
               ></FilterCheckbox>
               <Filterinput></Filterinput>
-              <!-- <ListComponent></ListComponent> -->
+              <ListComponent></ListComponent>
             </b-col>
             <b-col md="9 p-0">
               <Hotelcard></Hotelcard>
@@ -23,6 +23,7 @@
         </div>
       </b-container>
     </div>
+    <BottomFooter></BottomFooter>
   </div>
 </template>
 
@@ -34,7 +35,8 @@ import LeftsideTitle from "@/components/listcomponents/LeftsideTitle.vue";
 import CompoListSelector from "@/components/listcomponents/CompoListSelector.vue";
 import FilterCheckbox from "@/components/listcomponents/FilterCheckbox.vue";
 import Filterinput from "@/components/listcomponents/Filterinput.vue";
-// import ListComponent from "@/components/listcomponents/ListComponent.vue";
+import ListComponent from "@/components/listcomponents/ListComponent.vue";
+import BottomFooter from "@/components/listcomponents/BottomFooter.vue";
 export default {
   name: "NavBar",
   components: {
@@ -44,8 +46,9 @@ export default {
     LeftsideTitle,
     CompoListSelector,
     FilterCheckbox,
-    Filterinput
-    // ListComponent
+    Filterinput,
+    ListComponent,
+    BottomFooter
   },
   data() {
     return {};
