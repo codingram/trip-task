@@ -25,130 +25,141 @@
         >
       </b-row>
       <b-row>
-        <b-col md="2">
-          <ul>
-            <li>
-              <a class="text-secondary" href="#">Bussiness Center</a>
-            </li>
-            <li>
-              <a class="text-secondary " href="#">Air-conditing-central</a>
-            </li>
-            <li>
-              <a class="text-secondary " href="#">Iron and Ironing board</a>
-            </li>
-            <li>
-              <a class="text-secondary " href="#">Fitness Facilities</a>
-            </li>
-            <li>
-              <a class="text-secondary " href="#">Laundry Service</a>
-            </li>
-            <li>
-              <a class="text-secondary " href="#">Laundry Facilities</a>
-            </li>
-            <li>
-              <a class="text-secondary " href="#">Terrace</a>
-            </li>
-          </ul>
+        <b-col md="3">
+          <div class="list-font p-2">
+            <ul>
+              <li>
+                <a class="text-secondary p-2" href="#">Bussiness Center</a>
+              </li>
+              <br />
+              <li>
+                <a class="text-secondary p-2" href="#">Air-conditing-central</a>
+              </li>
+              <br />
+              <li>
+                <a class="text-secondary p-2" href="#">Iron and Ironing board</a>
+              </li>
+              <br />
+              <li>
+                <a class="text-secondary p-2" href="#">Fitness Facilities</a>
+              </li>
+              <br />
+              <li>
+                <a class="text-secondary p-2" href="#">Laundry Service</a>
+              </li>
+              <br />
+              <li>
+                <a class="text-secondary p-2 " href="#">Laundry Facilities</a>
+              </li>
+              <br />
+              <li>
+                <a class="text-secondary p-2" href="#">Terrace</a>
+              </li>
+              <br />
+            </ul>
+          </div>
         </b-col>
-        <b-col md="2">
-          <ul>
-            <li>
-              <a class="text-secondary" href="#">Bussiness Center</a>
-            </li>
-            <li>
-              <a class="text-secondary " href="#">Air-conditing-central</a>
-            </li>
-            <li>
-              <a class="text-secondary " href="#">Iron and Ironing board</a>
-            </li>
-            <li>
-              <a class="text-secondary " href="#">Fitness Facilities</a>
-            </li>
-            <li>
-              <a class="text-secondary " href="#">Laundry Service</a>
-            </li>
-            <li>
-              <a class="text-secondary " href="#">Laundry Facilities</a>
-            </li>
-            <li>
-              <a class="text-secondary " href="#">Terrace</a>
-            </li>
-          </ul>
+        <b-col md="3">
+          <div class="list-font">
+            <ul>
+              <li>
+                <a class="text-secondary" href="#">Bussiness Center</a>
+              </li>
+              <br />
+              <li>
+                <a class="text-secondary " href="#">Air-conditing-central</a>
+              </li>
+              <br />
+              <li>
+                <a class="text-secondary " href="#">Iron and Ironing board</a>
+              </li>
+              <br />
+              <li>
+                <a class="text-secondary " href="#">Fitness Facilities</a>
+              </li>
+              <br />
+              <li>
+                <a class="text-secondary " href="#">Laundry Service</a>
+              </li>
+              <br />
+              <li>
+                <a class="text-secondary " href="#">Laundry Facilities</a>
+              </li>
+              <br />
+              <li>
+                <a class="text-secondary " href="#">Terrace</a>
+              </li>
+              <br />
+            </ul>
+          </div>
         </b-col>
-        <b-col md="2">
-          <ul>
-            <li>
-              <a class="text-secondary" href="#">Bussiness Center</a>
-            </li>
-            <li>
-              <a class="text-secondary " href="#">Air-conditing-central</a>
-            </li>
-            <li>
-              <a class="text-secondary " href="#">Iron and Ironing board</a>
-            </li>
-            <li>
-              <a class="text-secondary " href="#">Fitness Facilities</a>
-            </li>
-            <li>
-              <a class="text-secondary " href="#">Laundry Service</a>
-            </li>
-            <li>
-              <a class="text-secondary " href="#">Laundry Facilities</a>
-            </li>
-            <li>
-              <a class="text-secondary " href="#">Terrace</a>
-            </li>
-          </ul>
+        <b-col md="3">
+          <div class="list-font">
+            <ul>
+              <li>
+                <a class="text-secondary" href="#">Bussiness Center</a>
+              </li>
+              <br />
+              <li>
+                <a class="text-secondary " href="#">Air-conditing-central</a>
+              </li>
+              <br />
+              <li>
+                <a class="text-secondary " href="#">Iron and Ironing board</a>
+              </li>
+              <br />
+              <li>
+                <a class="text-secondary " href="#">Fitness Facilities</a>
+              </li>
+              <br />
+              <li>
+                <a class="text-secondary " href="#">Laundry Service</a>
+              </li>
+              <br />
+              <li>
+                <a class="text-secondary " href="#">Laundry Facilities</a>
+              </li>
+              <br />
+              <li>
+                <a class="text-secondary " href="#">Terrace</a>
+              </li>
+              <br />
+            </ul>
+          </div>
         </b-col>
-        <b-col md="2">
-          <ul>
-            <li>
-              <a class="text-secondary" href="#">Bussiness Center</a>
-            </li>
-            <li>
-              <a class="text-secondary " href="#">Air-conditing-central</a>
-            </li>
-            <li>
-              <a class="text-secondary " href="#">Iron and Ironing board</a>
-            </li>
-            <li>
-              <a class="text-secondary " href="#">Fitness Facilities</a>
-            </li>
-            <li>
-              <a class="text-secondary " href="#">Laundry Service</a>
-            </li>
-            <li>
-              <a class="text-secondary " href="#">Laundry Facilities</a>
-            </li>
-            <li>
-              <a class="text-secondary " href="#">Terrace</a>
-            </li>
-          </ul>
-        </b-col>
-        <b-col md="2">
-          <ul>
-            <li>
-              <a class="text-secondary" href="#">Bussiness Center</a>
-            </li>
-            <li>
-              <a class="text-secondary " href="#">Air-conditing-central</a>
-            </li>
-            <li>
-              <a class="text-secondary " href="#">Iron and Ironing board</a>
-            </li>
-            <li>
-              <a class="text-secondary " href="#">Fitness Facilities</a>
-            </li>
-            <li>
-              <a class="text-secondary " href="#">Laundry Service</a>
-            </li>
-            <li>
-              <a class="text-secondary " href="#">Laundry Facilities</a>
-            </li>
-            <li>
-              <a class="text-secondary " href="#">Terrace</a>
-            </li>
-          </ul>
+        <b-col md="3">
+          <div class="list-font">
+            <ul>
+              <li>
+                <a class="text-secondary" href="#">Bussiness Center</a>
+              </li>
+              <br />
+              <li>
+                <a class="text-secondary " href="#">Air-conditing-central</a>
+              </li>
+              <br />
+              <li>
+                <a class="text-secondary " href="#">Iron and Ironing board</a>
+              </li>
+              <br />
+              <li>
+                <a class="text-secondary " href="#">Fitness Facilities</a>
+              </li>
+              <br />
+              <li>
+                <a class="text-secondary " href="#">Laundry Service</a>
+              </li>
+              <br />
+              <li>
+                <a class="text-secondary " href="#">Laundry Facilities</a>
+              </li>
+              <br />
+              <li>
+                <a class="text-secondary " href="#">Terrace</a>
+              </li>
+              <br />
+            </ul>
+          </div>
         </b-col>
       </b-row>
     </b-container>
@@ -171,5 +182,8 @@
 }
 .heading2-span-font {
   color: $textgreencolor;
+}
+.list-font {
+  font-size: 14px;
 }
 </style>

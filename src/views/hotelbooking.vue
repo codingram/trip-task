@@ -2,9 +2,9 @@
   <div>
     <NavbarS></NavbarS>
     <citysearch></citysearch>
-
     <roominfo></roominfo>
-    <table1></table1>
+    <slider2></slider2>
+    <tabs1></tabs1>
     <facilities></facilities>
     <reviews></reviews>
   </div>
@@ -16,7 +16,9 @@ import citysearch from "@/components/citysearch.vue";
 import reviews from "@/components/reviews.vue";
 import roominfo from "@/components/roominfo.vue";
 import facilities from "@/components/facilities.vue";
-import table1 from "@/components/table.vue";
+import tabs1 from "@/components/tabs.vue";
+import slider2 from "@/components/slider.vue";
+
 export default {
   name: "NavBar",
   components: {
@@ -25,7 +27,8 @@ export default {
     roominfo,
     reviews,
     facilities,
-    table1
+    slider2,
+    tabs1
   },
   data() {
     return {};

@@ -1,6 +1,16 @@
 <template>
   <b-container>
     <b-row>
+      <b-col>
+        <div class="font-weight-bold verfiy-font">
+          Verified Ratings & Reviews for Ibis One Central Hotel
+        </div>
+        <div class="verfiy-font-below pb-4">
+          Take a look at Verified rating and reviews posted by guests
+        </div>
+      </b-col>
+    </b-row>
+    <!-- <b-row>
       <b-col md="2" class="text-center zero-col-border ">
         <b-row class="zero-bg-color ">
           <div class="mx-auto">
@@ -23,9 +33,9 @@
           </div>
         </b-row>
       </b-col>
-      <b-col md="3"></b-col>
-      <b-col md="7"></b-col>
-    </b-row>
+      <b-col md="3"> </b-col>
+      <b-col md="7">Hello</b-col>
+    </b-row> -->
     <b-row
       class="div-border mb-4"
       v-for="review in reviews"
@@ -150,7 +160,13 @@ export default {
 .zero-bg-color {
   background-color: $textgreencolor;
 }
-.zero-col-border{
-border:1px solid $textgreencolor;
+.zero-col-border {
+  border: 1px solid $textgreencolor;
+}
+.verfiy-font {
+  font-size: 20px;
+}
+.verfiy-font-below {
+  font-size: 14px;
 }
 </style>

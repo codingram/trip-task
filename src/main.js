@@ -36,7 +36,10 @@ import {
   faWifi,
   faUtensils,
   faParking,
-  faSuitcaseRolling
+  faSuitcaseRolling,
+  faCheck,
+  faThumbsUp,
+  faTimesCircle
 } from "@fortawesome/free-solid-svg-icons"; //fas fa
 import {
   faFacebookF,
@@ -44,7 +47,7 @@ import {
   faTripadvisor,
   faCentos
 } from "@fortawesome/free-brands-svg-icons"; //fab
-import { faCircle } from "@fortawesome/free-regular-svg-icons"; //far
+import { faCircle, } from "@fortawesome/free-regular-svg-icons"; //far
 
 library.add(
   faEnvelopeOpenText,
@@ -68,7 +71,10 @@ library.add(
   faWifi,
   faUtensils,
   faParking,
-  faSuitcaseRolling
+  faSuitcaseRolling,
+  faCheck,
+  faThumbsUp,
+  faTimesCircle
 ); //fas
 library.add(faEnvelope, faCircle); //far
 library.add(faFacebookF, faTwitter, faTripadvisor, faCentos); //fab
