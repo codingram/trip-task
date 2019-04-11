@@ -46,7 +46,9 @@
           </b-row>
           <b-row>
             <b-col>
-              <img src="../assets/img1.jpg" height="100px" width="114px" />
+              <b-row class="div-back-image ml-0"
+                ><span class="font-rest">RESTAURANT</span></b-row
+              >
             </b-col>
             <b-col>
               <b-row
@@ -58,7 +60,7 @@
             </b-col>
           </b-row>
         </b-col>
-        <b-col md="3">
+        <b-col md="3" class="p-0">
           <div>
             <b-row class="outline-whole-row mx-auto">
               <b-row>
@@ -192,6 +194,21 @@ export default {
   font-size: 14px;
   color: $textwhitecolor;
 }
+.swiper-button-prev,
 .swiper-button-next {
-  color: red;}
+  background-size: 16px 44px;
+}
+.div-back-image {
+  background: linear-gradient(rgba(13, 14, 14, 0.12), rgba(19, 21, 21, 0.83)),
+    url("../assets/ImagesS/rest.jpeg");
+
+  height: 100px;
+  width: 114px;
+}
+.font-rest {
+  color: white;
+  font-size: 12px;
+  margin-top: 69px;
+  margin-left: 11px;
+}
 </style>

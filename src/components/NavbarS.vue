@@ -52,8 +52,7 @@
               </b-nav-item>
               <b-nav-item href="#" style="text-align:center">
                 <font-awesome-icon :icon="['fas', 'ellipsis-h']" />
-                <span style="display:block">
-                  More </span>
+                <span style="display:block"> More </span>
               </b-nav-item>
             </b-navbar-nav>
           </b-collapse>
@@ -77,6 +76,7 @@
 export default {};
 </script>
 <style lang="scss">
+@import "../assets/scss/_svariables.scss";
 ul > li {
   display: inline;
   list-style-type: none;
@@ -92,9 +92,12 @@ ul > li {
 .my-button {
   border-radius: 365%;
   color: white;
-  background-color: rgba(138, 193, 138, 0.99);
+  background-image:$mybuttoncolor;
   border: none;
   height: 25px;
+  width:25px;
+  text-align: center;
+  font-size:11px;
 }
 .login-font-size {
   font-size: 11px;

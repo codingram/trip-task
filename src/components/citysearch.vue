@@ -3,7 +3,7 @@
     <b-container fluid>
       <b-row class="whole-div">
         <b-col>
-          <div >
+          <div>
             <b-row>
               <b-col md="10" class="mx-auto p-0">
                 <b-row>
@@ -71,10 +71,10 @@ export default {
 <style lang="scss">
 @import "../assets/scss/_svariables.scss";
 .whole-div {
-  background-color: #100f38;
+  background-color: $citysearchWdiv;
 }
 .col-blue-color {
-  background-color: rgba(167, 211, 181, 0.3);
+  background-color: $citysearchWdivbox;
 }
 .boxhead-font-size {
   font-size: 10px;

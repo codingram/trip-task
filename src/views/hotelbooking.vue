@@ -4,6 +4,7 @@
     <citysearch></citysearch>
 
     <roominfo></roominfo>
+    <table1></table1>
     <facilities></facilities>
     <reviews></reviews>
   </div>
@@ -15,6 +16,7 @@ import citysearch from "@/components/citysearch.vue";
 import reviews from "@/components/reviews.vue";
 import roominfo from "@/components/roominfo.vue";
 import facilities from "@/components/facilities.vue";
+import table1 from "@/components/table.vue";
 export default {
   name: "NavBar",
   components: {
@@ -22,7 +24,8 @@ export default {
     citysearch,
     roominfo,
     reviews,
-    facilities
+    facilities,
+    table1
   },
   data() {
     return {};
