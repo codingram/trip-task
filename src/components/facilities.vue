@@ -331,7 +331,7 @@
   border-bottom: 2px solid #8080803d;
 }
 .verfiy-font {
-  font-size: 15px;
+  font-size: 19px;
   color: #443d3d;
 }
 .verfiy-font-below {

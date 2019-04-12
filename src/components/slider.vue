@@ -132,10 +132,15 @@ export default {
 .swiper-font {
   font-size: 13px;
   padding: 18px;
+  color: #808080eb;
 }
 .swiper-icon {
   margin-right: -21px;
-  margin-top: 10px;
-  font-size: 21px;
+  font-size: 17px;
+  color: #675f5f;
 }
+.swiper-container {
+  position: inherit;
+}
+
 </style>
