@@ -26,6 +26,7 @@
 <script>
 import table1 from "@/components/table.vue";
 
+
 export default {
   name: "NavBar",
   components: {
@@ -40,11 +41,11 @@ export default {
 @import "../assets/scss/_svariables.scss";
 .nav-tabs .nav-link {
   border: none;
-  color: black;
+  color: #000000b8;
   margin-right: 25px;
 }
 .nav-tabs {
-  border-bottom: 1px solid #80808026;
+  border-bottom: 1px solid #8080805c;
   box-shadow: 0px 9px 0px 1px #b1a8a812;
   margin-bottom: 30px;
   padding-left: 72px;

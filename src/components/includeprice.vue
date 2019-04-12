@@ -14,7 +14,7 @@
 }
 .text-style {
   padding-top: 40px;
-  font-size: 14px;
+  font-size: 12px;
 }
 .include-row-style {
   border: 1px solid #dee2e6;

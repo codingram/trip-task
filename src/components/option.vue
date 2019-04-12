@@ -1,22 +1,27 @@
 <template>
-  <div class="p-3 pl-5 option-bg whole-div-font">
+  <div class="p-3 pl-4  whole-div-font">
     <b-row>
-      <div class="pr-3 ">OPTION 1</div>
+      <div class="pr-3 font-weight-bold">OPTION 1</div>
       <button class="recomm-button">recommended</button>
     </b-row>
     <b-row>
-      <div></div>
+     
       <div class="room-only-color pb-1 pt-3 pl-2">
-        <font-awesome-icon :icon="['fas', 'times-circle']" /> Room Only
+        <span class="mr-2">
+          <font-awesome-icon :icon="['fas', 'times-circle']"
+        /></span>
+       <span class="font-weight-bold"> Room Only</span>
       </div>
     </b-row>
     <b-row>
       <div class="pb-1 pt-3 pl-2 none-refund">
-        <font-awesome-icon :icon="['fas', 'times-circle']" /> Non-Refundable
+         <span class="mr-2">
+          <font-awesome-icon :icon="['fas', 'times-circle']"
+        /></span> <span class="font-weight-bold">Non-Refundable</span>
       </div>
     </b-row>
     <b-row>
-      <div class="read-more pl-4">Read More</div>
+      <div class="read-more pl-4 ml-2">Read More</div>
     </b-row>
   </div>
 </template>
