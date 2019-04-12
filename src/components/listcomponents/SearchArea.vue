@@ -21,15 +21,34 @@
           <b-row class="mx-1 searchbox">
             <b-col md="3" class="search-hotel">
               <div class="searchbox-title">CITY, HOTEL OR AREA</div>
-              <div><input type="text" class="searchbox-input-hotel" /></div>
+              <div>
+                <input type="text" class="searchbox-input-hotel" />
+              </div>
             </b-col>
             <b-col md="2" class="checkin-date">
               <div class="datebox-title">CHECK IN</div>
-              <div><input type="date" class="searchbox-date-hotel" /></div>
+              <div>
+                <!-- <input type="date" class="searchbox-date-hotel" /> -->
+
+                <Datepicker
+                  class="searchbox-date-hotel pt-1"
+                  value="Mon 1st April 2019"
+                  placeholder="Select Date"
+                  format="D dsu MMMM yyyy"
+                ></Datepicker>
+              </div>
             </b-col>
             <b-col md="2" class="checkout-date">
               <div class="datebox-title">CHECK OUT</div>
-              <div><input type="date" class="searchbox-date-hotel" /></div>
+              <div>
+                <!-- <input type="date" class="searchbox-date-hotel" /> -->
+                <Datepicker
+                  class="searchbox-date-hotel pt-1"
+                  value="Mon 1st April 2019"
+                  placeholder="Select Date"
+                  format="D dsu MMMM yyyy"
+                ></Datepicker>
+              </div>
             </b-col>
             <b-col md="1" class="nights-number">
               <div class="night-title">NIGHT</div>
@@ -63,6 +82,7 @@
 </template>
 
 <script>
+import Datepicker from "vuejs-datepicker";
 export default {
   name: "NavBar",
   data() {
@@ -71,6 +91,9 @@ export default {
       backimgText:
         '(568 Hotels in Dubai Price Starts @ Rs. 1579 - Get Flat OFF use Coupon - <span class="green-text">IHSALE25</span>)'
     };
+  },
+  components: {
+    Datepicker
   }
 };
 </script>
@@ -223,5 +246,8 @@ export default {
       font-size: 12px;
     }
   }
+}
+.vdp-datepicker * {
+  border: 0;
 }
 </style>
