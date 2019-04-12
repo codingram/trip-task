@@ -1,15 +1,17 @@
 <template>
   <div>
     <b-container>
-      <b-row class="mx-auto my-auto">
-        <b-col md="6"> <breadcum></breadcum></b-col>
+      <div>
+        <b-row class="mx-auto my-auto">
+          <b-col md="6"> <breadcum></breadcum></b-col>
 
-        <b-col md="3">
-          <div class="outline-whole-row3">
-            Hurry! Last few rooms remaining for your dates
-          </div>
-        </b-col>
-      </b-row>
+          <b-col md="3">
+            <div class="outline-whole-row3">
+              Hurry! Last few rooms remaining for your dates
+            </div>
+          </b-col>
+        </b-row>
+      </div>
       <b-row class="p-0 m-0">
         <b-col md="5" class="p-0">
           <div class="p-0">
@@ -104,7 +106,7 @@
                 <b-col class="p-0 ">
                   <div class="text-right m-0 outline-button booknow-button">
                     <button class="booknow-box-button button-maring-left">
-                      book this now
+                      BOOK THIS NOW
                     </button>
                   </div>
                 </b-col>
@@ -157,7 +159,7 @@
                             :icon="['fas', 'star']"/><font-awesome-icon
                             :icon="['fas', 'star']"/><font-awesome-icon
                             :icon="['fas', 'star']"/>
-                          <span class="text-secondary">
+                          <span class="star-color">
                             <font-awesome-icon :icon="['fas', 'star']" />
                             <font-awesome-icon :icon="['fas', 'star']" /> </span
                         ></span>
@@ -204,9 +206,13 @@ export default {
 </script>
 <style lang="scss">
 @import "../assets/scss/_svariables.scss";
+.star-color {
+  color: #8080805c;
+}
 .swiper-style {
   height: 270px;
   background-image: url(../assets/ImagesS/roomimage.jpeg);
+  border-radius: 6px 0px 0px 6px;
 }
 .outline-whole-row {
   border: 1px solid #8080807a;
@@ -215,8 +221,9 @@ export default {
   box-shadow: 0.01px 0.01px 0.01px 0.01px grey;
 }
 .outline-inside-text {
-  margin-left: 17px;
   font-size: 10px;
+  color: $alltextbluecolor;
+  font-weight: bold;
 }
 .outline-button {
   margin-left: 25px;
@@ -253,7 +260,7 @@ export default {
   height: 29px;
   border: none;
   font-weight: bold;
-  font-size: 14px;
+  font-size: 10px;
   color: $textwhitecolor;
 }
 .swiper-button-prev,
@@ -269,9 +276,10 @@ export default {
 }
 .font-rest {
   color: white;
-  font-size: 12px;
-  margin-top: 69px;
+  font-size: 10px;
+  margin-top: 87px;
   margin-left: 11px;
+  font-weight: bold;
 }
 .div-back-image-room {
   background: linear-gradient(rgba(13, 14, 14, 0.12), rgba(19, 21, 21, 0.83)),
@@ -282,8 +290,9 @@ export default {
 }
 .font-room {
   color: white;
-  font-size: 12px;
-  margin-top: 95px;
+  font-size: 10px;
+  margin-top: 108px;
+  font-weight: bold;
 }
 .row-top-margin {
   margin-top: -8px;
@@ -314,12 +323,14 @@ export default {
   color: $textredcolor;
 }
 .none-refun {
-  font-size: 11px;
+  font-size: 9px;
   color: $textredcolor;
+  font-weight: bold;
 }
 .room-only-font {
-  font-size: 11px;
+  font-size: 9px;
   color: $textgreencolor;
+  font-weight: bold;
 }
 .booknow-button {
   padding: 0px;
@@ -336,7 +347,7 @@ export default {
   color: white;
   height: 30px;
   width: 56px;
-  border-radius: 2px;
+  border-radius: 5px;
   text-align: center;
   font-size: 15px;
   padding-top: 3px;
@@ -344,12 +355,14 @@ export default {
 }
 .review-color {
   color: $textgreencolor;
+  font-weight: bold;
+  font-size: 10px;
 }
 .review-margin {
   margin-top: -7px;
 }
 .review-below {
-  font-size: 12px;
+  font-size: 11px;
   padding-bottom: 5px;
 }
 .north-star {
@@ -359,14 +372,16 @@ export default {
   color: $alltextbluecolor;
 }
 .ibis-font {
-  font-size: 24px;
+  font-size: 21px;
+  margin-top: 5px;
 }
 .ibis-hotel-below {
   color: $alltextbluecolor;
-  font-size: 16px;
+  font-size: 13px;
   margin-top: -7px;
 }
 .sec-th-margin {
   margin-left: 6px;
+  border-radius: 3px;
 }
 </style>

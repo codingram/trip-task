@@ -1,6 +1,5 @@
 <template>
   <b-container>
-   
     <b-row>
       <b-col md="2">
         <div class="text-center zero-col-border mb-5 ">
@@ -20,7 +19,7 @@
               <font-awesome-icon :icon="['fas', 'dot-circle']" />
               <font-awesome-icon :icon="['fas', 'dot-circle']" />
               <font-awesome-icon :icon="['fas', 'dot-circle']" />
-              <font-awesome-icon :icon="['far', 'dot-circle']" />
+              <font-awesome-icon :icon="['fas', 'dot-circle']" />              
               <font-awesome-icon :icon="['far', 'circle']" />
             </div>
           </b-row>
@@ -59,7 +58,8 @@
               <font-awesome-icon :icon="['fas', 'dot-circle']" />
               <font-awesome-icon :icon="['fas', 'dot-circle']" />
               <font-awesome-icon :icon="['fas', 'dot-circle']" />
-              <font-awesome-icon :icon="['far', 'dot-circle']" />
+              <font-awesome-icon :icon="['fas', 'dot-circle']" />
+
               <font-awesome-icon :icon="['far', 'circle']" />
               <span class="icon-color-display"> LOCATION </span>
             </div>
@@ -69,7 +69,8 @@
               <font-awesome-icon :icon="['fas', 'dot-circle']" />
               <font-awesome-icon :icon="['fas', 'dot-circle']" />
               <font-awesome-icon :icon="['fas', 'dot-circle']" />
-              <font-awesome-icon :icon="['far', 'dot-circle']" />
+              <font-awesome-icon :icon="['fas', 'dot-circle']" />
+
               <font-awesome-icon :icon="['far', 'circle']" />
               <span class="icon-color-display"> ROOM </span>
             </div>
@@ -79,7 +80,8 @@
               <font-awesome-icon :icon="['fas', 'dot-circle']" />
               <font-awesome-icon :icon="['fas', 'dot-circle']" />
               <font-awesome-icon :icon="['fas', 'dot-circle']" />
-              <font-awesome-icon :icon="['far', 'dot-circle']" />
+              <font-awesome-icon :icon="['fas', 'dot-circle']" />
+
               <font-awesome-icon :icon="['far', 'circle']" />
               <span class="icon-color-display"> SERVICE </span>
             </div>
@@ -89,7 +91,8 @@
               <font-awesome-icon :icon="['fas', 'dot-circle']" />
               <font-awesome-icon :icon="['fas', 'dot-circle']" />
               <font-awesome-icon :icon="['fas', 'dot-circle']" />
-              <font-awesome-icon :icon="['far', 'dot-circle']" />
+              <font-awesome-icon :icon="['fas', 'dot-circle']" />
+
               <font-awesome-icon :icon="['far', 'circle']" />
               <span class="icon-color-display"> CLEANLINESS </span>
             </div>
@@ -100,7 +103,8 @@
               <font-awesome-icon :icon="['fas', 'dot-circle']" />
               <font-awesome-icon :icon="['fas', 'dot-circle']" />
               <font-awesome-icon :icon="['fas', 'dot-circle']" />
-              <font-awesome-icon :icon="['far', 'dot-circle']" />
+              <font-awesome-icon :icon="['fas', 'dot-circle']" />
+
               <font-awesome-icon :icon="['far', 'circle']" />
               <span class="icon-color-display"> SLEEP</span>
             </div>
@@ -124,7 +128,7 @@
                     <font-awesome-icon :icon="['fas', 'dot-circle']" />
                     <font-awesome-icon :icon="['fas', 'dot-circle']" />
                     <font-awesome-icon :icon="['fas', 'dot-circle']" />
-                    <font-awesome-icon :icon="['far', 'dot-circle']" />
+                    <font-awesome-icon :icon="['fas', 'dot-circle']" />
                     <font-awesome-icon :icon="['far', 'circle']" />
                   </div>
 

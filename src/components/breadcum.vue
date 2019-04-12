@@ -32,6 +32,7 @@ export default {
   padding-bottom: 0px;
   padding-top: 18px;
   padding-left: 0px;
+  font-size: 13px;
 }
 .breadcrumb-item + .breadcrumb-item::before {
   display: inline-block;

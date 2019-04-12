@@ -1,0 +1,37 @@
+@import "../assets/scss/_svariables.scss";
+.whole-div {
+  background-color: $citysearchWdiv;
+}
+.col-blue-color {
+  background-color: $citysearchWdivbox;
+}
+.boxhead-font-size {
+  font-size: 10px;
+  color: $alltextbluecolor;
+}
+.boxtext-font-size {
+  font-size: 14px;
+  color: $textwhitecolor;
+}
+.boxhead-style {
+  display: inline;
+  width: 144px;
+  border-radius: 2px;
+  height: 44px;
+  text-align: left;
+}
+.city-display {
+  display: inline-block;
+}
+.search-box-margin {
+  margin-left: -336px;
+  text-align: center;
+  background: $allgradientbluecolor;
+  color: $textwhitecolor;
+  border-radius: 20px;
+  width: 168px;
+  height: 37px;
+  border: none;
+  font-weight: bold;
+  font-size: 19px;
+}

@@ -2,103 +2,99 @@
   <b-container>
     <b-row>
       <b-col md="12">
-        <md-card>
-          <md-card-media>
-            <!-- swiper -->
-            <div class="pt-3 pb-5">
-              <swiper
-                :options="swiperOption"
-                v-for="text in texts"
-                v-bind:key="text.index"
-              >
-                <swiper-slide
-                  ><b-row
-                    ><b-col md="2" class="p-0 swiper-icon"
-                      ><font-awesome-icon :icon="['fas', 'thumbs-up']"/></b-col
-                    ><b-col md="10" class="p-0 swiper-font">{{
-                      text.para
-                    }}</b-col></b-row
-                  ></swiper-slide
-                >
-                <swiper-slide
-                  ><b-row
-                    ><b-col md="2" class="p-0 swiper-icon"
-                      ><font-awesome-icon :icon="['fas', 'thumbs-up']"/></b-col
-                    ><b-col md="10" class="p-0 swiper-font">{{
-                      text.para
-                    }}</b-col></b-row
-                  ></swiper-slide
-                >
-                <swiper-slide
-                  ><b-row
-                    ><b-col md="2" class="p-0 swiper-icon"
-                      ><font-awesome-icon :icon="['fas', 'thumbs-up']"/></b-col
-                    ><b-col md="10" class="p-0 swiper-font">{{
-                      text.para
-                    }}</b-col></b-row
-                  ></swiper-slide
-                >
-                <swiper-slide
-                  ><b-row
-                    ><b-col md="2" class="p-0 swiper-icon"
-                      ><font-awesome-icon :icon="['fas', 'thumbs-up']"/></b-col
-                    ><b-col md="10" class="p-0 swiper-font">{{
-                      text.para
-                    }}</b-col></b-row
-                  ></swiper-slide
-                >
-                <swiper-slide
-                  ><b-row
-                    ><b-col md="2" class="p-0 swiper-icon"
-                      ><font-awesome-icon :icon="['fas', 'thumbs-up']"/></b-col
-                    ><b-col md="10" class="p-0 swiper-font">{{
-                      text.para
-                    }}</b-col></b-row
-                  ></swiper-slide
-                >
-                <swiper-slide
-                  ><b-row
-                    ><b-col md="2" class="p-0 swiper-icon"
-                      ><font-awesome-icon :icon="['fas', 'thumbs-up']"/></b-col
-                    ><b-col md="10" class="p-0 swiper-font">{{
-                      text.para
-                    }}</b-col></b-row
-                  ></swiper-slide
-                >
-                <swiper-slide
-                  ><b-row
-                    ><b-col md="2" class="p-0 swiper-icon"
-                      ><font-awesome-icon :icon="['fas', 'thumbs-up']"/></b-col
-                    ><b-col md="10" class="p-0 swiper-font">{{
-                      text.para
-                    }}</b-col></b-row
-                  ></swiper-slide
-                >
-                <swiper-slide
-                  ><b-row
-                    ><b-col md="2" class="p-0 swiper-icon"
-                      ><font-awesome-icon :icon="['fas', 'thumbs-up']"/></b-col
-                    ><b-col md="10" class="p-0 swiper-font">{{
-                      text.para
-                    }}</b-col></b-row
-                  ></swiper-slide
-                >
-                <swiper-slide
-                  ><b-row
-                    ><b-col md="2" class="p-0 swiper-icon"
-                      ><font-awesome-icon :icon="['fas', 'thumbs-up']"/></b-col
-                    ><b-col md="10" class="p-0 swiper-font">{{
-                      text.para
-                    }}</b-col></b-row
-                  ></swiper-slide
-                >
+        <!-- swiper -->
+        <div class="pt-3 pb-5">
+          <swiper
+            :options="swiperOption"
+            v-for="text in texts"
+            v-bind:key="text.index"
+          >
+            <swiper-slide
+              ><b-row
+                ><b-col md="2" class="p-0 swiper-icon"
+                  ><font-awesome-icon :icon="['fas', 'thumbs-up']"/></b-col
+                ><b-col md="10" class="p-0 swiper-font">{{
+                  text.para
+                }}</b-col></b-row
+              ></swiper-slide
+            >
+            <swiper-slide
+              ><b-row
+                ><b-col md="2" class="p-0 swiper-icon"
+                  ><font-awesome-icon :icon="['fas', 'thumbs-up']"/></b-col
+                ><b-col md="10" class="p-0 swiper-font">{{
+                  text.para
+                }}</b-col></b-row
+              ></swiper-slide
+            >
+            <swiper-slide
+              ><b-row
+                ><b-col md="2" class="p-0 swiper-icon"
+                  ><font-awesome-icon :icon="['fas', 'thumbs-up']"/></b-col
+                ><b-col md="10" class="p-0 swiper-font">{{
+                  text.para
+                }}</b-col></b-row
+              ></swiper-slide
+            >
+            <swiper-slide
+              ><b-row
+                ><b-col md="2" class="p-0 swiper-icon"
+                  ><font-awesome-icon :icon="['fas', 'thumbs-up']"/></b-col
+                ><b-col md="10" class="p-0 swiper-font">{{
+                  text.para
+                }}</b-col></b-row
+              ></swiper-slide
+            >
+            <swiper-slide
+              ><b-row
+                ><b-col md="2" class="p-0 swiper-icon"
+                  ><font-awesome-icon :icon="['fas', 'thumbs-up']"/></b-col
+                ><b-col md="10" class="p-0 swiper-font">{{
+                  text.para
+                }}</b-col></b-row
+              ></swiper-slide
+            >
+            <swiper-slide
+              ><b-row
+                ><b-col md="2" class="p-0 swiper-icon"
+                  ><font-awesome-icon :icon="['fas', 'thumbs-up']"/></b-col
+                ><b-col md="10" class="p-0 swiper-font">{{
+                  text.para
+                }}</b-col></b-row
+              ></swiper-slide
+            >
+            <swiper-slide
+              ><b-row
+                ><b-col md="2" class="p-0 swiper-icon"
+                  ><font-awesome-icon :icon="['fas', 'thumbs-up']"/></b-col
+                ><b-col md="10" class="p-0 swiper-font">{{
+                  text.para
+                }}</b-col></b-row
+              ></swiper-slide
+            >
+            <swiper-slide
+              ><b-row
+                ><b-col md="2" class="p-0 swiper-icon"
+                  ><font-awesome-icon :icon="['fas', 'thumbs-up']"/></b-col
+                ><b-col md="10" class="p-0 swiper-font">{{
+                  text.para
+                }}</b-col></b-row
+              ></swiper-slide
+            >
+            <swiper-slide
+              ><b-row
+                ><b-col md="2" class="p-0 swiper-icon"
+                  ><font-awesome-icon :icon="['fas', 'thumbs-up']"/></b-col
+                ><b-col md="10" class="p-0 swiper-font">{{
+                  text.para
+                }}</b-col></b-row
+              ></swiper-slide
+            >
 
-                <div class="swiper-button-prev" slot="button-prev"></div>
-                <div class="swiper-button-next" slot="button-next"></div>
-              </swiper>
-            </div>
-          </md-card-media>
-        </md-card>
+            <div class="swiper-button-prev" slot="button-prev"></div>
+            <div class="swiper-button-next" slot="button-next"></div>
+          </swiper>
+        </div>
       </b-col>
     </b-row>
   </b-container>
@@ -135,11 +131,11 @@ export default {
 }
 .swiper-font {
   font-size: 13px;
-      padding: 18px;
+  padding: 18px;
 }
 .swiper-icon {
-      margin-right: -21px;
-    margin-top: 10px;
-    font-size: 21px;
+  margin-right: -21px;
+  margin-top: 10px;
+  font-size: 21px;
 }
 </style>
