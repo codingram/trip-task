@@ -98,7 +98,30 @@
             <li><a href="#">Hotels in Macau</a></li>
           </ul></b-col
         >
-        <b-col md="2" class="px-1 footer-text">Follow Us</b-col>
+        <b-col md="2" class="px-1 footer-text">
+          <div>
+            <img
+              class="social-icons mr-1"
+              src="../../assets/imagesR/fb.png"
+              alt=""
+            />
+            <img
+              class="social-icons mr-1"
+              src="../../assets/imagesR/tt.png"
+              alt=""
+            />
+            <img
+              class="social-icons mr-1"
+              src="../../assets/imagesR/yt.png"
+              alt=""
+            />
+            <img
+              class="social-icons mr-1"
+              src="../../assets/imagesR/rss.png"
+              alt=""
+            />
+          </div>
+        </b-col>
       </b-row>
     </b-container>
   </div>
@@ -143,5 +166,11 @@ export default {
       }
     }
   }
+}
+
+.social-icons {
+  background-color: white;
+  border-radius: 50%;
+  height: 30px;
 }
 </style>

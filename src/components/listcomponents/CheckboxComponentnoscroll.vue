@@ -55,6 +55,5 @@ export default {
   color: $dimfont;
   height: 162px;
   padding: 0px;
-  overflow-y: hidden !important;
 }
 </style>

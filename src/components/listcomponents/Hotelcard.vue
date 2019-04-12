@@ -129,6 +129,9 @@
               />MMT ASSURED
             </span>
           </div>
+          <div class="hotel-cut-price mt-3 text-right">
+            <span class="red-price">{{ card.cutPrice }}</span>
+          </div>
           <div class="hotel-price mt-3 text-right">
             <span class="red-price">Rs. 3,009</span>
           </div>
@@ -221,7 +224,30 @@ export default {
           price: "Rs. 3,009",
           pricetime: "per room/night",
           breakfast: true,
-          freeCancellation: true
+          freeCancellation: true,
+          cutPrice: "Rs. 4,000"
+        },
+        {
+          hotelName: "Ibis One Central Hotel",
+          hotelPlace: "Dubai, Dubai, UAE, Dubai",
+          hotelLandmark: "1.7 km from Dubai International Finance Center",
+          hotelRating: "3.8/5",
+          hotelReviewCount: "(16 reviews)",
+          latestRating: "4",
+          raterUsername: "Ashish Abraham",
+          reviewDate: "(Feb 27, 2019)",
+          hotelDescription: "Located at a distance of 8 km from the Du...",
+          hotelReview1: "Shop till you drop at the Dubai Mall (3.5 km away).",
+          hotelReview2:
+            "Try a wide variety of Indian delicacies at Dip In Brilliat (300m).",
+          showDeal: true,
+          dealText:
+            "Get cashback of Rs. 270 to all credit and debit cards within next 72 hours, T&C's apply",
+          price: "Rs. 3,009",
+          pricetime: "per room/night",
+          breakfast: true,
+          freeCancellation: true,
+          cutPrice: "Rs. 4,000"
         },
         {
           hotelName: "Ibis One Central Hotel",
@@ -284,28 +310,8 @@ export default {
           price: "Rs. 3,009",
           pricetime: "per room/night",
           breakfast: true,
-          freeCancellation: true
-        },
-        {
-          hotelName: "Ibis One Central Hotel",
-          hotelPlace: "Dubai, Dubai, UAE, Dubai",
-          hotelLandmark: "1.7 km from Dubai International Finance Center",
-          hotelRating: "3.8/5",
-          hotelReviewCount: "(16 reviews)",
-          latestRating: "4",
-          raterUsername: "Ashish Abraham",
-          reviewDate: "(Feb 27, 2019)",
-          hotelDescription: "Located at a distance of 8 km from the Du...",
-          hotelReview1: "Shop till you drop at the Dubai Mall (3.5 km away).",
-          hotelReview2:
-            "Try a wide variety of Indian delicacies at Dip In Brilliat (300m).",
-          showDeal: true,
-          dealText:
-            "Get cashback of Rs. 270 to all credit and debit cards within next 72 hours, T&C's apply",
-          price: "Rs. 3,009",
-          pricetime: "per room/night",
-          breakfast: true,
-          freeCancellation: true
+          freeCancellation: true,
+          cutPrice: "Rs. 4,000"
         },
         {
           hotelName: "Ibis One Central Hotel",
@@ -561,6 +567,12 @@ export default {
       margin-right: 2px;
       color: $mmtAssuredTick;
     }
+  }
+
+  .hotel-cut-price {
+    text-decoration: line-through;
+    font-size: 13px;
+    color: $dimfont;
   }
 
   .hotel-price {
