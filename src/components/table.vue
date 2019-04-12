@@ -1,16 +1,28 @@
 <template>
   <div class="table-outline">
     <b-container>
-      <!-- <b-row>
-        <b-col>
-          <div class="breakfast-style px-5">
-            <input type="checkbox" /><span class="text-secondary mt-5"
-              >Breakfast Included</span
-            >
-          </div></b-col
-        >
-        <b-col><div>Free Cancellation</div></b-col>
-      </b-row> -->
+      <div>
+        <b-row>
+          <b-col>
+            <div class="breakfast-style">
+              <div class="text-center break-inc ">
+                <input type="checkbox" /><span class="text-secondary">
+                  Breakfast Included</span
+                >
+              </div>
+            </div></b-col
+          >
+          <b-col>
+            <div class="breakfast-style free-cance-margin">
+              <div class="text-center break-inc ">
+                <input type="checkbox" /><span class="text-secondary">
+                  Free Cancellation</span
+                >
+              </div>
+            </div></b-col
+          >
+        </b-row>
+      </div>
 
       <b-row>
         <b-col>
@@ -26,7 +38,9 @@
             <tbody>
               <tr>
                 <th scope="row" rowspan="4"><roomtype1></roomtype1></th>
-                <td class="option-row-style p-0"><options></options></td>
+                <td class="option-row-style option-bg p-0">
+                  <options></options>
+                </td>
                 <td class="include-row-style  option-bg p-0">
                   <options3></options3>
                 </td>
@@ -106,38 +120,5 @@ export default {
 };
 </script>
 <style lang="scss">
-.row-gray-color {
-  background-color: #8080801f;
-  font-size: 13px;
-  color: #2f2b2bb8;
-}
-.breakfast-style {
-  max-width: 252px;
-  border: 1px solid #cabfbf;
-  height: 48px;
-  box-shadow: 1px 1px 1px 1px slategrey;
-}
-.option-row-style {
-  border: 1px solid #dee2e6;
-  padding: 0px;
-  max-width: 60px;
-}
-.td-max-width {
-  max-width: 60px;
-}
-.price-td-width {
-  max-width: 167px;
-  font-size: 12px;
-}
-.roomtype-width {
-  width: 108px;
-}
-.table-outline {
-  outline: none;
-}
-.table2-option-row-style {
-  border: 1px solid #dee2e6;
-  padding: 0px;
-  max-width: 84px;
-}
+@import "../assets/scss/Sstyle/table.scss";
 </style>

@@ -51,9 +51,13 @@
   </div>
 </template>
 <script>
+import Datepicker from "vuejs-datepicker";
 export default {
   data() {
     return {
+      components: {
+        Datepicker
+      },
       cities: [
         {
           cityhead: "CITY, AREA, OR HOTEL",

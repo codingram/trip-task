@@ -19,7 +19,7 @@
               <font-awesome-icon :icon="['fas', 'dot-circle']" />
               <font-awesome-icon :icon="['fas', 'dot-circle']" />
               <font-awesome-icon :icon="['fas', 'dot-circle']" />
-              <font-awesome-icon :icon="['fas', 'dot-circle']" />              
+              <font-awesome-icon :icon="['fas', 'dot-circle']" />
               <font-awesome-icon :icon="['far', 'circle']" />
             </div>
           </b-row>
@@ -214,6 +214,8 @@ export default {
 }
 .para-font-size {
   font-size: 13px;
+  font-size: 11px;
+  color: gray;
 }
 .allreview-font {
   font-size: 12px;
@@ -242,14 +244,10 @@ export default {
   border: 1px solid $textgreencolor;
   border-radius: 4px;
 }
-.verfiy-font {
-  font-size: 20px;
-}
-.verfiy-font-below {
-  font-size: 14px;
-}
+
 .review-number-size {
   font-size: 12px;
+  color: #3e3434;
 }
 .review-border {
   border-right: 1px solid rgb(182, 179, 179);
