@@ -30,24 +30,36 @@
               <div>
                 <!-- <input type="date" class="searchbox-date-hotel" /> -->
 
-                <Datepicker
-                  class="searchbox-date-hotel pt-1"
-                  value="Mon 1st April 2019"
-                  placeholder="Select Date"
-                  format="D dsu MMMM yyyy"
-                ></Datepicker>
+                <div class="d-flex">
+                  <font-awesome-icon
+                    :icon="['far', 'calendar-alt']"
+                    class="calendericon mr-2 mt-2"
+                  />
+                  <Datepicker
+                    class="searchbox-date-hotel pt-1"
+                    value="Mon 1st April 2019"
+                    placeholder="Select Date"
+                    format="D dsu MMMM yyyy"
+                  ></Datepicker>
+                </div>
               </div>
             </b-col>
             <b-col md="2" class="checkout-date">
               <div class="datebox-title">CHECK OUT</div>
               <div>
                 <!-- <input type="date" class="searchbox-date-hotel" /> -->
-                <Datepicker
-                  class="searchbox-date-hotel pt-1"
-                  value="Mon 1st April 2019"
-                  placeholder="Select Date"
-                  format="D dsu MMMM yyyy"
-                ></Datepicker>
+                <div class="d-flex">
+                  <font-awesome-icon
+                    :icon="['far', 'calendar-alt']"
+                    class="calendericon mr-2 mt-2"
+                  />
+                  <Datepicker
+                    class="searchbox-date-hotel pt-1"
+                    value="Mon 1st April 2019"
+                    placeholder="Select Date"
+                    format="D dsu MMMM yyyy"
+                  ></Datepicker>
+                </div>
               </div>
             </b-col>
             <b-col md="1" class="nights-number">
@@ -247,7 +259,15 @@ export default {
     }
   }
 }
+
+.calendericon {
+  color: #545454;
+  font-size: 12px;
+}
 .vdp-datepicker * {
   border: 0;
+  color: $dimfont;
+  font-size: 12px;
+  outline: none;
 }
 </style>

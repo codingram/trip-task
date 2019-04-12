@@ -3,7 +3,6 @@ import App from "./App.vue";
 import router from "./router";
 import store from "./store";
 
-
 // bootstrap import
 import BootstrapVue from "bootstrap-vue";
 import "bootstrap/dist/css/bootstrap.css";
@@ -48,7 +47,7 @@ import {
   faTripadvisor,
   faCentos
 } from "@fortawesome/free-brands-svg-icons"; //fab
-import { faCircle, } from "@fortawesome/free-regular-svg-icons"; //far
+import { faCircle, faCalendarAlt } from "@fortawesome/free-regular-svg-icons"; //far
 
 library.add(
   faEnvelopeOpenText,
@@ -77,7 +76,7 @@ library.add(
   faThumbsUp,
   faTimesCircle
 ); //fas
-library.add(faEnvelope, faCircle); //far
+library.add(faEnvelope, faCircle, faCalendarAlt); //far
 library.add(faFacebookF, faTwitter, faTripadvisor, faCentos); //fab
 
 Vue.component("font-awesome-icon", FontAwesomeIcon);
