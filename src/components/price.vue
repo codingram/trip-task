@@ -2,7 +2,7 @@
   <b-row>
     <b-col>
       <b-row>
-        <div>
+        <div class="price-title">
           Deal Applied: INTL_CBCARDDTACC. You Get Cashback of Rs. 285 to all
           credit and debit card within next 72 hours, T&C apply
         </div>
@@ -26,8 +26,16 @@
 </template>
 <style lang="scss">
 .button-style {
-  margin-left: -58px;
+  margin-left: -120px;
   margin-top: 20px;
   font-size: 11px;
+}
+.price-title {
+  background-color: #d7fae2;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  padding: 7px 16px;
+  margin: -13px -33px 15px;
 }
 </style>

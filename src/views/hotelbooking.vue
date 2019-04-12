@@ -6,14 +6,14 @@
     <slider2></slider2>
     <tabs1></tabs1>
     <facilities></facilities>
-    <reviews></reviews>
+    <reviewtab></reviewtab>
   </div>
 </template>
 
 <script>
 import NavbarS from "@/components/NavbarS.vue";
 import citysearch from "@/components/citysearch.vue";
-import reviews from "@/components/reviews.vue";
+import reviewtab from "@/components/reviewtab.vue";
 import roominfo from "@/components/roominfo.vue";
 import facilities from "@/components/facilities.vue";
 import tabs1 from "@/components/tabs.vue";
@@ -25,7 +25,7 @@ export default {
     NavbarS,
     citysearch,
     roominfo,
-    reviews,
+    reviewtab,
     facilities,
     slider2,
     tabs1

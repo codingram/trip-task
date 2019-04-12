@@ -33,4 +33,10 @@ export default {
   padding-top: 18px;
   padding-left: 0px;
 }
+.breadcrumb-item + .breadcrumb-item::before {
+  display: inline-block;
+  padding-right: 0.5rem;
+  color: #6c757d;
+  content: ">" !important;
+}
 </style>

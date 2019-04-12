@@ -16,43 +16,43 @@
             <b-navbar-nav>
               <b-nav-item href="#" style="text-align:center">
                 <font-awesome-icon :icon="['fas', 'plane']" />
-                <span style="display:block"> Flights </span>
+                <span class="icon-display"> Flights </span>
               </b-nav-item>
               <b-nav-item href="#" style="text-align:center">
                 <font-awesome-icon :icon="['fas', 'hotel']" />
-                <span style="display:block"> Hotels </span>
+                <span class="icon-display"> Hotels </span>
               </b-nav-item>
               <b-nav-item href="#" style="text-align:center">
                 <font-awesome-icon :icon="['fas', 'parachute-box']" />
-                <span style="display:block"> Holidays </span>
+                <span class="icon-display"> Holidays </span>
               </b-nav-item>
               <b-nav-item href="#" style="text-align:center">
                 <font-awesome-icon :icon="['fas', 'train']" />
-                <span style="display:block"> Trains </span>
+                <span class="icon-display"> Trains </span>
               </b-nav-item>
               <b-nav-item href="#" style="text-align:center">
                 <font-awesome-icon :icon="['fas', 'bus']" />
-                <span style="display:block"> Buses </span>
+                <span class="icon-display"> Buses </span>
               </b-nav-item>
               <b-nav-item href="#" style="text-align:center">
                 <font-awesome-icon :icon="['fas', 'taxi']" />
-                <span style="display:block"> Cabs </span>
+                <span class="icon-display"> Cabs </span>
               </b-nav-item>
               <b-nav-item href="#" style="text-align:center">
                 <font-awesome-icon :icon="['fas', 'passport']" />
-                <span style="display:block"> Visa </span>
+                <span class="icon-display"> Visa </span>
               </b-nav-item>
               <b-nav-item href="#" style="text-align:center">
                 <font-awesome-icon :icon="['fas', 'home']" />
-                <span style="display:block"> Homestays </span>
+                <span class="icon-display"> Homestays </span>
               </b-nav-item>
               <b-nav-item href="#" style="text-align:center">
                 <font-awesome-icon :icon="['fas', 'gift']" />
-                <span style="display:block"> Giftcards </span>
+                <span class="icon-display"> Giftcards </span>
               </b-nav-item>
               <b-nav-item href="#" style="text-align:center">
                 <font-awesome-icon :icon="['fas', 'ellipsis-h']" />
-                <span style="display:block"> More </span>
+                <span class="icon-display"> More </span>
               </b-nav-item>
             </b-navbar-nav>
           </b-collapse>
@@ -92,14 +92,22 @@ ul > li {
 .my-button {
   border-radius: 365%;
   color: white;
-  background-image:$mybuttoncolor;
+  background-image: $mybuttoncolor;
   border: none;
   height: 25px;
-  width:25px;
+  width: 25px;
   text-align: center;
-  font-size:11px;
+  font-size: 11px;
 }
 .login-font-size {
   font-size: 11px;
+}
+.navbar-light .navbar-nav .nav-link:hover,
+.navbar-light .navbar-nav .nav-link:focus {
+  color: $alltextbluecolor;
+  outline: none;
+}
+.icon-display {
+  display: block;
 }
 </style>

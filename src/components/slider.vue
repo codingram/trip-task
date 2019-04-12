@@ -5,7 +5,7 @@
         <md-card>
           <md-card-media>
             <!-- swiper -->
-            <div class="pt-5 pb-5">
+            <div class="pt-3 pb-5">
               <swiper
                 :options="swiperOption"
                 v-for="text in texts"
@@ -135,8 +135,11 @@ export default {
 }
 .swiper-font {
   font-size: 13px;
+      padding: 18px;
 }
 .swiper-icon {
-  margin-right: -24px;
+      margin-right: -21px;
+    margin-top: 10px;
+    font-size: 21px;
 }
 </style>

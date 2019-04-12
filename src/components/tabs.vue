@@ -42,7 +42,7 @@ export default {
 .nav-tabs {
   border-bottom: 1px solid #80808026;
   box-shadow: 2px 2px 2px 1px #80808052;
-  margin-bottom: 80px;
+  margin-bottom: 30px;
   padding-left: 72px;
 }
 .nav-tabs .nav-link.active,
@@ -50,5 +50,9 @@ export default {
   color: $alltextbluecolor;
   border-bottom: 2px solid $alltextbluecolor;
   padding-bottom: 3px;
+}
+.tab-content > .active {
+  display: block;
+  outline: none;
 }
 </style>

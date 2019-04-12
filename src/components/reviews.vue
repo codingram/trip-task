@@ -1,41 +1,113 @@
 <template>
   <b-container>
+   
     <b-row>
-      <b-col>
-        <div class="font-weight-bold verfiy-font">
-          Verified Ratings & Reviews for Ibis One Central Hotel
+      <b-col md="2">
+        <div class="text-center zero-col-border mb-5 ">
+          <b-row class="zero-bg-color m-0 ">
+            <div class="mx-auto">
+              <b-row>
+                <span class="mx-auto zero-font">4.0</span>
+              </b-row>
+              <b-row>
+                <span class="review-font">920 Reviews</span>
+              </b-row>
+            </div>
+          </b-row>
+          <b-row class=" mx-auto px-4 ">
+            <font-awesome-icon :icon="['fab', 'tripadvisor']" />
+            <div class="icon-color icon-size">
+              <font-awesome-icon :icon="['fas', 'dot-circle']" />
+              <font-awesome-icon :icon="['fas', 'dot-circle']" />
+              <font-awesome-icon :icon="['fas', 'dot-circle']" />
+              <font-awesome-icon :icon="['far', 'dot-circle']" />
+              <font-awesome-icon :icon="['far', 'circle']" />
+            </div>
+          </b-row>
         </div>
-        <div class="verfiy-font-below pb-4">
-          Take a look at Verified rating and reviews posted by guests
+      </b-col>
+      <b-col md="3">
+        <div class="review-number-size">
+          <div class="review-border ">
+            <div>
+              <span class="font-weight-bold">EXCELLENT</span
+              >-----------------395 Reviews
+            </div>
+            <div>
+              <span class="font-weight-bold">VERY GOOD</span>----------------300
+              Reviews
+            </div>
+            <div>
+              <span class="font-weight-bold">AVERGAGE</span>-----------------395
+              Reviews
+            </div>
+            <div>
+              <span class="font-weight-bold">POOR</span
+              >-------------------------44 Reviews
+            </div>
+            <div>
+              <span class="font-weight-bold">BAD</span
+              >---------------------------51 Reviews
+            </div>
+          </div>
         </div>
+      </b-col>
+      <b-col md="7">
+        <b-row>
+          <div class="location-margin">
+            <div class="my-auto ">
+              <font-awesome-icon :icon="['fas', 'dot-circle']" />
+              <font-awesome-icon :icon="['fas', 'dot-circle']" />
+              <font-awesome-icon :icon="['fas', 'dot-circle']" />
+              <font-awesome-icon :icon="['far', 'dot-circle']" />
+              <font-awesome-icon :icon="['far', 'circle']" />
+              <span class="icon-color-display"> LOCATION </span>
+            </div>
+          </div>
+          <div class="location-margin">
+            <div class="my-auto ">
+              <font-awesome-icon :icon="['fas', 'dot-circle']" />
+              <font-awesome-icon :icon="['fas', 'dot-circle']" />
+              <font-awesome-icon :icon="['fas', 'dot-circle']" />
+              <font-awesome-icon :icon="['far', 'dot-circle']" />
+              <font-awesome-icon :icon="['far', 'circle']" />
+              <span class="icon-color-display"> ROOM </span>
+            </div>
+          </div>
+          <div class="location-margin">
+            <div class="my-auto ">
+              <font-awesome-icon :icon="['fas', 'dot-circle']" />
+              <font-awesome-icon :icon="['fas', 'dot-circle']" />
+              <font-awesome-icon :icon="['fas', 'dot-circle']" />
+              <font-awesome-icon :icon="['far', 'dot-circle']" />
+              <font-awesome-icon :icon="['far', 'circle']" />
+              <span class="icon-color-display"> SERVICE </span>
+            </div>
+          </div>
+          <div class="location-margin">
+            <div class="my-auto ">
+              <font-awesome-icon :icon="['fas', 'dot-circle']" />
+              <font-awesome-icon :icon="['fas', 'dot-circle']" />
+              <font-awesome-icon :icon="['fas', 'dot-circle']" />
+              <font-awesome-icon :icon="['far', 'dot-circle']" />
+              <font-awesome-icon :icon="['far', 'circle']" />
+              <span class="icon-color-display"> CLEANLINESS </span>
+            </div>
+          </div>
+
+          <div class="location-margin">
+            <div class="my-auto ">
+              <font-awesome-icon :icon="['fas', 'dot-circle']" />
+              <font-awesome-icon :icon="['fas', 'dot-circle']" />
+              <font-awesome-icon :icon="['fas', 'dot-circle']" />
+              <font-awesome-icon :icon="['far', 'dot-circle']" />
+              <font-awesome-icon :icon="['far', 'circle']" />
+              <span class="icon-color-display"> SLEEP</span>
+            </div>
+          </div>
+        </b-row>
       </b-col>
     </b-row>
-    <!-- <b-row>
-      <b-col md="2" class="text-center zero-col-border ">
-        <b-row class="zero-bg-color ">
-          <div class="mx-auto">
-            <b-row>
-              <span class="mx-auto zero-font">4.0</span>
-            </b-row>
-            <b-row>
-              <span>920 Reviews</span>
-            </b-row>
-          </div>
-        </b-row>
-        <b-row class=" mx-auto px-4 ">
-          <font-awesome-icon :icon="['fab', 'tripadvisor']" />
-          <div class="icon-color icon-size">
-            <font-awesome-icon :icon="['fas', 'dot-circle']" />
-            <font-awesome-icon :icon="['fas', 'dot-circle']" />
-            <font-awesome-icon :icon="['fas', 'dot-circle']" />
-            <font-awesome-icon :icon="['far', 'dot-circle']" />
-            <font-awesome-icon :icon="['far', 'circle']" />
-          </div>
-        </b-row>
-      </b-col>
-      <b-col md="3"> </b-col>
-      <b-col md="7">Hello</b-col>
-    </b-row> -->
     <b-row
       class="div-border mb-4"
       v-for="review in reviews"
@@ -130,10 +202,11 @@ export default {
 }
 .icon-color {
   color: $textgreencolor;
+  font-size: 14px;
 }
 .nt-text-color {
   color: gray;
-  font-size: 14px;
+  font-size: 13px;
 }
 .para-font-size {
   font-size: 13px;
@@ -155,18 +228,40 @@ export default {
   font-size: 14px;
 }
 .zero-font {
-  font-size: 46px;
+  font-size: 30px;
+  color: white;
 }
 .zero-bg-color {
   background-color: $textgreencolor;
 }
 .zero-col-border {
   border: 1px solid $textgreencolor;
+  border-radius: 4px;
 }
 .verfiy-font {
   font-size: 20px;
 }
 .verfiy-font-below {
   font-size: 14px;
+}
+.review-number-size {
+  font-size: 12px;
+}
+.review-border {
+  border-right: 1px solid rgb(182, 179, 179);
+}
+.location-margin {
+  margin-top: 20px;
+  font-size: 13px;
+  margin-right: 50px;
+  color: $textgreencolor;
+}
+.review-font {
+  font-size: 12px;
+  color: white;
+}
+.icon-color-display {
+  display: block;
+  color: #000000ba;
 }
 </style>

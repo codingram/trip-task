@@ -11,31 +11,27 @@
         </b-col>
       </b-row>
       <b-row class="p-0 m-0">
-        <b-col md="6" class="p-0">
+        <b-col md="5" class="p-0">
           <div class="p-0">
-            <md-card>
-              <md-card-media>
-                <!-- swiper -->
-                <swiper :options="swiperOption">
-                  <swiper-slide class="swiper-style"></swiper-slide>
-                  <swiper-slide class="swiper-style"></swiper-slide>
-                  <swiper-slide class="swiper-style"></swiper-slide>
-                  <swiper-slide class="swiper-style"></swiper-slide>
-                  <swiper-slide class="swiper-style"></swiper-slide>
-                  <swiper-slide class="swiper-style"></swiper-slide>
-                  <swiper-slide class="swiper-style"></swiper-slide>
-                  <swiper-slide class="swiper-style"></swiper-slide>
-                  <swiper-slide class="swiper-style"></swiper-slide>
-                  <swiper-slide class="swiper-style"></swiper-slide>
-                  <div class="swiper-pagination" slot="pagination"></div>
-                  <div class="swiper-button-prev" slot="button-prev"></div>
-                  <div class="swiper-button-next" slot="button-next"></div>
-                </swiper>
-              </md-card-media>
-            </md-card>
+            <!-- swiper -->
+            <swiper :options="swiperOption">
+              <swiper-slide class="swiper-style"></swiper-slide>
+              <swiper-slide class="swiper-style"></swiper-slide>
+              <swiper-slide class="swiper-style"></swiper-slide>
+              <swiper-slide class="swiper-style"></swiper-slide>
+              <swiper-slide class="swiper-style"></swiper-slide>
+              <swiper-slide class="swiper-style"></swiper-slide>
+              <swiper-slide class="swiper-style"></swiper-slide>
+              <swiper-slide class="swiper-style"></swiper-slide>
+              <swiper-slide class="swiper-style"></swiper-slide>
+              <swiper-slide class="swiper-style"></swiper-slide>
+              <div class="swiper-pagination" slot="pagination"></div>
+              <div class="swiper-button-prev" slot="button-prev"></div>
+              <div class="swiper-button-next" slot="button-next"></div>
+            </swiper>
           </div>
         </b-col>
-        <b-col md="3">
+        <b-col md="4">
           <b-row class="img-row-p div-back-image-room  ml-0">
             <span class="font-room">ROOM IMAGES</span>
           </b-row>
@@ -47,10 +43,20 @@
             </b-col>
             <b-col>
               <b-row
-                ><img src="../assets/img1.jpg" height="50px" width="120px" />
+                ><img
+                  src="../assets/img1.jpg"
+                  height="55px"
+                  width="165px"
+                  class="sec-th-margin"
+                />
               </b-row>
               <b-row class="mt-2">
-                <img src="../assets/img1.jpg" height="48px" width="120px" />
+                <img
+                  src="../assets/img1.jpg"
+                  height="53px"
+                  width="165px"
+                  class="sec-th-margin"
+                />
               </b-row>
             </b-col>
           </b-row>
@@ -58,7 +64,7 @@
         <b-col md="3" class="p-0">
           <div>
             <b-row class="outline-whole-row mx-auto p-2">
-              <b-row class="whole-div-font ">
+              <b-row class="whole-div-font-size ">
                 <b-col md="6">
                   <div class="text-left m-0 outline-inside-text">
                     <span class="bed-queen font-weight-bold"
@@ -199,7 +205,7 @@ export default {
 <style lang="scss">
 @import "../assets/scss/_svariables.scss";
 .swiper-style {
-  height: 250px;
+  height: 270px;
   background-image: url(../assets/ImagesS/roomimage.jpeg);
 }
 .outline-whole-row {
@@ -224,7 +230,7 @@ export default {
   border: 1px solid #8080807a;
   font-size: 12px;
   margin-top: 10px;
-  height: 105px;
+  height: 112px;
   border-radius: 6px;
 }
 .outline-whole-row3 {
@@ -258,8 +264,8 @@ export default {
   background: linear-gradient(rgba(13, 14, 14, 0.12), rgba(19, 21, 21, 0.83)),
     url("../assets/ImagesS/rest.jpeg");
 
-  height: 108px;
-  width: 114px;
+  height: 118px;
+  width: 164px;
 }
 .font-rest {
   color: white;
@@ -271,8 +277,8 @@ export default {
   background: linear-gradient(rgba(13, 14, 14, 0.12), rgba(19, 21, 21, 0.83)),
     url("../assets/ImagesS/room.jpeg");
 
-  height: 133px;
-  width: 243px;
+  height: 144px;
+  width: 340px;
 }
 .font-room {
   color: white;
@@ -319,8 +325,8 @@ export default {
   padding: 0px;
   margin-left: 65px;
 }
-.whole-div-font {
-  font-size: 5px;
+.whole-div-font-size {
+  font-size: 9px;
 }
 .button-maring-left {
   margin-left: 67px;
@@ -343,7 +349,8 @@ export default {
   margin-top: -7px;
 }
 .review-below {
-  font-size: 10px;
+  font-size: 12px;
+  padding-bottom: 5px;
 }
 .north-star {
   font-size: 10px;
@@ -358,5 +365,8 @@ export default {
   color: $alltextbluecolor;
   font-size: 16px;
   margin-top: -7px;
+}
+.sec-th-margin {
+  margin-left: 6px;
 }
 </style>

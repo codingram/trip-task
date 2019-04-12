@@ -16,4 +16,9 @@
   padding-top: 40px;
   font-size: 14px;
 }
+.include-row-style {
+  border: 1px solid #dee2e6;
+  padding: 0px;
+  max-width: 80px;
+}
 </style>
