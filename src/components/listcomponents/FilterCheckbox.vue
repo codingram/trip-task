@@ -3,14 +3,6 @@
     <div class="ListSelectortitleText mt-3 mb-2">{{ filtertoptitle }}</div>
     <div class="border checkboxfilter px-2">
       <slot name="checkboxLoopData"></slot>
-      <!-- <div class="border-bottom">
-        <div class="checkbox-heading">
-          Apart-Hotel
-          <span class="float-right">
-            <input class="checkbox-edit" type="checkbox" />
-          </span>
-        </div>
-      </div> -->
     </div>
   </div>
 </template>

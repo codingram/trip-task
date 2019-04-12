@@ -20,7 +20,7 @@
         <div class="mt-5 mx-4">
           <b-row class="mx-1 searchbox">
             <b-col md="3" class="search-hotel">
-              <div class="searchbox-title">CITY, HOTEL OR ARE</div>
+              <div class="searchbox-title">CITY, HOTEL OR AREA</div>
               <div><input type="text" class="searchbox-input-hotel" /></div>
             </b-col>
             <b-col md="2" class="checkin-date">
@@ -86,7 +86,7 @@ export default {
   color: #fff;
 
   .links {
-    font-size: 10px;
+    font-size: $cardfont;
     transform: scale(0.95, 1.2);
     a {
       text-decoration: none;
@@ -117,7 +117,7 @@ export default {
       border-right: 1px solid #d2d2d2;
 
       .searchbox-title {
-        font-size: 10px;
+        font-size: $cardfont;
         color: $dimfont;
       }
 
@@ -137,7 +137,7 @@ export default {
 
     .checkin-date {
       .datebox-title {
-        font-size: 10px;
+        font-size: $cardfont;
         color: $dimfont;
       }
 
@@ -157,7 +157,7 @@ export default {
 
     .checkout-date {
       .datebox-title {
-        font-size: 10px;
+        font-size: $cardfont;
         color: $dimfont;
       }
 
@@ -179,7 +179,7 @@ export default {
       border-right: 1px solid #d2d2d2;
 
       .night-title {
-        font-size: 10px;
+        font-size: $cardfont;
         color: $dimfont;
       }
 
@@ -199,7 +199,7 @@ export default {
 
     .rooms-select {
       .rooms-title {
-        font-size: 10px;
+        font-size: $cardfont;
         color: $dimfont;
       }
 
