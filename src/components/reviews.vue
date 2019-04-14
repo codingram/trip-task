@@ -1,8 +1,9 @@
 <template>
   <b-container>
+    <div class="pt-4">
     <b-row>
-      <b-col md="2">
-        <div class="text-center zero-col-border mb-5 ">
+      <b-col md="2" class="pl-0">
+        <div class="text-center zero-col-border mb-5 pl-0 ">
           <b-row class="zero-bg-color m-0 ">
             <div class="mx-auto">
               <b-row>
@@ -13,7 +14,7 @@
               </b-row>
             </div>
           </b-row>
-          <b-row class=" mx-auto px-4 ">
+          <b-row class=" mx-auto p-2">
             <font-awesome-icon :icon="['fab', 'tripadvisor']" />
             <div class="icon-color icon-size">
               <font-awesome-icon :icon="['fas', 'dot-circle']" />
@@ -26,7 +27,7 @@
         </div>
       </b-col>
       <b-col md="3">
-        <div class="review-number-size">
+        <div class="review-number-size grade-review">
           <div class="review-border ">
             <div>
               <span class="font-weight-bold">EXCELLENT</span
@@ -112,6 +113,7 @@
         </b-row>
       </b-col>
     </b-row>
+    </div>
     <b-row
       class="div-border mb-4"
       v-for="review in reviews"
@@ -204,6 +206,11 @@ export default {
   padding: 29px;
   box-shadow: 1px 1px 1px 1px #8888882b;
 }
+.grade-review
+{
+      margin-left: -66px;
+    margin-top: 6px;
+}
 .icon-color {
   color: $textgreencolor;
   font-size: 14px;
@@ -243,6 +250,7 @@ export default {
 .zero-col-border {
   border: 1px solid $textgreencolor;
   border-radius: 4px;
+      width: 112px;
 }
 
 .review-number-size {
@@ -250,13 +258,17 @@ export default {
   color: #3e3434;
 }
 .review-border {
-  border-right: 1px solid rgb(182, 179, 179);
+     border-right: 1px solid #b6b3b32e;
+    margin-right: 71px;
 }
 .location-margin {
-  margin-top: 20px;
-  font-size: 13px;
-  margin-right: 50px;
-  color: $textgreencolor;
+       margin-top: 33px;
+    font-size: 11px;
+    margin-right: 50px;
+    color: #1ea270c4;
+    margin-left: -51px;
+    padding-right: 50px;
+    text-align: center;
 }
 .review-font {
   font-size: 12px;

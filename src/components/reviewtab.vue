@@ -28,7 +28,8 @@ export default {
   }
 };
 </script>
-<style lang="scss" scoped>
+<style lang="scss" >
+@import "../assets/scss/_svariables.scss";
 .font-size {
   border-bottom: 1px solid #8080805c;
   -webkit-box-shadow: 0px 9px 0px 1px #b1a8a812;
@@ -38,11 +39,30 @@ export default {
   font-weight: bold;
 }
 .nav-link {
-  color: #008cff;
+  color: gray;
   border-bottom: 2px solid #008cff;
   padding-bottom: 5px;
-  font-weight: bold;
-  font-weight: bold;
   padding-left: 5px;
+}
+.nav-tabs .nav-link.active,
+.nav-tabs .nav-item.show .nav-link {
+      color: black;
+    border-bottom: 3px solid #008cff;
+    padding-bottom: 5px;
+    font-weight: bold;
+    font-weight: bold;
+}
+.nav-tabs .nav-link {
+     border: none; 
+   border-top-left-radius: none; 
+    border-top-right-radius:none; 
+}
+.nav-tabs {
+    border-bottom: 1px solid #dee2e6;
+    font-size: 13px;
+}
+.nav-link:hover, .nav-link:focus {
+    text-decoration: none;
+    color:gray;
 }
 </style>
