@@ -4,7 +4,8 @@
       <b-col md="12">
         <b-tabs>
           <b-tab title="ROOMS ">
-            <b-card-text> <table1></table1> </b-card-text
+            <b-card-text>
+               <table1></table1> </b-card-text
           ></b-tab>
           <b-tab title="FACILITIES ">
             <b-card-text> <table1></table1> </b-card-text>

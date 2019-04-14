@@ -1,3 +1,6 @@
+
+@import "../assets/scss/_svariables.scss";
+
 .row-gray-color {
     background-color: #8080801f;
     font-size: 11px;
@@ -41,4 +44,21 @@
     border: 1px solid #dee2e6;
     padding: 0px;
     max-width: 75px;
+  }
+  .srcol-head
+  {
+    border-bottom: 1px solid #8080805c;
+    box-shadow: 0px 9px 0px 1px #b1a8a812;
+    margin-bottom: 30px;
+    padding-left: 72px;
+    font-size: 13px;
+    font-weight: bold;
+  }
+  .srcol-head .active
+  {
+  color: $alltextbluecolor;
+  border-bottom: 2px solid $alltextbluecolor;
+  padding-bottom: 5px;
+  font-weight: bold;
+  font-weight: bold;
   }

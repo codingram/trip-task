@@ -14,7 +14,7 @@
           </div>
         </b-col>
       </b-row>
-      <b-row class="div-border">
+      <b-row class="div-border m-0">
         <b-col
           ><span class="mr-3">
             <font-awesome-icon :icon="['fas', 'wifi']"
@@ -42,7 +42,7 @@
       </b-row>
       <div class="mx-auto div-bottom-border ">
         <b-row>
-          <b-col md="2" class="mr-4">
+          <b-col md="2" class="mr-4 pl-4">
             <div class="list-font p-2 ">
               <div class="pl-0">
                 <ul class="pl-0">

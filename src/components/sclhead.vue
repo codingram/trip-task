@@ -1,0 +1,47 @@
+  <template>
+   <div class="mb-4 srcol-head active mb-3">
+    <b-container fluid >
+      <div class=" mb-4 ">
+        <b-col md="10">
+    <b-row>
+      <div><b-col><a href="#table">ROOMS</a></b-col></div>
+      <div><b-col><a href="#facility">FACILITIES</a></b-col></div>
+      <div><b-col><a href="#">LOCATIONS</a></b-col></div>
+      <div><b-col><a href="#">POLICIES</a></b-col></div>
+      <div><b-col><a href="#review">RATINGS AND REVIEWS</a></b-col></div>
+</b-row>
+</b-col>
+</div>
+</b-container>
+
+<div id="table">
+<table1></table1>
+</div>
+<div id="facility">
+  <facilities></facilities>
+</div>
+<div id="review">
+  <reviewtab></reviewtab>
+</div>
+</div>
+
+</template>
+<script>
+import facilities from "@/components/facilities.vue";
+import table1 from "@/components/table.vue";
+import reviewtab from "@/components/reviewtab.vue";
+export default {
+  name: "NavBar",
+  components: {
+    facilities,
+    table1,
+    reviewtab
+  },
+  data() {
+    return {};
+  }
+};
+</script>
+<style lang="scss">
+@import "../assets/scss/Sstyle/table.scss";
+</style>

@@ -1,5 +1,5 @@
 <template>
-  <b-container fluid>
+  <b-container>
     <b-row>
       <b-col md="12">
         <b-tabs>
