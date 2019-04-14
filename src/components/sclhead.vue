@@ -1,5 +1,5 @@
   <template>
-   <div class="mb-4 srcol-head active mb-3">
+   <div class="mb-4 srcol-head active ">
     <b-container fluid >
       <div class=" mb-4 ">
         <b-col md="10">
@@ -43,5 +43,13 @@ export default {
 };
 </script>
 <style lang="scss">
-@import "../assets/scss/Sstyle/table.scss";
+ .srcol-head
+  {
+    border-bottom: 1px solid #8080805c;
+    box-shadow: 0px 9px 0px 1px #b1a8a812;
+    margin-bottom: 30px;
+    padding-left: 72px;
+    font-size: 13px;
+    font-weight: bold;
+  }
 </style>
