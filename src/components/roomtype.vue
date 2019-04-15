@@ -50,7 +50,7 @@
 }
 .div-padding {
      padding: 6px;
-    font-size: 12px;
+    font-size: 11px;
     color: #808080e8;
 }
 </style>

@@ -5,7 +5,7 @@
         <b-row class="mx-auto my-auto">
           <b-col md="6"> <breadcum></breadcum></b-col>
 
-          <b-col md="3">
+          <b-col md="6">
             <div class="outline-whole-row3">
               Hurry! Last few rooms remaining for your dates
             </div>
@@ -65,9 +65,9 @@
         </b-col>
         <b-col md="3" class="p-0">
           <div>
-            <b-row class="outline-whole-row mx-auto p-2">
+            <b-row class="outline-whole-row mx-auto pl-3 pr-3 pt-2 pb-2">
               <b-row class="whole-div-font-size ">
-                <b-col md="6">
+                <b-col md="6" class="pr-0">
                   <div class="text-left m-0 outline-inside-text">
                     <span class="bed-queen font-weight-bold"
                       >Standard room-queen Size bed</span
@@ -82,9 +82,9 @@
                     ><br />
                   </div>
                 </b-col>
-                <b-col md="6">
+                <b-col md="6" class="pl-0">
                   <div class="text-right">
-                    <span class="text-secondary price-per-night"
+                    <span class=" price-per-night-text price-per-night"
                       >Price Per Night for</span
                     ><br />
                     <span>2 Adults</span><br />
@@ -154,7 +154,7 @@
                             Ibis one Central Hotel
                           </div></b-col
                         >
-                        <span class="north-star my-auto">
+                        <span class="star-padding">
                           <font-awesome-icon
                             :icon="['fas', 'star']"/><font-awesome-icon
                             :icon="['fas', 'star']"/><font-awesome-icon
@@ -205,183 +205,5 @@ export default {
 };
 </script>
 <style lang="scss">
-@import "../assets/scss/_svariables.scss";
-.star-color {
-  color: #8080805c;
-}
-.swiper-style {
-  height: 270px;
-  background-image: url(../assets/ImagesS/roomimage.jpeg);
-  border-radius: 6px 0px 0px 6px;
-}
-.outline-whole-row {
-  border: 1px solid #8080807a;
-  font-size: 12px;
-  border-radius: 6px;
-  box-shadow: 0.01px 0.01px 0.01px 0.01px grey;
-}
-.outline-inside-text {
-  font-size: 10px;
-  color: $alltextbluecolor;
-  font-weight: bold;
-}
-.outline-button {
-  margin-left: 25px;
-}
-.img-row-p {
-  padding-left: 15px;
-  padding-right: 15px;
-  margin-bottom: 16px;
-}
-.outline-whole-row2 {
-  border: 1px solid #8080807a;
-  font-size: 12px;
-  margin-top: 10px;
-  height: 112px;
-  border-radius: 6px;
-}
-.outline-whole-row3 {
-  border: 1px solid #8080807a;
-  font-size: 11px;
-  padding: 3px;
-  width: 274px;
-  margin-top: 31px;
-  margin-left: 264px;
-  height: 28px;
-  text-align: center;
-  border-radius: 3px;
-  color: red;
-  background-color: #ff00002e;
-}
-.booknow-box-button {
-  background: $allgradientbluecolor;
-  border-radius: 20px;
-  width: 109px;
-  height: 29px;
-  border: none;
-  font-weight: bold;
-  font-size: 10px;
-  color: $textwhitecolor;
-}
-.swiper-button-prev,
-.swiper-button-next {
-  background-size: 16px 44px;
-}
-.div-back-image {
-  background: linear-gradient(rgba(13, 14, 14, 0.12), rgba(19, 21, 21, 0.83)),
-    url("../assets/ImagesS/rest.jpeg");
-
-  height: 118px;
-  width: 164px;
-}
-.font-rest {
-  color: white;
-  font-size: 10px;
-  margin-top: 87px;
-  margin-left: 11px;
-  font-weight: bold;
-}
-.div-back-image-room {
-  background: linear-gradient(rgba(13, 14, 14, 0.12), rgba(19, 21, 21, 0.83)),
-    url("../assets/ImagesS/room.jpeg");
-
-  height: 144px;
-  width: 340px;
-}
-.font-room {
-  color: white;
-  font-size: 10px;
-  margin-top: 108px;
-  font-weight: bold;
-}
-.row-top-margin {
-  margin-top: -8px;
-}
-.border-style {
-  border-top: 1px solid #80808057;
-  margin-left: 0px;
-  margin-right: 1px;
-  margin-top: 7px;
-  padding-top: 10px;
-}
-.bed-queen {
-  font-size: 11px;
-  color: $alltextbluecolor;
-}
-.price-per-night {
-  font-size: 10px;
-}
-.price-light-through {
-  text-decoration: line-through;
-}
-.price2 {
-  font-size: 17px;
-  color: $alltextbluecolor;
-}
-.save-price {
-  font-size: 9px;
-  color: $textredcolor;
-}
-.none-refun {
-  font-size: 9px;
-  color: $textredcolor;
-  font-weight: bold;
-}
-.room-only-font {
-  font-size: 9px;
-  color: $textgreencolor;
-  font-weight: bold;
-}
-.booknow-button {
-  padding: 0px;
-  margin-left: 65px;
-}
-.whole-div-font-size {
-  font-size: 9px;
-}
-.button-maring-left {
-  margin-left: 67px;
-}
-.advisor-button-sm {
-  background-color: $textgreencolor;
-  color: white;
-  height: 30px;
-  width: 56px;
-  border-radius: 5px;
-  text-align: center;
-  font-size: 15px;
-  padding-top: 3px;
-  margin-left: 23px;
-}
-.review-color {
-  color: $textgreencolor;
-  font-weight: bold;
-  font-size: 10px;
-}
-.review-margin {
-  margin-top: -7px;
-}
-.review-below {
-  font-size: 11px;
-  padding-bottom: 5px;
-}
-.north-star {
-  font-size: 10px;
-}
-.more-review-font {
-  color: $alltextbluecolor;
-}
-.ibis-font {
-  font-size: 21px;
-  margin-top: 5px;
-}
-.ibis-hotel-below {
-  color: $alltextbluecolor;
-  font-size: 13px;
-  margin-top: -7px;
-}
-.sec-th-margin {
-  margin-left: 6px;
-  border-radius: 3px;
-}
+@import "../assets/scss/Sstyle/roominfo.scss";
 </style>

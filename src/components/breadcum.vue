@@ -10,12 +10,10 @@ export default {
     return {
       items: [
         {
-          text: "Home",
-          href: "#"
+          text: "Home"
         },
         {
-          text: "Hotel in Dubai",
-          href: "#"
+          text: "Hotel in Dubai"
         },
         {
           text: "Ibis One Central Hotel",
@@ -39,5 +37,8 @@ export default {
   padding-right: 0.5rem;
   color: #6c757d;
   content: ">" !important;
+}
+.breadcrum-style:hover {
+  text-decoration: none;
 }
 </style>

@@ -9,7 +9,9 @@
             </div>
             <div class="heading2-font pb-4 font-weight-bold">
               Facilities here have been
-              <span class="heading2-span-font font-weight-bold">rated 4 by 16 guests</span>
+              <span class="heading2-span-font font-weight-bold"
+                >rated 4 by 16 guests</span
+              >
             </div>
           </div>
         </b-col>
@@ -48,43 +50,57 @@
                 <ul class="pl-0">
                   <div>
                     <li>
-                      <div class="text-secondary p-2" href="#">
-                        Bussiness Center
+                      <div class="p-2">
+                        <a href="#" class="text-hover-facility"
+                          >Bussiness Center</a
+                        >
                       </div>
                     </li>
 
                     <li>
-                      <div class="text-secondary p-2" href="#">
-                        Air-conditing-central
+                      <div class="text-secondary p-2">
+                        <a href="#" class="text-hover-facility"
+                          >Air-conditing-central</a
+                        >
                       </div>
                     </li>
 
                     <li>
-                      <div class="text-secondary p-2" href="#">
-                        Iron and Ironing board
+                      <div class="text-secondary p-2">
+                        <a href="#" class="text-hover-facility"
+                          >Iron and Ironing board</a
+                        >
                       </div>
                     </li>
 
                     <li>
-                      <div class="text-secondary p-2" href="#">
-                        Fitness Facilities
+                      <div class="text-secondary p-2">
+                        <a href="#" class="text-hover-facility"
+                          >Fitness Facilities</a
+                        >
                       </div>
                     </li>
 
                     <li>
-                      <div class="text-secondary p-2" href="#">
-                        Laundry Service
+                      <div class="text-secondary p-2">
+                        <a href="#" class="text-hover-facility">
+                          Laundry Service</a
+                        >
                       </div>
                     </li>
 
                     <li>
-                      <div class="text-secondary p-2 " href="#">
-                        Laundry Facilities
+                      <div class="text-secondary p-2 ">
+                        <a href="#" class="text-hover-facility">
+                          Laundry Facilities</a
+                        >
                       </div>
                     </li>
 
                     <li>
-                      <div class="text-secondary p-2" href="#">Terrace</div>
+                      <div class="text-secondary p-2">
+                        <a href="#" class="text-hover-facility">Terrace</a>
+                      </div>
                     </li>
                   </div>
                 </ul>
@@ -97,43 +113,57 @@
                 <ul class="pl-0">
                   <div>
                     <li>
-                      <div class="text-secondary p-2" href="#">
-                        Bussiness Center
+                      <div class="p-2">
+                        <a href="#" class="text-hover-facility"
+                          >Bussiness Center</a
+                        >
                       </div>
                     </li>
 
                     <li>
-                      <div class="text-secondary p-2" href="#">
-                        Air-conditing-central
+                      <div class="text-secondary p-2">
+                        <a href="#" class="text-hover-facility"
+                          >Air-conditing-central</a
+                        >
                       </div>
                     </li>
 
                     <li>
-                      <div class="text-secondary p-2" href="#">
-                        Iron and Ironing board
+                      <div class="text-secondary p-2">
+                        <a href="#" class="text-hover-facility"
+                          >Iron and Ironing board</a
+                        >
                       </div>
                     </li>
 
                     <li>
-                      <div class="text-secondary p-2" href="#">
-                        Fitness Facilities
+                      <div class="text-secondary p-2">
+                        <a href="#" class="text-hover-facility"
+                          >Fitness Facilities</a
+                        >
                       </div>
                     </li>
 
                     <li>
-                      <div class="text-secondary p-2" href="#">
-                        Laundry Service
+                      <div class="text-secondary p-2">
+                        <a href="#" class="text-hover-facility">
+                          Laundry Service</a
+                        >
                       </div>
                     </li>
 
                     <li>
-                      <div class="text-secondary p-2 " href="#">
-                        Laundry Facilities
+                      <div class="text-secondary p-2 ">
+                        <a href="#" class="text-hover-facility">
+                          Laundry Facilities</a
+                        >
                       </div>
                     </li>
 
                     <li>
-                      <div class="text-secondary p-2" href="#">Terrace</div>
+                      <div class="text-secondary p-2">
+                        <a href="#" class="text-hover-facility">Terrace</a>
+                      </div>
                     </li>
                   </div>
                 </ul>
@@ -146,43 +176,57 @@
                 <ul class="pl-0">
                   <div>
                     <li>
-                      <div class="text-secondary p-2" href="#">
-                        Bussiness Center
+                      <div class="p-2">
+                        <a href="#" class="text-hover-facility"
+                          >Bussiness Center</a
+                        >
                       </div>
                     </li>
 
                     <li>
-                      <div class="text-secondary p-2" href="#">
-                        Air-conditing-central
+                      <div class="text-secondary p-2">
+                        <a href="#" class="text-hover-facility"
+                          >Air-conditing-central</a
+                        >
                       </div>
                     </li>
 
                     <li>
-                      <div class="text-secondary p-2" href="#">
-                        Iron and Ironing board
+                      <div class="text-secondary p-2">
+                        <a href="#" class="text-hover-facility"
+                          >Iron and Ironing board</a
+                        >
                       </div>
                     </li>
 
                     <li>
-                      <div class="text-secondary p-2" href="#">
-                        Fitness Facilities
+                      <div class="text-secondary p-2">
+                        <a href="#" class="text-hover-facility"
+                          >Fitness Facilities</a
+                        >
                       </div>
                     </li>
 
                     <li>
-                      <div class="text-secondary p-2" href="#">
-                        Laundry Service
+                      <div class="text-secondary p-2">
+                        <a href="#" class="text-hover-facility">
+                          Laundry Service</a
+                        >
                       </div>
                     </li>
 
                     <li>
-                      <div class="text-secondary p-2 " href="#">
-                        Laundry Facilities
+                      <div class="text-secondary p-2 ">
+                        <a href="#" class="text-hover-facility">
+                          Laundry Facilities</a
+                        >
                       </div>
                     </li>
 
                     <li>
-                      <div class="text-secondary p-2" href="#">Terrace</div>
+                      <div class="text-secondary p-2">
+                        <a href="#" class="text-hover-facility">Terrace</a>
+                      </div>
                     </li>
                   </div>
                 </ul>
@@ -195,43 +239,57 @@
                 <ul class="pl-0">
                   <div>
                     <li>
-                      <div class="text-secondary p-2" href="#">
-                        Bussiness Center
+                      <div class="p-2">
+                        <a href="#" class="text-hover-facility"
+                          >Bussiness Center</a
+                        >
                       </div>
                     </li>
 
                     <li>
-                      <div class="text-secondary p-2" href="#">
-                        Air-conditing-central
+                      <div class="text-secondary p-2">
+                        <a href="#" class="text-hover-facility"
+                          >Air-conditing-central</a
+                        >
                       </div>
                     </li>
 
                     <li>
-                      <div class="text-secondary p-2" href="#">
-                        Iron and Ironing board
+                      <div class="text-secondary p-2">
+                        <a href="#" class="text-hover-facility"
+                          >Iron and Ironing board</a
+                        >
                       </div>
                     </li>
 
                     <li>
-                      <div class="text-secondary p-2" href="#">
-                        Fitness Facilities
+                      <div class="text-secondary p-2">
+                        <a href="#" class="text-hover-facility"
+                          >Fitness Facilities</a
+                        >
                       </div>
                     </li>
 
                     <li>
-                      <div class="text-secondary p-2" href="#">
-                        Laundry Service
+                      <div class="text-secondary p-2">
+                        <a href="#" class="text-hover-facility">
+                          Laundry Service</a
+                        >
                       </div>
                     </li>
 
                     <li>
-                      <div class="text-secondary p-2 " href="#">
-                        Laundry Facilities
+                      <div class="text-secondary p-2 ">
+                        <a href="#" class="text-hover-facility">
+                          Laundry Facilities</a
+                        >
                       </div>
                     </li>
 
                     <li>
-                      <div class="text-secondary p-2" href="#">Terrace</div>
+                      <div class="text-secondary p-2">
+                        <a href="#" class="text-hover-facility">Terrace</a>
+                      </div>
                     </li>
                   </div>
                 </ul>
@@ -244,43 +302,57 @@
                 <ul class="pl-0">
                   <div>
                     <li>
-                      <div class="text-secondary p-2" href="#">
-                        Bussiness Center
+                      <div class="p-2">
+                        <a href="#" class="text-hover-facility"
+                          >Bussiness Center</a
+                        >
                       </div>
                     </li>
 
                     <li>
-                      <div class="text-secondary p-2" href="#">
-                        Air-conditing-central
+                      <div class="text-secondary p-2">
+                        <a href="#" class="text-hover-facility"
+                          >Air-conditing-central</a
+                        >
                       </div>
                     </li>
 
                     <li>
-                      <div class="text-secondary p-2" href="#">
-                        Iron and Ironing board
+                      <div class="text-secondary p-2">
+                        <a href="#" class="text-hover-facility"
+                          >Iron and Ironing board</a
+                        >
                       </div>
                     </li>
 
                     <li>
-                      <div class="text-secondary p-2" href="#">
-                        Fitness Facilities
+                      <div class="text-secondary p-2">
+                        <a href="#" class="text-hover-facility"
+                          >Fitness Facilities</a
+                        >
                       </div>
                     </li>
 
                     <li>
-                      <div class="text-secondary p-2" href="#">
-                        Laundry Service
+                      <div class="text-secondary p-2">
+                        <a href="#" class="text-hover-facility">
+                          Laundry Service</a
+                        >
                       </div>
                     </li>
 
                     <li>
-                      <div class="text-secondary p-2 " href="#">
-                        Laundry Facilities
+                      <div class="text-secondary p-2 ">
+                        <a href="#" class="text-hover-facility">
+                          Laundry Facilities</a
+                        >
                       </div>
                     </li>
 
                     <li>
-                      <div class="text-secondary p-2" href="#">Terrace</div>
+                      <div class="text-secondary p-2">
+                        <a href="#" class="text-hover-facility">Terrace</a>
+                      </div>
                     </li>
                   </div>
                 </ul>
@@ -295,7 +367,8 @@
             Verified Ratings & Reviews for Ibis One Central Hotel
           </div>
           <div class="verfiy-font-below pb-2">
-            Take a look at <span class="font-weight-bold">Verified</span> rating and reviews posted by guests
+            Take a look at <span class="font-weight-bold">Verified</span> rating
+            and reviews posted by guests
           </div>
         </b-col>
       </b-row>
@@ -316,7 +389,7 @@
 .heading1-font {
   font-size: 19px;
   font-weight: bold;
-  color:#443d3d;
+  color: #443d3d;
 }
 .heading2-font {
   font-size: 12px;
@@ -337,6 +410,13 @@
 }
 .verfiy-font-below {
   font-size: 13px;
-      color: #808080e8;
+  color: #808080e8;
+}
+.text-hover-facility:hover {
+  text-decoration: none;
+  color: #6c757d;
+}
+.text-hover-facility {
+  color: #6c757d;
 }
 </style>

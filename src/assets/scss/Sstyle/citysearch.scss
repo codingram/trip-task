@@ -10,27 +10,32 @@
   color: $alltextbluecolor;
 }
 .boxtext-font-size {
-  font-size: 14px;
-  color: $textwhitecolor;
+  font-size: 12px;
+  color: #fff;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  width: 112px;
+  height: 1.2em;
+  white-space: nowrap;
 }
 .boxhead-style {
   display: inline;
   width: 144px;
   border-radius: 2px;
-  height: 44px;
+  height: 38px;
   text-align: left;
 }
 .city-display {
   display: inline-block;
 }
 .search-box-margin {
-  margin-left: -336px;
+  margin-left: -377px;
   text-align: center;
   background: $allgradientbluecolor;
   color: $textwhitecolor;
   border-radius: 20px;
-  width: 168px;
-  height: 37px;
+  width: 148px;
+  height: 35px;
   border: none;
   font-weight: bold;
   font-size: 19px;

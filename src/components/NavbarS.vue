@@ -15,44 +15,65 @@
           <div class="icon-text-font">
             <b-collapse id="nav-collapse" is-nav>
               <b-navbar-nav>
-                <b-nav-item href="#" class=" text-center">
-                  <font-awesome-icon :icon="['fas', 'plane']" />
+                <b-nav-item href="#" class=" text-center pr-2">
+                  <span class="icon-img-hover"
+                    ><font-awesome-icon :icon="['fas', 'plane']"
+                  /></span>
                   <span class="icon-display"> Flights </span>
                 </b-nav-item>
-                <b-nav-item href="#" class=" text-center">
-                  <font-awesome-icon :icon="['fas', 'hotel']" />
+                <b-nav-item href="#" class=" text-center pr-2">
+                  <span class="icon-img-hover active"
+                    ><font-awesome-icon :icon="['fas', 'hotel']"
+                  /></span>
                   <span class="icon-display"> Hotels </span>
                 </b-nav-item>
-                <b-nav-item href="#" class=" text-center">
-                  <font-awesome-icon :icon="['fas', 'parachute-box']" />
+                <b-nav-item href="#" class=" text-center pr-2">
+                  <span class="icon-img-hover"
+                    ><font-awesome-icon :icon="['fas', 'parachute-box']"
+                  /></span>
                   <span class="icon-display"> Holidays </span>
                 </b-nav-item>
-                <b-nav-item href="#" class=" text-center">
-                  <font-awesome-icon :icon="['fas', 'train']" />
+                <b-nav-item href="#" class=" text-center pr-2">
+                  <span class="icon-img-hover">
+                    <font-awesome-icon :icon="['fas', 'train']"
+                  /></span>
                   <span class="icon-display"> Trains </span>
                 </b-nav-item>
-                <b-nav-item href="#" class=" text-center">
-                  <font-awesome-icon :icon="['fas', 'bus']" />
+                <b-nav-item href="#" class=" text-center pr-2">
+                  <span class="icon-img-hover">
+                    <font-awesome-icon :icon="['fas', 'bus']"
+                  /></span>
                   <span class="icon-display"> Buses </span>
                 </b-nav-item>
-                <b-nav-item href="#" class=" text-center">
-                  <font-awesome-icon :icon="['fas', 'taxi']" />
+                <b-nav-item href="#" class=" text-center pr-2">
+                  <span class="icon-img-hover">
+                    <font-awesome-icon :icon="['fas', 'taxi']"
+                  /></span>
                   <span class="icon-display"> Cabs </span>
                 </b-nav-item>
-                <b-nav-item href="#" class=" text-center">
-                  <font-awesome-icon :icon="['fas', 'passport']" />
+                <b-nav-item href="#" class=" text-center pr-2">
+                  <span class="icon-img-hover">
+                    <font-awesome-icon :icon="['fas', 'passport']"
+                  /></span>
+
                   <span class="icon-display"> Visa </span>
                 </b-nav-item>
-                <b-nav-item href="#" class=" text-center">
-                  <font-awesome-icon :icon="['fas', 'home']" />
+                <b-nav-item href="#" class=" text-center pr-2">
+                  <span class="icon-img-hover"
+                    ><font-awesome-icon :icon="['fas', 'home']"
+                  /></span>
                   <span class="icon-display"> Homestays </span>
                 </b-nav-item>
-                <b-nav-item href="#" class=" text-center">
-                  <font-awesome-icon :icon="['fas', 'gift']" />
+                <b-nav-item href="#" class=" text-center pr-2">
+                  <span class="icon-img-hover">
+                    <font-awesome-icon :icon="['fas', 'gift']"
+                  /></span>
                   <span class="icon-display"> Giftcards </span>
                 </b-nav-item>
-                <b-nav-item href="#" class=" text-center">
-                  <font-awesome-icon :icon="['fas', 'ellipsis-h']" />
+                <b-nav-item href="#" class=" text-center pr-2">
+                  <span class="icon-img-hover"
+                    ><font-awesome-icon :icon="['fas', 'ellipsis-h']"
+                  /></span>
                   <span class="icon-display"> More </span>
                 </b-nav-item>
               </b-navbar-nav>
@@ -65,12 +86,14 @@
         <b-col>
           <b-row>
             <button class="my-button active">my</button>
-            <b-col>
-              <div class="login-font-size">
-                <span>Login or</span><br />
-                <span> Create Account </span>
-              </div>
-            </b-col>
+            <div>
+              <b-col class="pl-2">
+                <div class="login-font-size font-weight-bold">
+                  <a href="#" class="login-font-size">Login or</a><br />
+                  <a href="#" class="login-font-size"> Create Account </a>
+                </div>
+              </b-col>
+            </div>
           </b-row>
         </b-col>
       </div>

@@ -1,0 +1,191 @@
+@import "../assets/scss/_svariables.scss";
+.star-color {
+  color: #8080805c;
+}
+.swiper-style {
+  height: 270px;
+  background-image: url(../assets/ImagesS/roomimage.jpeg);
+  border-radius: 3px 0px 0px 3px;
+}
+.outline-whole-row {
+  border: 1px solid #8080807a;
+  font-size: 12px;
+  border-radius: 6px;
+  box-shadow: 0.01px 0.01px 0.01px 0.01px grey;
+}
+.outline-inside-text {
+  font-size: 9px;
+  color: $alltextbluecolor;
+  font-weight: bold;
+}
+.outline-button {
+  margin-left: 25px;
+}
+.img-row-p {
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-bottom: 16px;
+}
+.outline-whole-row2 {
+  border: 1px solid #8080807a;
+  font-size: 12px;
+  margin-top: 10px;
+  height: 112px;
+  border-radius: 6px;
+}
+.outline-whole-row3 {
+  border: 1px solid #8080807a;
+  font-size: 11px;
+  padding: 3px;
+  width: 274px;
+  margin-top: 25px;
+  margin-left: 264px;
+  height: 28px;
+  text-align: center;
+  border-radius: 3px;
+  color: red;
+  background-color: #ff00002e;
+}
+.price-per-night-text
+{
+    color: #6c757da6;
+}
+.booknow-box-button {
+  background: $allgradientbluecolor;
+  border-radius: 20px;
+  width: 101px;
+  height: 23px;
+  border: none;
+  font-weight: bold;
+  font-size: 10px;
+  color: $textwhitecolor;
+}
+.swiper-button-prev,
+.swiper-button-next {
+  background-size: 16px 44px;
+}
+.div-back-image {
+  background: linear-gradient(rgba(13, 14, 14, 0.12), rgba(19, 21, 21, 0.83)),
+    url("../assets/ImagesS/rest.jpeg");
+
+  height: 118px;
+  width: 164px;
+}
+.font-rest {
+  color: white;
+  font-size: 10px;
+  margin-top: 87px;
+  margin-left: 11px;
+  font-weight: bold;
+}
+.div-back-image-room {
+  background: linear-gradient(rgba(13, 14, 14, 0.12), rgba(19, 21, 21, 0.28)),
+    url("../assets/ImagesS/room.jpeg");
+
+  height: 144px;
+  width: 340px;
+  border-radius: 0px 3px 3px 0px;
+}
+.font-room {
+  color: white;
+  font-size: 10px;
+  margin-top: 108px;
+  font-weight: bold;
+}
+.row-top-margin {
+  margin-top: -8px;
+}
+.border-style {
+  border-top: 1px solid #80808057;
+  margin-left: 0px;
+  margin-right: 1px;
+  margin-top: 7px;
+  padding-top: 7px;
+  padding-bottom: 8px;
+}
+.bed-queen {
+  font-size: 11px;
+  color: $alltextbluecolor;
+}
+.price-per-night {
+  font-size: 10px;
+}
+.price-light-through {
+  text-decoration: line-through;
+}
+.price2 {
+  font-size: 17px;
+  color: $alltextbluecolor;
+}
+.save-price {
+  font-size: 9px;
+  color: $textredcolor;
+}
+.none-refun {
+  font-size: 9px;
+  color: $textredcolor;
+  font-weight: bold;
+}
+.room-only-font {
+  font-size: 9px;
+  color: $textgreencolor;
+  font-weight: bold;
+}
+.booknow-button {
+  padding: 0px;
+  margin-left: 65px;
+}
+.whole-div-font-size {
+  font-size: 9px;
+}
+.button-maring-left {
+  margin-left: 67px;
+}
+.advisor-button-sm {
+  background-color: $textgreencolor;
+  color: white;
+  height: 30px;
+  width: 56px;
+  border-radius: 5px;
+  text-align: center;
+  font-size: 15px;
+  padding-top: 3px;
+  margin-left: 23px;
+}
+.review-color {
+  color: $textgreencolor;
+  font-weight: bold;
+  font-size: 10px;
+}
+.review-margin {
+  margin-top: -7px;
+}
+.review-below {
+  font-size: 11px;
+  padding-bottom: 5px;
+}
+.north-star {
+  font-size: 10px;
+ 
+}
+.star-padding{
+  font-size: 9px;
+  margin-left: -7px;
+  margin-top: 15px;
+}
+.more-review-font {
+  color: $alltextbluecolor;
+}
+.ibis-font {
+  font-size: 21px;
+  margin-top: 5px;
+}
+.ibis-hotel-below {
+  color: $alltextbluecolor;
+  font-size: 13px;
+  margin-top: -7px;
+}
+.sec-th-margin {
+  margin-left: 6px;
+  border-radius: 3px;
+}

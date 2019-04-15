@@ -1,7 +1,7 @@
 <template>
   <div class="p-3 pl-4 whole-div-font">
     <b-row>
-      <div class="pr-3 font-weight-bold">OPTION 1</div>
+      <div class="pr-3 font-weight-bold option-head-color">OPTION 1</div>
     </b-row>
     <b-row>
       <div></div>

@@ -20,7 +20,7 @@
                           <div class="m-2">
                             <b-row>
                               <div
-                                class="col-blue-color p-2 pl-0 boxhead-style"
+                                class="col-blue-color p-1 pl-0 boxhead-style"
                               >
                                 <div class="boxhead-font-size ">
                                   {{ city.cityhead }}
@@ -51,17 +51,13 @@
   </div>
 </template>
 <script>
-import Datepicker from "vuejs-datepicker";
 export default {
   data() {
     return {
-      components: {
-        Datepicker
-      },
       cities: [
         {
           cityhead: "CITY, AREA, OR HOTEL",
-          cityname: "Ibis One Central..."
+          cityname: "Ibis One Central Hotel"
         },
         {
           cityhead: "CHECK-IN",
