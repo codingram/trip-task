@@ -1,7 +1,7 @@
 <template>
   <div>
     <NavbarR></NavbarR>
-    <div class="body-div">
+    <div class="body-div pt-1">
       <SearchArea></SearchArea>
       <b-container>
         <div class="div-85 mx-auto">
@@ -10,9 +10,9 @@
               <LeftsideTitle></LeftsideTitle>
               <CompoListSelector></CompoListSelector>
               <CheckboxComponentscroll></CheckboxComponentscroll>
-              <CheckboxComponentscroll
+              <CheckboxComponentscroll2
                 filtertoptitle="Hotel Facilities"
-              ></CheckboxComponentscroll>
+              ></CheckboxComponentscroll2>
               <Filterinput></Filterinput>
               <CheckboxComponentnoscroll></CheckboxComponentnoscroll>
               <ListComponent></ListComponent>
@@ -35,6 +35,7 @@ import Hotelcard from "@/components/listcomponents/Hotelcard.vue";
 import LeftsideTitle from "@/components/listcomponents/LeftsideTitle.vue";
 import CompoListSelector from "@/components/listcomponents/CompoListSelector.vue";
 import CheckboxComponentscroll from "@/components/listcomponents/CheckboxComponentscroll.vue";
+import CheckboxComponentscroll2 from "@/components/listcomponents/CheckboxComponentscroll2.vue";
 import CheckboxComponentnoscroll from "@/components/listcomponents/CheckboxComponentnoscroll.vue";
 import Filterinput from "@/components/listcomponents/Filterinput.vue";
 import ListComponent from "@/components/listcomponents/ListComponent.vue";
@@ -48,6 +49,7 @@ export default {
     LeftsideTitle,
     CompoListSelector,
     CheckboxComponentscroll,
+    CheckboxComponentscroll2,
     CheckboxComponentnoscroll,
     Filterinput,
     ListComponent,

@@ -8,14 +8,16 @@
           :key="starRating.index"
         >
           <div class="checkbox-heading">
-            {{ starRating.name }}
+            <label :for="starRating.name"> {{ starRating.name }} </label>
             <span class="float-right">
-              <input class="checkbox-edit" type="checkbox" />
+              <input
+                class="checkbox-edit"
+                type="checkbox"
+                :id="starRating.name"
+              />
+              <label :for="starRating.name"></label>
             </span>
           </div>
-        </div>
-        <div class="showMore invisible mt-2">
-          <a href="#" class="font-weight-bold">Show More</a>
         </div>
       </template>
     </FilterCheckbox>
@@ -33,22 +35,28 @@ export default {
     return {
       starRatings: [
         {
-          name: "5 Star"
+          name: "5 Star",
+          id: "1star5"
         },
         {
-          name: "4 Star"
+          name: "4 Star",
+          id: "1star4"
         },
         {
-          name: "3 Star"
+          name: "3 Star",
+          id: "1star3"
         },
         {
-          name: "2 Star"
+          name: "2 Star",
+          id: "1star2"
         },
         {
-          name: "1 Star"
+          name: "1 Star",
+          id: "1star1"
         },
         {
-          name: "Budget"
+          name: "Budget",
+          id: "1starb"
         }
       ]
     };
@@ -65,5 +73,39 @@ export default {
   height: 162px;
   padding: 0px;
   overflow-y: scroll;
+}
+
+label {
+  margin: 0;
+  cursor: pointer;
+}
+
+input[type="checkbox"] + label {
+  display: block;
+  cursor: pointer;
+}
+
+input[type="checkbox"] {
+  display: none;
+}
+
+input[type="checkbox"] + label:before {
+  content: "\2714";
+  border: 1px solid $dimfont;
+  border-radius: 0px;
+  display: inline-block;
+  width: 18px;
+  height: 18px;
+  padding-left: 4px;
+  padding-bottom: 4px;
+  vertical-align: bottom;
+  color: transparent;
+  transition: 0.2s;
+}
+
+input[type="checkbox"]:checked + label:before {
+  background-color: $orangebtn;
+  border-color: $orangebtn;
+  color: #fff;
 }
 </style>

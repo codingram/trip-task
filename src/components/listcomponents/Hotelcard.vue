@@ -120,7 +120,7 @@
             </div>
           </div>
         </b-col>
-        <b-col md="2" class="card-hotel-bookingSide px-2">
+        <b-col md="2" class="card-hotel-bookingSide">
           <div>
             <span class="mmt-assured-logo">
               <font-awesome-icon
@@ -139,7 +139,7 @@
             <span class="pricetime">per room/night</span>
           </div>
           <div v-if="card.breakfast">
-            <div class="hotel-breakfast mb-2">
+            <div class="hotel-breakfast mb-1">
               <span class="breakfast">Includes Breakfast</span>
             </div>
           </div>
@@ -149,7 +149,7 @@
             </div>
           </div>
           <div class="choosebtndiv">
-            <button class="btn choosebtn px-3">Choose Dates</button>
+            <button class="btn choosebtn">Choose Dates</button>
           </div>
         </b-col>
       </b-row>
@@ -511,7 +511,7 @@ export default {
         color: $greentext;
         border: 1px solid $greentext;
         border-radius: 4px;
-        padding: 0 2px;
+        padding: 0px 0px 0px 2px;
       }
     }
     .card-hotel-description {
@@ -553,17 +553,18 @@ export default {
 .card-hotel-bookingSide {
   line-height: 19px;
   background-color: $bodybackgroundcolor;
+  padding: 0 13px;
   .mmt-assured-logo {
     background-color: $mmtAssuredbg;
     font-size: 9px;
     color: #fff;
     font-weight: bold;
-    padding: 5px 6px;
+    padding: 5px 4px;
 
     .bookmarkicon {
-      font-size: 25px;
+      font-size: 24px;
       position: relative;
-      top: 9px;
+      top: 8px;
       margin-right: 2px;
       color: $mmtAssuredTick;
     }
@@ -599,7 +600,6 @@ export default {
 
   .hotel-freeCancellation {
     text-align: right;
-    padding-right: 5px;
     .freeCancellation {
       font-size: 10px;
       color: $greentext;
@@ -612,6 +612,8 @@ export default {
       background-color: $orangebtn;
       color: #fff;
       font-size: 10px;
+      border-radius: 2px;
+      width: 100%;
     }
   }
 }

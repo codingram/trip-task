@@ -4,18 +4,18 @@
       <template slot="checkboxLoopData">
         <div
           class="border-bottom"
-          v-for="staring in starings"
-          :key="staring.index"
+          v-for="starRating in starRatings"
+          :key="starRating.index"
         >
           <div class="checkbox-heading">
-            <label :for="staring.uniqid"> {{ staring.name }} </label>
+            <label :for="starRating.id"> {{ starRating.name }} </label>
             <span class="float-right">
               <input
                 class="checkbox-edit"
                 type="checkbox"
-                :id="staring.uniqid"
+                :id="starRating.id"
               />
-              <label :for="staring.uniqid"></label>
+              <label :for="starRating.id"></label>
             </span>
           </div>
         </div>
@@ -36,18 +36,30 @@ export default {
   },
   data() {
     return {
-      starings: [
+      starRatings: [
         {
           name: "5 Star",
-          uniqid: "2star5"
+          id: "3star5"
         },
         {
           name: "4 Star",
-          uniqid: "2star4"
+          id: "3star4"
         },
         {
           name: "3 Star",
-          uniqid: "2star3"
+          id: "3star3"
+        },
+        {
+          name: "2 Star",
+          id: "3star2"
+        },
+        {
+          name: "1 Star",
+          id: "3star1"
+        },
+        {
+          name: "Budget",
+          id: "3starb"
         }
       ]
     };
@@ -63,6 +75,7 @@ export default {
   color: $dimfont;
   height: 162px;
   padding: 0px;
+  overflow-y: scroll;
 }
 
 label {
