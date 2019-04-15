@@ -1,17 +1,13 @@
 <template>
   <div>
     <b-container>
-      <div>
-        <b-row class="mx-auto my-auto">
-          <b-col md="6"> <breadcum></breadcum></b-col>
+      <b-row class="mx-auto">
+        <div><breadcum></breadcum></div>
+        <div class="outline-whole-row3">
+          Hurry! Last few rooms remaining for your dates
+        </div>
+      </b-row>
 
-          <b-col md="6">
-            <div class="outline-whole-row3">
-              Hurry! Last few rooms remaining for your dates
-            </div>
-          </b-col>
-        </b-row>
-      </div>
       <b-row class="p-0 m-0">
         <b-col md="5" class="p-0">
           <div class="p-0">

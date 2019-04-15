@@ -5,35 +5,35 @@
         <b-col md="10">
           <div>
             <b-row>
-              <div id="f" class="pb-3">
+              <div id="f" class="pb-2">
                 <b-col
                   ><a href="#table" class="link-text-scroll text-center m-3"
                     >ROOMS</a
                   ></b-col
                 >
               </div>
-              <div id="f" class="pb-3">
+              <div id="f" class="pb-2">
                 <b-col
                   ><a href="#" class="link-text-scroll text-center m-3 "
                     >FACILITIES</a
                   ></b-col
                 >
               </div>
-              <div id="f" class="pb-3">
+              <div id="f" class="pb-2">
                 <b-col
                   ><a href="#" class="link-text-scroll text-center m-3"
                     >LOCATIONS</a
                   ></b-col
                 >
               </div>
-              <div id="f" class="pb-3">
+              <div id="f" class="pb-2">
                 <b-col
                   ><a href="#" class="link-text-scroll text-center m-3"
                     >POLICIES</a
                   ></b-col
                 >
               </div>
-              <div id="f" class="pb-3">
+              <div id="f" class="pb-2">
                 <b-col
                   ><a href="#review" class="link-text-scroll text-center m-3"
                     >RATINGS AND REVIEWS</a

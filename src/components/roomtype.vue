@@ -9,8 +9,8 @@
           <div class="p-3 text-size text-secondary ">
             <div></div>
             <span class="div-padding"
-              ><font-awesome-icon :icon="['fas', 'check']" /> Hot/cold
-              Running Water</span
+              ><font-awesome-icon :icon="['fas', 'check']" /> Hot/cold Running
+              Water</span
             >
 
             <div class="div-padding">
@@ -22,8 +22,8 @@
 
             <div></div>
             <div class="div-padding">
-              <font-awesome-icon :icon="['fas', 'shower']" /> Shower
-              Facility Available
+              <font-awesome-icon :icon="['fas', 'shower']" /> Shower Facility
+              Available
             </div>
 
             <div class="about-room font-weight-bold pt-2">
@@ -49,8 +49,8 @@
   font-weight: 100;
 }
 .div-padding {
-     padding: 6px;
-    font-size: 11px;
-    color: #808080e8;
+  padding: 6px;
+  font-size: 11px;
+  color: #808080e8;
 }
 </style>

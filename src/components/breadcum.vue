@@ -1,7 +1,5 @@
 <template>
-  <b-row>
-    <b-breadcrumb :items="items" class="breadcrum-style"></b-breadcrumb>
-  </b-row>
+  <b-breadcrumb :items="items" class="breadcrum-style"></b-breadcrumb>
 </template>
 
 <script>
@@ -27,18 +25,12 @@ export default {
 <style lang="scss">
 .breadcrum-style {
   background-color: white;
-  padding-bottom: 0px;
-  padding-top: 18px;
-  padding-left: 0px;
-  font-size: 13px;
+  font-size: 10px;
 }
 .breadcrumb-item + .breadcrumb-item::before {
   display: inline-block;
   padding-right: 0.5rem;
   color: #6c757d;
   content: ">" !important;
-}
-.breadcrum-style:hover {
-  text-decoration: none;
 }
 </style>
