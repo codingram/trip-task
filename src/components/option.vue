@@ -5,19 +5,19 @@
       <button class="recomm-button">recommended</button>
     </b-row>
     <b-row>
-     
       <div class="room-only-color pb-1 pt-3 pl-2">
         <span class="mr-2">
           <font-awesome-icon :icon="['fas', 'times-circle']"
         /></span>
-       <span class="font-weight-bold"> Room Only</span>
+        <span class="font-weight-bold"> Room Only</span>
       </div>
     </b-row>
     <b-row>
       <div class="pb-1 pt-3 pl-2 none-refund">
-         <span class="mr-2">
+        <span class="mr-2">
           <font-awesome-icon :icon="['fas', 'times-circle']"
-        /></span> <span class="font-weight-bold">Non-Refundable</span>
+        /></span>
+        <span class="font-weight-bold">Non-Refundable</span>
       </div>
     </b-row>
     <b-row>
