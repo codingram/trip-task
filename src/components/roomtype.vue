@@ -9,24 +9,24 @@
           <div class="p-3 text-size text-secondary ">
             <div></div>
             <span class="div-padding"
-              ><font-awesome-icon :icon="['fas', 'times-circle']" /> Hot/cold
+              ><font-awesome-icon :icon="['fas', 'check']" /> Hot/cold
               Running Water</span
             >
 
             <div class="div-padding">
-              <font-awesome-icon :icon="['fas', 'times-circle']" /> Desk in Room
+              <font-awesome-icon :icon="['fas', 'torii-gate']" /> Desk in Room
             </div>
             <div class="div-padding">
-              <font-awesome-icon :icon="['fas', 'times-circle']" />WIFI
+              <font-awesome-icon :icon="['fas', 'check']" /> WIFI
             </div>
 
             <div></div>
             <div class="div-padding">
-              <font-awesome-icon :icon="['fas', 'times-circle']" />Shower
-              Facilities Available
+              <font-awesome-icon :icon="['fas', 'shower']" /> Shower
+              Facility Available
             </div>
 
-            <div class="about-room font-weight-bold">
+            <div class="about-room font-weight-bold pt-2">
               MORE ABOUT THIS ROOM--->
             </div>
           </div>
@@ -49,6 +49,8 @@
   font-weight: 100;
 }
 .div-padding {
-  padding: 6px;
+     padding: 6px;
+    font-size: 12px;
+    color: #808080e8;
 }
 </style>

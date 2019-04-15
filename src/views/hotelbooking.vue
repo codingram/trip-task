@@ -4,20 +4,16 @@
     <citysearch></citysearch>
     <roominfo></roominfo>
     <slider2></slider2>
-    <tabs1></tabs1>
-    <facilities></facilities>
-    <reviewtab></reviewtab>
+    <scrolltab></scrolltab>
   </div>
 </template>
 
 <script>
 import NavbarS from "@/components/NavbarS.vue";
 import citysearch from "@/components/citysearch.vue";
-import reviewtab from "@/components/reviewtab.vue";
 import roominfo from "@/components/roominfo.vue";
-import facilities from "@/components/facilities.vue";
-import tabs1 from "@/components/tabs.vue";
 import slider2 from "@/components/slider.vue";
+import scrolltab from "@/components/sclhead.vue";
 
 export default {
   name: "NavBar",
@@ -25,10 +21,8 @@ export default {
     NavbarS,
     citysearch,
     roominfo,
-    reviewtab,
-    facilities,
     slider2,
-    tabs1
+    scrolltab
   },
   data() {
     return {};

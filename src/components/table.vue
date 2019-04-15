@@ -1,4 +1,5 @@
 <template>
+
   <div class="table-outline">
     <b-container>
       <div>
@@ -52,7 +53,7 @@
                 <td class=" price-td-width px-5"><price></price></td>
               </tr>
               <tr>
-                <td class="option-row-style p-0"><options2></options2></td>
+                <td class="option-row-style p-0"><option4></option4></td>
                 <td class="option-row-style p-0"><options3></options3></td>
                 <td class=" price-td-width px-5"><price></price></td>
               </tr>
@@ -72,16 +73,17 @@
               </tr>
               <tr>
                 <td class="table2-option-row-style p-0">
-                  <options2></options2>
+                  <option4></option4>
                 </td>
                 <td class="include-row-style  p-0 td-max-width">
                   <options3></options3>
                 </td>
+
                 <td class=" price-td-width px-5"><price></price></td>
               </tr>
               <tr>
-                <td class="option-row-style p-0"><options2></options2></td>
-                <td class="include-row-style  p-0"><options3></options3></td>
+                 <td class="option-row-style p-0"><options2></options2></td>
+                <td class="option-row-style p-0"><options3></options3></td>
                 <td class=" price-td-width px-5"><price></price></td>
               </tr>
               <tr>
@@ -104,6 +106,7 @@ import options3 from "@/components/includeprice.vue";
 import price from "@/components/price.vue";
 import roomtype1 from "@/components/roomtype.vue";
 import roomtype2 from "@/components/roomtype2.vue";
+import option4 from "@/components/option3.vue";
 export default {
   name: "NavBar",
   components: {
@@ -112,7 +115,8 @@ export default {
     options3,
     price,
     roomtype1,
-    roomtype2
+    roomtype2,
+    option4
   },
   data() {
     return {};

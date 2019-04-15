@@ -1,3 +1,6 @@
+
+@import "../assets/scss/_svariables.scss";
+
 .row-gray-color {
     background-color: #8080801f;
     font-size: 11px;
@@ -9,7 +12,7 @@
     height: 48px;
     box-shadow: 2px 2px 20px 2px #70809021;
     border-radius: 5px;
-    margin-top: -13px;
+    margin-top: -8px;
     margin-bottom: 18px;
   }
   .break-inc {
@@ -25,7 +28,7 @@
     max-width: 60px;
   }
   .td-max-width {
-    max-width: 60px;
+    max-width: 80px;
   }
   .price-td-width {
     max-width: 167px;
@@ -40,5 +43,15 @@
   .table2-option-row-style {
     border: 1px solid #dee2e6;
     padding: 0px;
-    max-width: 75px;
+    max-width: 74px;
   }
+  .srcol-head
+  {
+    border-bottom: 1px solid #8080805c;
+    box-shadow: 0px 9px 0px 1px #b1a8a812;
+    margin-bottom: 30px;
+    padding-left: 72px;
+    font-size: 13px;
+    font-weight: bold;
+  }
+ 

@@ -2,21 +2,20 @@
   <div class="p-3 pl-4  whole-div-font">
     <b-row>
       <div class="pr-3 font-weight-bold">OPTION 1</div>
-      <button class="recomm-button">recommended</button>
+      <button class="recomm-button">RECOMMENDED</button>
     </b-row>
     <b-row>
-     
       <div class="room-only-color pb-1 pt-3 pl-2">
-        <span class="mr-2">
+        <span class="mr-2 non-icon-size">
           <font-awesome-icon :icon="['fas', 'times-circle']"
         /></span>
-       <span class="font-weight-bold"> Room Only</span>
+       <span class="font-weight-bold "> Room Only</span>
       </div>
     </b-row>
     <b-row>
       <div class="pb-1 pt-3 pl-2 none-refund">
-         <span class="mr-2">
-          <font-awesome-icon :icon="['fas', 'times-circle']"
+         <span class="mr-2 non-icon-size">
+          <font-awesome-icon :icon="['fab', 'creative-commons-nc']"
         /></span> <span class="font-weight-bold">Non-Refundable</span>
       </div>
     </b-row>
@@ -55,5 +54,9 @@
 }
 .whole-div-font {
   font-size: 12px;
+}
+.non-icon-size
+{
+      font-size: 16px;
 }
 </style>

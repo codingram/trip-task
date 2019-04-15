@@ -4,7 +4,8 @@
       <b-col md="12">
         <b-tabs>
           <b-tab title="ROOMS ">
-            <b-card-text> <table1></table1> </b-card-text
+            <b-card-text>
+               <table1></table1> </b-card-text
           ></b-tab>
           <b-tab title="FACILITIES ">
             <b-card-text> <table1></table1> </b-card-text>
@@ -44,22 +45,7 @@ export default {
   color: #000000b8;
   margin-right: 25px;
 }
-.nav-tabs {
-  border-bottom: 1px solid #8080805c;
-  box-shadow: 0px 9px 0px 1px #b1a8a812;
-  margin-bottom: 30px;
-  padding-left: 72px;
-  font-size: 13px;
-  font-weight: bold;
-}
-.nav-tabs .nav-link.active,
-.nav-tabs .nav-item.show .nav-link {
-  color: $alltextbluecolor;
-  border-bottom: 2px solid $alltextbluecolor;
-  padding-bottom: 5px;
-  font-weight: bold;
-  font-weight: bold;
-}
+
 .tab-content > .active {
   display: block;
   outline: none;
