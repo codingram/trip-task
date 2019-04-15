@@ -1,15 +1,15 @@
   <template>
    <div class=" ">
     <b-container fluid >
-      <div class=" mb-4 srcol-head active ">
+      <div class=" mb-4 srcol-head ">
         <b-col md="10">
-          <div class="mb-3">
+          <div class="mb-3 ">
     <b-row>
-      <div><b-col><a href="#table">ROOMS</a></b-col></div>
-      <div><b-col><a href="#facility">FACILITIES</a></b-col></div>
-      <div><b-col><a href="#">LOCATIONS</a></b-col></div>
-      <div><b-col><a href="#">POLICIES</a></b-col></div>
-      <div><b-col><a href="#review">RATINGS AND REVIEWS</a></b-col></div>
+      <div id="f"><b-col><a href="#table" class="link-text-scroll text-center m-3">ROOMS</a></b-col></div>
+      <div><b-col><a href="#facility" class="link-text-scroll text-center m-3 ">FACILITIES</a></b-col></div>
+      <div ><b-col><a href="#" class="link-text-scroll text-center m-3">LOCATIONS</a></b-col></div>
+      <div><b-col><a href="#" class="link-text-scroll text-center m-3">POLICIES</a></b-col></div>
+      <div><b-col><a href="#review" class="link-text-scroll text-center m-3">RATINGS AND REVIEWS</a></b-col></div>
 </b-row>
 </div>
 </b-col>
@@ -55,12 +55,22 @@ export default {
     font-size: 13px;
     font-weight: bold;
   }
-   .div .active
+  .link-text-scroll
   {
-  color: $alltextbluecolor;
-  border-bottom: 2px solid $alltextbluecolor;
-  padding-bottom: 5px;
-  font-weight: bold;
-  font-weight: bold;
+    color:#443d3d;
+    text-decoration: none;
   }
+a:hover{
+
+color:$alltextbluecolor;
+text-decoration: none;
+border-bottom: 2px solid $alltextbluecolor;
+padding-bottom:15px;
+
+  }
+.row-fixed
+{
+  position:fixed;
+}
+
 </style>

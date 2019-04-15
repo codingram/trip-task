@@ -38,20 +38,20 @@ export default {
   font-size: 13px;
   font-weight: bold;
 }
+.nav-tabs .nav-link.active, .nav-tabs .nav-item.show .nav-link {
+    color: #495057;
+    background-color: #fff;
+    border-color: #dee2e6 #dee2e6 #fff;
+    border-bottom: 2px solid #008cff;
+  font-weight: bold;
+}
 .nav-link {
   color: gray;
-  border-bottom: 2px solid #008cff;
+ 
   padding-bottom: 5px;
   padding-left: 5px;
 }
-.nav-tabs .nav-link.active,
-.nav-tabs .nav-item.show .nav-link {
-      color: black;
-    border-bottom: 3px solid #008cff;
-    padding-bottom: 5px;
-    font-weight: bold;
-    font-weight: bold;
-}
+
 .nav-tabs .nav-link {
      border: none; 
    border-top-left-radius: none; 

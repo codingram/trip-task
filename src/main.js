@@ -42,13 +42,17 @@ import {
   faSuitcaseRolling,
   faCheck,
   faThumbsUp,
-  faTimesCircle
+  faTimesCircle,
+  faShower,
+  faToriiGate,
+  faTicketAlt
 } from "@fortawesome/free-solid-svg-icons"; //fas fa
 import {
   faFacebookF,
   faTwitter,
   faTripadvisor,
-  faCentos
+  faCentos,
+  faCreativeCommonsNc
 } from "@fortawesome/free-brands-svg-icons"; //fab
 import { faCircle, faCalendarAlt } from "@fortawesome/free-regular-svg-icons"; //far
 
@@ -77,10 +81,13 @@ library.add(
   faSuitcaseRolling,
   faCheck,
   faThumbsUp,
-  faTimesCircle
+  faTimesCircle,
+  faShower,
+  faToriiGate,
+  faTicketAlt
 ); //fas
 library.add(faEnvelope, faCircle, faCalendarAlt); //far
-library.add(faFacebookF, faTwitter, faTripadvisor, faCentos); //fab
+library.add(faFacebookF, faTwitter, faTripadvisor, faCentos, faCreativeCommonsNc); //fab
 
 Vue.component("font-awesome-icon", FontAwesomeIcon);
 

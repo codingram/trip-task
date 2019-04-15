@@ -3,7 +3,7 @@
     <div class="pt-4">
     <b-row>
       <b-col md="2" class="pl-0">
-        <div class="text-center zero-col-border mb-5 pl-0 ">
+        <div class="text-center zero-col-border mb-4 pl-0 ">
           <b-row class="zero-bg-color m-0 ">
             <div class="mx-auto">
               <b-row>
@@ -115,7 +115,7 @@
     </b-row>
     </div>
     <b-row
-      class="div-border mb-4"
+      class="div-border-review mb-4"
       v-for="review in reviews"
       v-bind:key="review.index"
     >
@@ -150,10 +150,10 @@
         <span class="powered-font-color"> Powered by </span>
         <font-awesome-icon :icon="['fab', 'tripadvisor']" />
         <span class="font-weight-bold">trip</span
-        ><span class="advisor-font-color">advisor</span>
+        ><span class="advisor-font-color font-weight-bold">advisor</span>
       </div>
       <div class="ml-auto para-font-size allreview-font font-weight-bold">
-        ALL REVIEWS | WRITE YOUR OWN REVIEW
+        ALL REVIEWS <span class="slash-color pl-1 pr-1">| </span>WRITE YOUR OWN REVIEW
       </div>
     </b-row>
   </b-container>
@@ -200,10 +200,10 @@ export default {
 </script>
 <style lang="scss">
 @import "../assets/scss/_svariables.scss";
-.div-border {
+.div-border-review {
   border: 1px solid #80808059;
   border-radius: 6px;
-  padding: 29px;
+  padding: 19px;
   box-shadow: 1px 1px 1px 1px #8888882b;
 }
 .grade-review
@@ -216,16 +216,16 @@ export default {
   font-size: 14px;
 }
 .nt-text-color {
-  color: gray;
+  color: #80808059;
   font-size: 13px;
 }
 .para-font-size {
   font-size: 13px;
   font-size: 11px;
-  color: gray;
+  color: #808080cf;
 }
 .allreview-font {
-  font-size: 12px;
+  font-size: 11px;
   color: $alltextbluecolor;
 }
 .advisor-font-color {
@@ -255,7 +255,7 @@ export default {
 
 .review-number-size {
   font-size: 12px;
-  color: #3e3434;
+  color: #808080e8;
 }
 .review-border {
      border-right: 1px solid #b6b3b32e;
@@ -276,6 +276,10 @@ export default {
 }
 .icon-color-display {
   display: block;
-  color: #000000ba;
+  color: #808080e8;
+}
+.slash-color
+{
+  color:black;
 }
 </style>
