@@ -1,15 +1,13 @@
 <template>
-  <b-row>
+  <div>
     <div>
-      <b-col>
-        <div class="div-max-width ">
-          <span class="font-weight-bold">Standard room-Queen Size bed</span>
+      <div class="div-max-width ">
+        <span class="font-weight-bold">Standard room-Queen Size bed</span>
 
-          <img src="../assets/ImagesS/roomimage.jpeg" height="120px" />
-        </div>
-      </b-col>
+        <img src="../assets/ImagesS/roomimage.jpeg" height="120px" />
+      </div>
     </div>
-  </b-row>
+  </div>
 </template>
 <style lang="scss">
 @import "../assets/scss/_svariables.scss";

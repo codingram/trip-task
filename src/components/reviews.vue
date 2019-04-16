@@ -4,16 +4,16 @@
       <b-row>
         <b-col md="2" class="pl-0">
           <div class="text-center zero-col-border mb-4 pl-0 ">
-            <b-row class="zero-bg-color m-0 ">
+            <div class="zero-bg-color m-0 ">
               <div class="mx-auto">
-                <b-row>
+                <div>
                   <span class="mx-auto zero-font">4.0</span>
-                </b-row>
-                <b-row>
+                </div>
+                <div>
                   <span class="review-font">920 Reviews</span>
-                </b-row>
+                </div>
               </div>
-            </b-row>
+            </div>
             <b-row class=" mx-auto p-2">
               <font-awesome-icon :icon="['fab', 'tripadvisor']" />
               <div class="icon-color icon-size">

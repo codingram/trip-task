@@ -1,5 +1,5 @@
 <template>
-  <b-breadcrumb :items="items" class="breadcrum-style"></b-breadcrumb>
+  <b-breadcrumb :items="items" class="breadcrum-style p-0"></b-breadcrumb>
 </template>
 
 <script>

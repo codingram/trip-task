@@ -1,10 +1,10 @@
 <template>
   <div class="p-3 pl-5">
-    <b-row>
+    <div>
       <div class="pr-3 text-style  ">
         <font-awesome-icon :icon="['fas', 'check']" /> Buy 1 Get 1 on F&B
       </div>
-    </b-row>
+    </div>
   </div>
 </template>
 <style lang="scss">

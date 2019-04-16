@@ -1,28 +1,26 @@
 <template>
-
   <div class="table-outline">
     <b-container>
-      <div>
-        <b-row>
-          <b-col>
-            <div class="breakfast-style">
-              <div class="text-center break-inc ">
-                <input type="checkbox" /><span class="text-secondary">
-                  Breakfast Included</span
-                >
-              </div>
-            </div></b-col
-          >
-          <b-col>
-            <div class="breakfast-style free-cance-margin">
-              <div class="text-center break-inc ">
-                <input type="checkbox" /><span class="text-secondary">
-                  Free Cancellation</span
-                >
-              </div>
-            </div></b-col
-          >
-        </b-row>
+      <div class="break-cancel-display">
+        <div>
+          <div class="breakfast-style">
+            <div
+              class="text-center break-inc text-secondary custom-control custom-checkbox"
+            >
+              <input type="checkbox" />Breakfast Included
+            </div>
+          </div>
+        </div>
+        <div>
+          <div class="breakfast-style ">
+            <div class="text-center break-inc custom-control custom-checkbox">
+              <input type="checkbox" />
+              <span class="text-secondary">
+                Free Cancellation
+              </span>
+            </div>
+          </div>
+        </div>
       </div>
 
       <b-row>
@@ -82,7 +80,7 @@
                 <td class=" price-td-width px-5"><price></price></td>
               </tr>
               <tr>
-                 <td class="option-row-style p-0"><options2></options2></td>
+                <td class="option-row-style p-0"><options2></options2></td>
                 <td class="option-row-style p-0"><options3></options3></td>
                 <td class=" price-td-width px-5"><price></price></td>
               </tr>

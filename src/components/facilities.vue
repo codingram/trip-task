@@ -1,47 +1,45 @@
 <template>
   <div>
     <b-container>
-      <b-row>
-        <b-col md="12">
+      <div>
+        <div class="heading1-font">
+          Facilities at Ibis One Central Hotel
+        </div>
+        <div class="heading2-font pb-4 font-weight-bold">
+          Facilities here have been
+          <span class="heading2-span-font font-weight-bold">
+            rated 4 by 16 guests
+          </span>
+        </div>
+      </div>
+      <div class="div-border">
+        <div class="facility-display">
           <div>
-            <div class="heading1-font">
-              Facilities at Ibis One Central Hotel
-            </div>
-            <div class="heading2-font pb-4 font-weight-bold">
-              Facilities here have been
-              <span class="heading2-span-font font-weight-bold"
-                >rated 4 by 16 guests</span
-              >
-            </div>
+            <span class="mr-3">
+              <font-awesome-icon :icon="['fas', 'wifi']" />
+            </span>
+            <span class="facility-head">Free Wi-fi</span>
           </div>
-        </b-col>
-      </b-row>
-      <b-row class="div-border m-0">
-        <b-col
-          ><span class="mr-3">
-            <font-awesome-icon :icon="['fas', 'wifi']"
-          /></span>
-          Free Wi-fi</b-col
-        >
-        <b-col>
-          <span class="mr-3">
-            <font-awesome-icon :icon="['fas', 'utensils']"
-          /></span>
-          Restaurant</b-col
-        >
-        <b-col
-          ><span class="mr-3">
-            <font-awesome-icon :icon="['fas', 'parking']"
-          /></span>
-          Parking</b-col
-        >
-        <b-col
-          ><span class="mr-3"
-            ><font-awesome-icon :icon="['fab', 'centos']"
-          /></span>
-          Fitness Centre</b-col
-        >
-      </b-row>
+          <div>
+            <span class="mr-3">
+              <font-awesome-icon :icon="['fas', 'utensils']"
+            /></span>
+            <span class="facility-head">Restaurant</span>
+          </div>
+          <div>
+            <span class="mr-3">
+              <font-awesome-icon :icon="['fas', 'parking']" />
+            </span>
+            <span class="facility-head"> Parking</span>
+          </div>
+          <div>
+            <span class="mr-3"
+              ><font-awesome-icon :icon="['fab', 'centos']"
+            /></span>
+            <span class="facility-head">Fitness Centre</span>
+          </div>
+        </div>
+      </div>
       <div class="mx-auto div-bottom-border ">
         <b-row>
           <b-col md="2" class="mr-4 pl-4">
@@ -361,8 +359,8 @@
           </b-col>
         </b-row>
       </div>
-      <b-row>
-        <b-col>
+      <div>
+        <div>
           <div class="font-weight-bold verfiy-font pt-4 ">
             Verified Ratings & Reviews for Ibis One Central Hotel
           </div>
@@ -370,8 +368,8 @@
             Take a look at <span class="font-weight-bold">Verified</span> rating
             and reviews posted by guests
           </div>
-        </b-col>
-      </b-row>
+        </div>
+      </div>
     </b-container>
   </div>
 </template>
@@ -418,5 +416,11 @@
 }
 .text-hover-facility {
   color: #6c757d;
+}
+.facility-display {
+  display: inline-flex;
+}
+.facility-head {
+  margin-right: 168px;
 }
 </style>

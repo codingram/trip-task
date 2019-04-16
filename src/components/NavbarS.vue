@@ -82,20 +82,11 @@
         </b-col>
       </div>
       <!-- login account -->
-      <div class="ml-auto">
-        <b-col>
-          <b-row>
-            <button class="my-button active">my</button>
-            <div>
-              <b-col class="pl-2">
-                <div class="login-font-size font-weight-bold">
-                  <a href="#" class="login-font-size">Login or</a><br />
-                  <a href="#" class="login-font-size"> Create Account </a>
-                </div>
-              </b-col>
-            </div>
-          </b-row>
-        </b-col>
+      <div class="ml-auto login-text-display">
+        <button class="my-button active mr-2">my</button>
+        <div class="login-font-size font-weight-bold">
+          <a href="#" class="login-font-size">Login or <br> Create Account</a><br />
+        </div>
       </div>
     </b-navbar>
   </div>

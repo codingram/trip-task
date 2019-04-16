@@ -1,37 +1,29 @@
 <template>
   <b-row>
-    <b-col>
-      <b-row>
-        <div class="price-title">
-          <span>
+    <div>
+      <div class="price-title">
+        <span>
           Deal Applied:<b>INTL_CBCARDDTACC.</b> You Get Cashback of Rs. 285 to
           all credit and debit card within next 72 hours, T&C apply
-          </span>
-        </div>
-      </b-row>
-      <b-row>
-        <b-col>
+        </span>
+      </div>
+      <div class="option-div-display">
+        <div>
           <div class="price-light-through pt-2 text-secondary">₹3529</div>
-          <div>
-            <span class="price-color font-weight-bold"> ₹ 3,177</span><br />
-          </div>
+          <div class="price-color font-weight-bold">₹ 3,177</div>
           <div class="text-secondary">Per Night</div>
-        </b-col>
-        <b-col>
-          <div class="float-left m-0 pt-2">
-            <button class="booknow-box-button button-maring-left button-style">
-              SELECT ROOM
-            </button>
-          </div>
-        </b-col>
-      </b-row>
-    </b-col>
+        </div>
+        <div class="my-auto ml-3">
+          <button class="booknow-box-button  button-style">
+            SELECT ROOM
+          </button>
+        </div>
+      </div>
+    </div>
   </b-row>
 </template>
 <style lang="scss">
 .button-style {
-  margin-left: -120px;
-  margin-top: 20px;
   font-size: 11px;
 }
 .price-title {

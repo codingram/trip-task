@@ -1,27 +1,27 @@
 <template>
   <div class="p-3 pl-4  whole-div-font">
-    <b-row>
+    <div>
       <div class="pr-3 font-weight-bold option-head-color">OPTION 1</div>
-    </b-row>
-    <b-row>
-     
+    </div>
+    <div>
       <div class="room-only-color pb-1 pt-3 pl-2">
         <span class="mr-2 non-icon-size">
           <font-awesome-icon :icon="['fas', 'times-circle']"
         /></span>
-       <span class="font-weight-bold "> Room Only</span>
+        <span class="font-weight-bold "> Room Only</span>
       </div>
-    </b-row>
-    <b-row>
+    </div>
+    <div>
       <div class="pb-1 pt-3 pl-2 none-refund">
-         <span class="mr-2 non-icon-size">
+        <span class="mr-2 non-icon-size">
           <font-awesome-icon :icon="['fab', 'creative-commons-nc']"
-        /></span> <span class="font-weight-bold">Non-Refundable</span>
+        /></span>
+        <span class="font-weight-bold">Non-Refundable</span>
       </div>
-    </b-row>
-    <b-row>
+    </div>
+    <div>
       <div class="read-more pl-4 ml-2">Read More</div>
-    </b-row>
+    </div>
   </div>
 </template>
 <style lang="scss">
@@ -55,8 +55,7 @@
 .whole-div-font {
   font-size: 12px;
 }
-.non-icon-size
-{
-      font-size: 16px;
+.non-icon-size {
+  font-size: 16px;
 }
 </style>

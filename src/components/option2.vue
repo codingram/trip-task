@@ -1,9 +1,9 @@
 <template>
   <div class="p-3 pl-4 whole-div-font">
-    <b-row>
+    <div>
       <div class="pr-3 font-weight-bold option-head-color">OPTION 1</div>
-    </b-row>
-    <b-row>
+    </div>
+    <div>
       <div></div>
       <div class="room-only-color pb-1 pt-3 pl-2">
         <span class="mr-2 non-icon-size"
@@ -11,8 +11,8 @@
         /></span>
         <span class="font-weight-bold">Room Only</span>
       </div>
-    </b-row>
-    <b-row>
+    </div>
+    <div>
       <div class="pb-1 pt-3 pl-2 pr-3">
         <div>
           <span class="room-only-color">
@@ -25,10 +25,10 @@
           <span> till 22-apr-2019 07:00 PM IST</span>
         </div>
       </div>
-    </b-row>
-    <b-row>
+    </div>
+    <div>
       <div class="read-more pl-2 ml-4">Read More</div>
-    </b-row>
+    </div>
   </div>
 </template>
 <style lang="scss">

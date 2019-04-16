@@ -1,33 +1,23 @@
 <template>
   <div class="whole-div">
     <b-container>
-      <b-row>
-        <b-col>
-          <b-col
-            md="2"
+      <div>
+        <ul class="pl-0 text-vertical-align">
+          <li
             v-for="city in cities"
             v-bind:key="city.index"
             class="city-display p-0"
           >
-            <b-row>
-              <div class="col-blue-color p-1 m-2 pl-0 boxhead-style">
-                <div class="boxhead-font-size ">
-                  {{ city.cityhead }}
-                </div>
-                <div class="boxtext-font-size">
-                  {{ city.cityname }}
-                </div>
-              </div>
-            </b-row>
-          </b-col>
-        </b-col>
-        <!-- search button -->
-        <div class=" mx-auto my-auto text-left p-0  ">
-          <b-col md="2">
-            <button class="search-box-margin">SEARCH</button>
-          </b-col>
-        </div>
-      </b-row>
+            <div class="col-blue-color p-1 pl-2  boxhead-style ">
+              <div class="boxhead-font-size">{{ city.cityhead }}</div>
+              <div class="boxtext-font-size">{{ city.cityname }}</div>
+            </div>
+          </li>
+          <li>
+            <button class="search-box-margin ml-4">SEARCH</button>
+          </li>
+        </ul>
+      </div>
     </b-container>
   </div>
 </template>
