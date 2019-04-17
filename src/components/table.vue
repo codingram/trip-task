@@ -4,16 +4,14 @@
       <div class="break-cancel-display">
         <div>
           <div class="breakfast-style">
-            <div
-              class="text-center break-inc text-secondary custom-control custom-checkbox"
-            >
+            <div class="text-center break-inc text-secondary">
               <input type="checkbox" />Breakfast Included
             </div>
           </div>
         </div>
         <div>
           <div class="breakfast-style ">
-            <div class="text-center break-inc custom-control custom-checkbox">
+            <div class="text-center break-inc">
               <input type="checkbox" />
               <span class="text-secondary">
                 Free Cancellation

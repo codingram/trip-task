@@ -47,7 +47,7 @@ export default {
   font-weight: bold;
 }
 .nav-link {
-  color: gray;
+  color: $allgraytextcolor;
 
   padding-bottom: 5px;
   padding-left: 5px;

@@ -1,5 +1,5 @@
 <template>
-  <div class="p-3 pl-4  whole-div-font">
+  <div class="p-3 pl-3  whole-div-font">
     <div class="option-div-display">
       <div class="pr-2 font-weight-bold option-head-color">OPTION 1</div>
       <button class="recomm-button">RECOMMENDED</button>
@@ -60,7 +60,7 @@
   font-size: 16px;
 }
 .option-head-color {
-  color: #443d3d;
+  color: $alltextheadcolor;
 }
 .option-div-display
 {

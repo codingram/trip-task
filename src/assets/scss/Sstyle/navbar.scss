@@ -23,7 +23,7 @@ ul > li {
 }
 .login-font-size {
   font-size: 10px;
-  color: black;
+  color: $alltextheadcolor;
 }
 .icon-display {
   display: block;
@@ -37,7 +37,7 @@ button:focus{
 }
 .login-font-size:hover{
   text-decoration: none;
-  color:black;
+  color:$alltextheadcolor;
 }
 .icon-img-hover.active{
   color:$alltextbluecolor;

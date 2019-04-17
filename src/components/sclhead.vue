@@ -70,7 +70,7 @@ export default {
   font-weight: bold;
 }
 .link-text-scroll {
-  color: #443d3d;
+  color: $alltextheadcolor;
   text-decoration: none;
 }
 .link-text-scroll:hover {

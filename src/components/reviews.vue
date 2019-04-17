@@ -53,7 +53,7 @@
           </div>
         </b-col>
         <b-col md="7">
-          <b-row>
+          <div class="loc-sleep-display">
             <div class="location-margin">
               <div class="my-auto ">
                 <font-awesome-icon :icon="['fas', 'dot-circle']" />
@@ -110,7 +110,7 @@
                 <span class="icon-color-display"> SLEEP</span>
               </div>
             </div>
-          </b-row>
+          </div>
         </b-col>
       </b-row>
     </div>
@@ -119,44 +119,35 @@
       v-for="review in reviews"
       v-bind:key="review.index"
     >
-      <b-col md="10">
-        <b-row>
-          <b-col md="12" class="mx-auto">
-            <div class="mx-auto">
-              <b-row>
-                <b-col class="p-0">
-                  <div class="icon-color font-weight-bold">
-                    {{ review.reviewhead }}
-                    <font-awesome-icon :icon="['fas', 'dot-circle']" />
-                    <font-awesome-icon :icon="['fas', 'dot-circle']" />
-                    <font-awesome-icon :icon="['fas', 'dot-circle']" />
-                    <font-awesome-icon :icon="['fas', 'dot-circle']" />
-                    <font-awesome-icon :icon="['far', 'circle']" />
-                  </div>
-
-                  <div class="nt-text-color pb-2">
-                    {{ review.reviewname }}
-                  </div>
-                  <div class="para-font-size">{{ review.reviewpara }}</div>
-                </b-col>
-              </b-row>
-            </div>
-          </b-col>
-        </b-row>
-      </b-col>
+      <div class="mx-auto">
+        <div class="icon-color font-weight-bold">
+          {{ review.reviewhead }}
+          <span class="review-dot-icon">
+            <font-awesome-icon :icon="['fas', 'dot-circle']" />
+            <font-awesome-icon :icon="['fas', 'dot-circle']" />
+            <font-awesome-icon :icon="['fas', 'dot-circle']" />
+            <font-awesome-icon :icon="['fas', 'dot-circle']" />
+            <font-awesome-icon :icon="['far', 'circle']" />
+          </span>
+        </div>
+        <div class="nt-text-color pb-2">
+          {{ review.reviewname }}
+        </div>
+        <div class="para-font-size">{{ review.reviewpara }}</div>
+      </div>
     </b-row>
     <b-row>
       <div class="text-left powered-div mb-5">
         <span class="powered-font-color"> Powered by </span>
         <font-awesome-icon :icon="['fab', 'tripadvisor']" />
-        <span class="font-weight-bold">trip</span
-        ><span class="advisor-font-color font-weight-bold">advisor</span>
+        <span class="font-weight-bold">trip</span>
+        <span class="advisor-font-color font-weight-bold">advisor</span>
       </div>
       <div class="ml-auto para-font-size allreview-font font-weight-bold ">
-        <a href="#" class="text-hover-review"
-          >ALL REVIEWS <span class="slash-color pl-1 pr-1">| </span>WRITE YOUR
-          OWN REVIEW</a
-        >
+        <a href="#" class="text-hover-review">
+          ALL REVIEWS <span class="slash-color pl-1 pr-1">| </span>WRITE YOUR
+          OWN REVIEW
+        </a>
       </div>
     </b-row>
   </b-container>
@@ -216,6 +207,7 @@ export default {
 .icon-color {
   color: $textgreencolor;
   font-size: 14px;
+  vertical-align: middle;
 }
 .nt-text-color {
   color: #80808059;
@@ -224,7 +216,7 @@ export default {
 .para-font-size {
   font-size: 13px;
   font-size: 11px;
-  color: #808080cf;
+  color: $allgraytextcolor;
 }
 .allreview-font {
   font-size: 11px;
@@ -234,7 +226,7 @@ export default {
   color: $textgreencolor;
 }
 .powered-font-color {
-  color: gray;
+  color: $allgraytextcolor;
 }
 .powered-div {
   font-size: 13px;
@@ -252,12 +244,12 @@ export default {
 .zero-col-border {
   border: 1px solid $textgreencolor;
   border-radius: 4px;
-  width: 112px;
+  width: 106px;
 }
 
 .review-number-size {
   font-size: 12px;
-  color: #808080e8;
+  color: $allgraytextcolor;
 }
 .review-border {
   border-right: 1px solid #b6b3b32e;
@@ -278,7 +270,7 @@ export default {
 }
 .icon-color-display {
   display: block;
-  color: #808080e8;
+  color: $allgraytextcolor;
 }
 .slash-color {
   color: black;
@@ -286,5 +278,11 @@ export default {
 .text-hover-review:hover {
   text-decoration: none;
   color: $alltextbluecolor;
+}
+.loc-sleep-display {
+  display: inline-flex;
+}
+.review-dot-icon {
+  font-size: 10px;
 }
 </style>

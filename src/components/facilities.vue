@@ -382,16 +382,16 @@
   padding: 13px;
   font-size: 14px;
   font-weight: bold;
-  color: #443d3d;
+  color: $alltextheadcolor;
 }
 .heading1-font {
   font-size: 19px;
   font-weight: bold;
-  color: #443d3d;
+  color: $alltextheadcolor;
 }
 .heading2-font {
   font-size: 12px;
-  color: #808080e8;
+  color: $allgraytextcolor;
 }
 .heading2-span-font {
   color: $textgreencolor;
@@ -404,18 +404,18 @@
 }
 .verfiy-font {
   font-size: 19px;
-  color: #443d3d;
+  color: $alltextheadcolor;
 }
 .verfiy-font-below {
   font-size: 13px;
-  color: #808080e8;
+  color: $allgraytextcolor;
 }
 .text-hover-facility:hover {
   text-decoration: none;
-  color: #6c757d;
+  color: $allgraytextcolor;
 }
 .text-hover-facility {
-  color: #6c757d;
+  color: $allgraytextcolor;
 }
 .facility-display {
   display: inline-flex;
@@ -423,4 +423,5 @@
 .facility-head {
   margin-right: 168px;
 }
+
 </style>

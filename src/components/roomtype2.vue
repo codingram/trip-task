@@ -2,7 +2,7 @@
   <div>
     <div>
       <div class="div-max-width ">
-        <span class="font-weight-bold">Standard room-Queen Size bed</span>
+        <span class="font-weight-bold heading-color">Standard room-Queen Size bed</span>
 
         <img src="../assets/ImagesS/roomimage.jpeg" height="120px" />
       </div>

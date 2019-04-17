@@ -44,23 +44,29 @@
             </div>
           </b-col>
           <b-col md="3" class="p-0">
-            <div class="outline-whole-row p-2">
+            <div class="outline-whole-row p-2 pl-3 pr-3">
               <div>
-                <div class="float-left">
-                  <div class="bed-queen font-weight-bold">
-                    Standard room-queen Size bed
-                  </div>
-                  <div class="none-refun">
-                    <font-awesome-icon :icon="['fas', 'check']" />
-                    Non-Refundable
-                  </div>
-                  <div class="room-only-font">
-                    <font-awesome-icon :icon="['fas', 'check']" />
-                    Rooms Only
+                <div>
+                  <div class="float-left text-left">
+                    <div class="bed-queen font-weight-bold">
+                      Standard room-queen Size bed
+                    </div>
+                    <div class="none-refun">
+                      <span class="room-only-refund-tick mr-1"
+                        ><font-awesome-icon :icon="['fas', 'check']"
+                      /></span>
+                      Non-Refundable
+                    </div>
+                    <div class="room-only-font">
+                      <span class="room-only-refund-tick pr-1">
+                        <font-awesome-icon :icon="['fas', 'check']"
+                      /></span>
+                      Rooms Only
+                    </div>
                   </div>
                 </div>
 
-                <div class="float-right">
+                <div class="float-right text-right">
                   <div class=" price-per-night-text price-per-night">
                     Price Per Night for
                   </div>
@@ -78,8 +84,8 @@
               </div>
               <div class="clearfix"></div>
               <div class="border-style"></div>
-              <div class=" pt-2">
-                <div class="float-left outline-inside-text">OTHER ROOMS</div>
+              <div class=" pt-2 ">
+                <div class="float-left outline-inside-text mt-2">OTHER ROOMS</div>
                 <div class="float-right">
                   <button class="booknow-box-button button-maring-left">
                     BOOK THIS NOW
@@ -88,13 +94,13 @@
               </div>
               <div class="clearfix"></div>
             </div>
-            <div class="outline-whole-row-review p-2 mt-2">
+            <div class="outline-whole-row-review p-2 pl-3 pr-3 mt-2">
               <div class="review-display-flex">
                 <div class="advisor-button-sm my-auto">
                   <font-awesome-icon :icon="['fab', 'tripadvisor']" />
                   <span>4.0</span>
                 </div>
-                <div>
+                <div class="my-auto">
                   <span class="my-auto review-color pl-2">920 Reviews</span>
                 </div>
               </div>

@@ -9,7 +9,7 @@
 }
 .outline-whole-row {
   border: 1px solid #8080807a;
-  font-size: 12px;
+  font-size: 10px;
   border-radius: 6px;
   box-shadow: 0.01px 0.01px 0.01px 0.01px grey;
   height: 158px;
@@ -110,7 +110,7 @@
   border-top: 1px solid #80808057;
 }
 .bed-queen {
-  font-size: 11px;
+  font-size: 10px;
   color: $alltextbluecolor;
 }
 .price-per-night {
@@ -128,12 +128,12 @@
   color: $textredcolor;
 }
 .none-refun {
-  font-size: 9px;
+  font-size: 10px;
   color: $textredcolor;
   font-weight: bold;
 }
 .room-only-font {
-  font-size: 9px;
+  font-size: 10px;
   color: $textgreencolor;
   font-weight: bold;
 }
@@ -168,9 +168,11 @@
 .review-below {
   font-size: 11px;
   padding-bottom: 5px;
+  color: $alltextheadcolor;
 }
 .north-star {
   font-size: 10px;
+  color:$allgraytextcolor;
 }
 .star-padding{
   font-size: 9px;
@@ -197,4 +199,8 @@
 }
 .review-display-flex{
   display: inline-flex;
+}
+.room-only-refund-tick{
+  font-size: 9px;
+  color: $textgreencolor;
 }
