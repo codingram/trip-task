@@ -12,7 +12,7 @@
       </div>
     </div>
     <div>
-      <div class="pb-1 pt-3 pl-2 none-refund">
+      <div class="pb-1 pl-2 none-refund">
         <span class="mr-2 non-icon-size">
           <font-awesome-icon :icon="['fab', 'creative-commons-nc']"
         /></span>
@@ -28,17 +28,6 @@
 @import "../assets/scss/_svariables.scss";
 .option-bg {
   background-color: $optionbgcolor;
-}
-.recomm-button {
-  text-align: center;
-  background: linear-gradient(96deg, #53b2fe, #065af3);
-  color: #fff;
-  border-radius: 20px;
-  width: 102px;
-  height: 24px;
-  border: none;
-  font-weight: bold;
-  font-size: 10px;
 }
 .room-only-color {
   color: $textgreencolor;

@@ -2,10 +2,10 @@
   <div>
     <b-container>
       <div>
-        <div class="heading1-font">
+        <div class="ibis-facility-head">
           Facilities at Ibis One Central Hotel
         </div>
-        <div class="heading2-font pb-4 font-weight-bold">
+        <div class="ibis-facility-subhead mb-4 font-weight-bold">
           Facilities here have been
           <span class="heading2-span-font font-weight-bold">
             rated 4 by 16 guests
@@ -384,12 +384,12 @@
   font-weight: bold;
   color: $alltextheadcolor;
 }
-.heading1-font {
+.ibis-facility-head {
   font-size: 19px;
   font-weight: bold;
   color: $alltextheadcolor;
 }
-.heading2-font {
+.ibis-facility-subhead {
   font-size: 12px;
   color: $allgraytextcolor;
 }

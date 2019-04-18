@@ -103,4 +103,7 @@ export default {
   cursor: pointer;
   border-bottom: 3px solid transparent;
 }
+.scrolltab-cursor-point {
+  color: $alltextbluecolor;
+}
 </style>

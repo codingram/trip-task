@@ -1,4 +1,18 @@
 @import "../assets/scss/_svariables.scss";
+.all-redtext-color
+{
+  color: $textredcolor;
+}
+.all-green-color{
+  color: $textgreencolor;
+}
+.all-blue-color{
+  color: $alltextbluecolor;
+}
+.div-display-inline-block{
+  display: inline-block;
+}
+
 .star-color {
   color: #8080805c;
 }
@@ -22,10 +36,11 @@
   box-shadow: 0.01px 0.01px 0.01px 0.01px grey;
   height: 104px;
 }
-.outline-inside-text {
+.col3-others-room-text{
   font-size: 9px;
-  color: $alltextbluecolor;
   font-weight: bold;
+  cursor: pointer;
+  line-height: 25px;
 }
 .outline-button {
   margin-left: 25px;
@@ -48,19 +63,15 @@
   margin-top: -28px;
   padding: 6px 6px 6px 0px;
 }
-.price-per-night-text
-{
-    color: #6c757da6;
-}
+
 .booknow-box-button {
   background: $allgradientbluecolor;
   border-radius: 20px;
-  width: 101px;
-  height: 23px;
   border: none;
   font-weight: bold;
   font-size: 10px;
   color: $textwhitecolor;
+  padding: 4px 10px;
 }
 .swiper-button-prev,
 .swiper-button-next {
@@ -112,48 +123,40 @@
   left: 8px;
 
 }
-.border-style {
+.col3-price-per-night-text
+{
+    color: $alllightgraytext;
+    font-size: 10px;
+}
+.col3-pricedetails-below-border {
   border-top: 1px solid #80808057;
 }
-.bed-queen {
-  font-size: 12px;
-  color: $alltextbluecolor;
+.col3-room-queen-font {
+  font-size: 13px;
 }
-.price-per-night {
-  font-size: 10px;
-}
-.price-light-through {
+.col3-price-line-through {
   text-decoration: line-through;
+  color: $alllightgraytext;
 }
-.price2 {
+.col3-price-details {
   font-size: 17px;
-  color: $alltextbluecolor;
+  line-height: 20px;
 }
-.save-price {
+.col3-saveing-price {
   font-size: 9px;
   color: $textredcolor;
 }
-.none-refun {
-  font-size: 10px;
-  color: $textredcolor;
-  font-weight: bold;
-}
-.room-only-font {
-  font-size: 10px;
+.col3-tick-icon{
+  font-size: 9px;
   color: $textgreencolor;
-  font-weight: bold;
 }
-.booknow-button {
-  padding: 0px;
-  margin-left: 65px;
+.col3-2adults
+{
+  line-height: 7px;
+  color: $allgraytextcolor;
+  font-size: 10px;
 }
-.whole-div-font-size {
-  font-size: 9px;
-}
-.button-maring-left {
-  margin-left: 67px;
-}
-.advisor-button-sm {
+.col3-advisor-button-sm {
   background-color: $textgreencolor;
   color: white;
   height: 30px;
@@ -161,8 +164,30 @@
   border-radius: 3px;
   text-align: center;
   font-size: 15px;
-  padding-top: 3px;
+  padding: 3px;
+ 
 }
+// .none-refun {
+//   font-size: 10px;
+//   color: $textredcolor;
+//   font-weight: bold;
+// }
+// .room-only-font {
+//   font-size: 10px;
+//   color: $textgreencolor;
+//   font-weight: bold;
+// }
+.booknow-button {
+  padding: 0px;
+  margin-left: 65px;
+}
+.whole-div-font-size {
+  font-size: 9px;
+}
+// .button-maring-left {
+//   margin-left: 67px;
+// }
+
 .review-color {
   color: $textgreencolor;
   font-weight: bold;
@@ -181,7 +206,7 @@
   height: 3.2em;
   white-space: nowrap;
 }
-.north-star {
+.col3-northstar-text {
   font-size: 10px;
   color:$allgraytextcolor;
 }
@@ -201,7 +226,7 @@
 .ibis-hotel-subhead {
   color: $alltextbluecolor;
   font-size: 13px;
-  margin-top: -7px;
+  line-height: 2px;
 }
 .sec-th-margin {
   margin-left: 6px;
@@ -214,10 +239,7 @@
 .review-display-flex{
   display: inline-flex;
 }
-.room-only-refund-tick{
-  font-size: 9px;
-  color: $textgreencolor;
-}
+
 .northstar-text-overflow{
   text-overflow: ellipsis;
   overflow: hidden;

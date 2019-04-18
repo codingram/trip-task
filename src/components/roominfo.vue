@@ -2,125 +2,130 @@
   <div>
     <b-container>
       <div class="mt-3">
-        <div><breadcum></breadcum></div>
+        <breadcum></breadcum>
       </div>
-      <div class="clearfix"></div>
-      <div>
-        <div class="roominfo-fulldiv-display">
-          <b-col md="5" class="p-0">
-            <!-- swiper -->
-            <swiper :options="swiperOption">
-              <swiper-slide class="swiper-style"></swiper-slide>
-              <swiper-slide class="swiper-style"></swiper-slide>
-              <swiper-slide class="swiper-style"></swiper-slide>
-              <swiper-slide class="swiper-style"></swiper-slide>
-              <swiper-slide class="swiper-style"></swiper-slide>
-              <swiper-slide class="swiper-style"></swiper-slide>
-              <swiper-slide class="swiper-style"></swiper-slide>
-              <swiper-slide class="swiper-style"></swiper-slide>
-              <swiper-slide class="swiper-style"></swiper-slide>
-              <swiper-slide class="swiper-style"></swiper-slide>
-              <div class="swiper-pagination" slot="pagination"></div>
-              <div class="swiper-button-prev" slot="button-prev"></div>
-              <div class="swiper-button-next" slot="button-next"></div>
-            </swiper>
-          </b-col>
-          <b-col md="4">
-            <div class="mb-2 div-back-image-room">
-              <div><span class="font-room">ROOM IMAGES</span></div>
-            </div>
-            <div class="roominfo-fulldiv-display">
-              <div class="div-back-image-restaurant mr-2">
-                <div><span class="font-rest">RESTAURANT</span></div>
-              </div>
-              <div>
-                <div class="div-back-image-map"></div>
-                <div class="div-back-image-map mt-2"></div>
-              </div>
-            </div>
-          </b-col>
-          <b-col md="3" class="p-0">
-            <div class="roominfo-col-3 ">
-              <span >Hurry! Last few rooms remaining for your dates</span>
-            </div>
-            <div class="outline-whole-row p-2 pl-3 pr-3">
-              <div>
-                <div>
-                  <div class="float-left standard-room-div-width">
-                    <div class="bed-queen font-weight-bold">
-                      Standard room-Queen size bed
-                    </div>
-                    <div class="none-refun">
-                      <span class="room-only-refund-tick mr-1"
-                        ><font-awesome-icon :icon="['fas', 'check']"
-                      /></span>
-                      Non-Refundable
-                    </div>
-                    <div class="room-only-font">
-                      <span class="room-only-refund-tick pr-1">
-                        <font-awesome-icon :icon="['fas', 'check']"
-                      /></span>
-                      Rooms Only
-                    </div>
-                  </div>
-                </div>
+      <div class="roominfo-fulldiv-display">
+        <b-col md="5" class="p-0">
+          <!-- swiper -->
+          <swiper :options="swiperOption">
+            <swiper-slide class="swiper-style"></swiper-slide>
+            <swiper-slide class="swiper-style"></swiper-slide>
+            <swiper-slide class="swiper-style"></swiper-slide>
+            <swiper-slide class="swiper-style"></swiper-slide>
+            <swiper-slide class="swiper-style"></swiper-slide>
+            <swiper-slide class="swiper-style"></swiper-slide>
+            <swiper-slide class="swiper-style"></swiper-slide>
+            <swiper-slide class="swiper-style"></swiper-slide>
+            <swiper-slide class="swiper-style"></swiper-slide>
+            <swiper-slide class="swiper-style"></swiper-slide>
+            <div class="swiper-pagination" slot="pagination"></div>
+            <div class="swiper-button-prev" slot="button-prev"></div>
+            <div class="swiper-button-next" slot="button-next"></div>
+          </swiper>
+        </b-col>
+        <b-col md="4">
+          <div class="mb-2 div-back-image-room">
+            <span class="font-room">ROOM IMAGES</span>
+          </div>
 
-                <div class="float-right text-right">
-                  <div class=" price-per-night-text price-per-night">
-                    Price Per Night for
-                  </div>
-                  <div>2 Adults</div>
-                  <div class="price-light-through text-secondary">
-                    ₹3529
-                  </div>
-                  <div class="price2 font-weight-bold">
-                    ₹ 3,177
-                  </div>
-                  <div class="save-price font-weight-bold">
-                    Saving₹ 353
-                  </div>
-                </div>
-              </div>
-              <div class="clearfix"></div>
-              <div class="border-style"></div>
-              <div class=" pt-2 ">
-                <div class="float-left outline-inside-text mt-2">
-                  OTHER ROOMS
-                </div>
-                <div class="float-right">
-                  <button class="booknow-box-button button-maring-left">
-                    BOOK THIS NOW
-                  </button>
-                </div>
-              </div>
-              <div class="clearfix"></div>
+          <div class="roominfo-fulldiv-display">
+            <div class="div-back-image-restaurant mr-2">
+              <span class="font-rest">RESTAURANT</span>
             </div>
-            <div class="roominfo-col3-review p-2 pl-3 pr-3 mt-2">
-              <div class="review-display-flex">
-                <div class="advisor-button-sm my-auto">
-                  <font-awesome-icon :icon="['fab', 'tripadvisor']" /> <span> 4.0</span>
+            <div>
+              <div class="div-back-image-map"></div>
+              <div class="div-back-image-map mt-2"></div>
+            </div>
+          </div>
+        </b-col>
+        <b-col md="3" class="p-0">
+          <div class="roominfo-col-3 ">
+            <span>Hurry! Last few rooms remaining for your dates</span>
+          </div>
+          <div class="outline-whole-row p-2 pl-3 pr-3">
+            <div>
+              <div class="float-left standard-room-div-width">
+                <div
+                  class="col3-room-queen-font all-blue-color font-weight-bold"
+                >
+                  Standard room-Queen size bed
                 </div>
-                <div class="my-auto">
-                  <span class="my-auto review-color pl-2">920 Reviews</span>
+                <div class="all-redtext-color font-weight-bold">
+                  <span class="col3-tick-icon mr-1">
+                    <font-awesome-icon :icon="['fas', 'check']" />
+                  </span>
+                  Non-Refundable
+                </div>
+                <div class="all-green-color font-weight-bold">
+                  <span class="col3-tick-icon mr-1">
+                    <font-awesome-icon :icon="['fas', 'check']" />
+                  </span>
+                  Rooms Only
                 </div>
               </div>
-              <div class="review-below font-weight-bold pt-2">
-                It is a business hotel, in a very nice area, metro station just
-                on the
-              </div>
-              <div class="north-star">
-                <div class="float-left northstar-text-overflow">
-                  Northstar77098|B
+
+              <div class="float-right text-right">
+                <div class="col3-price-per-night-text">
+                  Price Per Night for
                 </div>
-                <div class="float-right more-review-font">More Review</div>
+                <div class="col3-2adults">2 Adults</div>
+                <div class="col3-price-line-through mt-3">
+                  ₹3529
+                </div>
+                <div class="col3-price-details all-blue-color font-weight-bold">
+                  ₹ 3,177
+                </div>
+                <div class="col3-saveing-price font-weight-bold mb-2">
+                  Saving₹ 353
+                </div>
               </div>
             </div>
-          </b-col>
-        </div>
+            <div class="clearfix"></div>
+            <div class="col3-pricedetails-below-border"></div>
+            <div class="mt-2 d-flex">
+              <div
+                class="div-display-inline-block all-blue-color col3-others-room-text"
+              >
+                OTHER ROOMS
+              </div>
+              <div class="div-display-inline-block ml-auto">
+                <button class="booknow-box-button">
+                  BOOK THIS NOW
+                </button>
+              </div>
+            </div>
+            <div class="clearfix"></div>
+          </div>
+          <div class="roominfo-col3-review p-2 pl-3 pr-3 mt-2">
+            <div class="col3-advisor-button-sm div-display-inline-block">
+              <span>
+                <font-awesome-icon :icon="['fab', 'tripadvisor']" />
+              </span>
+              <span class="font-weight-bold"> 4.0</span>
+            </div>
+            <div class="div-display-inline-block">
+              <span class="my-auto review-color pl-2">920 Reviews</span>
+            </div>
+
+            <div class="review-below font-weight-bold pt-2">
+              It is a business hotel, in a very nice area, metro station just on
+              the
+            </div>
+            <div class="col3-northstar-text">
+              <div class="float-left northstar-text-overflow">
+                Northstar77098|B
+              </div>
+              <div class="float-right more-review-font">MORE REVIEWS</div>
+            </div>
+          </div>
+        </b-col>
       </div>
+
       <div>
-        <div >
-          <div class="ibis-hotel-head font-weight-bold">Ibis one Central Hotel</div>
+        <div class="mt-2">
+          <div class="ibis-hotel-head font-weight-bold">
+            Ibis one Central Hotel
+          </div>
           <div class="hotel-star-size  ml-2">
             <font-awesome-icon :icon="['fas', 'star']" />
             <font-awesome-icon :icon="['fas', 'star']" />

@@ -20,7 +20,6 @@
           </div>
         </div>
       </div>
-
       <b-row>
         <b-col>
           <table class="table table-bordered mb-0">

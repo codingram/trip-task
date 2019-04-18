@@ -119,7 +119,7 @@
       v-for="review in reviews"
       v-bind:key="review.index"
     >
-      <div class="mx-auto">
+      <div>
         <div class="icon-color font-weight-bold">
           {{ review.reviewhead }}
           <span class="review-dot-icon">
@@ -138,16 +138,15 @@
     </b-row>
     <b-row>
       <div class="text-left powered-div mb-5">
-        <span class="powered-font-color"> Powered by </span>
+        <span class="powered-font-color mr-2"> Powered by </span>
         <font-awesome-icon :icon="['fab', 'tripadvisor']" />
         <span class="font-weight-bold">trip</span>
         <span class="advisor-font-color font-weight-bold">advisor</span>
       </div>
-      <div class="ml-auto para-font-size allreview-font font-weight-bold ">
-        <a href="#" class="text-hover-review">
-          ALL REVIEWS <span class="slash-color pl-1 pr-1">| </span>WRITE YOUR
-          OWN REVIEW
-        </a>
+      <div class="ml-auto allreview-font font-weight-bold ">
+        <span class="mr-2 all-review">ALL REVIEWS</span>
+        <span class="mr-2 slash-color">|</span>
+        <span class="write-own-review"> WRITE YOUR OWN REVIEW</span>
       </div>
     </b-row>
   </b-container>
@@ -219,7 +218,7 @@ export default {
   color: $allgraytextcolor;
 }
 .allreview-font {
-  font-size: 11px;
+  font-size: 10px;
   color: $alltextbluecolor;
 }
 .advisor-font-color {
@@ -229,7 +228,7 @@ export default {
   color: $allgraytextcolor;
 }
 .powered-div {
-  font-size: 13px;
+  font-size: 12px;
 }
 .icon-size {
   font-size: 10px;
@@ -279,11 +278,17 @@ export default {
   text-decoration: none;
   color: $alltextbluecolor;
 }
-.review-col-3{
-  display:flex;
-  margin-left:-55px;
+.review-col-3 {
+  display: flex;
+  margin-left: -55px;
 }
 .review-dot-icon {
   font-size: 10px;
+}
+.all-review {
+  cursor: pointer;
+}
+.write-own-review {
+  cursor: pointer;
 }
 </style>

@@ -5,25 +5,36 @@
         <span class="font-weight-bold heading-color">
           Standard room-Queen Size bed
         </span>
-
-        <img src="../assets/ImagesS/roomimage.jpeg" height="120px" />
-        <div class=" text-size text-secondary ">
-          <span>
-            <span class="roomtype-facility-icon"> <font-awesome-icon :icon="['fas', 'check']"/></span>
+        <div class="mt-2">
+          <img src="../assets/ImagesS/roomimage.jpeg" height="120px" />
+        </div>
+        <div class=" text-size text-secondary mt-3">
+          <div class="p-1">
+            <span class="roomtype-facility-icon">
+              <font-awesome-icon :icon="['fas', 'check']"
+            /></span>
             <span class="roomtype-facility-text">Hot/cold Running Water</span>
-          </span>
+          </div>
 
-          <div class="div-padding">
-            <span> <font-awesome-icon :icon="['fas', 'torii-gate']"/></span>
-            <span>Desk in Room</span>
+          <div class="p-1">
+            <span class="roomtype-facility-icon">
+              <font-awesome-icon :icon="['fas', 'torii-gate']"
+            /></span>
+            <span class="roomtype-facility-text">Desk in Room</span>
           </div>
-          <div class="div-padding">
-            <span> <font-awesome-icon :icon="['fas', 'check']"/></span>
-            <span> WIFI </span>
+          <div class="p-1">
+            <span class="roomtype-facility-icon">
+              <font-awesome-icon :icon="['fas', 'check']"
+            /></span>
+            <span class="roomtype-facility-text"> WIFI </span>
           </div>
-          <div class="div-padding">
-            <span> <font-awesome-icon :icon="['fas', 'shower']"/></span>
-            <span> Shower Facility Available </span>
+          <div class="p-1">
+            <span class="roomtype-facility-icon">
+              <font-awesome-icon :icon="['fas', 'shower']"
+            /></span>
+            <span class="roomtype-facility-text">
+              Shower Facility Available
+            </span>
           </div>
 
           <div class="about-room font-weight-bold pt-2">

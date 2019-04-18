@@ -10,7 +10,7 @@
       </div>
       <div class="option-div-display">
         <div>
-          <div class="price-light-through pt-2 price-table-prices">₹3529</div>
+          <div class="pt-2 price-table-prices table-price-strike ">₹3529</div>
           <div class="price-color font-weight-bold">₹ 3,177</div>
           <div class="price-table-prices">Per Night</div>
         </div>
@@ -42,9 +42,12 @@
 }
 .price-table-prices {
   color: $alllightgraytext;
+  font-size: 10px;
 }
-.price-table-head
-{
+.price-table-head {
   color: $allgraytextcolor;
+}
+.table-price-strike {
+  text-decoration: line-through;
 }
 </style>

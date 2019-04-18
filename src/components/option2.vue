@@ -13,7 +13,7 @@
       </div>
     </div>
     <div>
-      <div class="pb-1 pt-3 pl-2 pr-3">
+      <div class="pb-1 pl-2 pr-3">
         <div>
           <span class="room-only-color">
             <span class="mr-2 non-icon-size"
@@ -34,17 +34,6 @@
 <style lang="scss">
 @import "../assets/scss/_svariables.scss";
 
-.recomm-button {
-  text-align: center;
-  background: linear-gradient(96deg, #53b2fe, #065af3);
-  color: #fff;
-  border-radius: 20px;
-  width: 102px;
-  height: 24px;
-  border: none;
-  font-weight: bold;
-  font-size: 10px;
-}
 .room-only-color {
   color: $textgreencolor;
 }
