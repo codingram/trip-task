@@ -15,25 +15,25 @@
       <div class="div-border">
         <div class="facility-display">
           <div>
-            <span class="mr-3">
+            <span class="mr-2">
               <font-awesome-icon :icon="['fas', 'wifi']" />
             </span>
             <span class="facility-head">Free Wi-fi</span>
           </div>
           <div>
-            <span class="mr-3">
+            <span class="mr-2">
               <font-awesome-icon :icon="['fas', 'utensils']"
             /></span>
             <span class="facility-head">Restaurant</span>
           </div>
           <div>
-            <span class="mr-3">
+            <span class="mr-2">
               <font-awesome-icon :icon="['fas', 'parking']" />
             </span>
             <span class="facility-head"> Parking</span>
           </div>
           <div>
-            <span class="mr-3"
+            <span class="mr-2"
               ><font-awesome-icon :icon="['fab', 'centos']"
             /></span>
             <span class="facility-head">Fitness Centre</span>
@@ -423,5 +423,4 @@
 .facility-head {
   margin-right: 168px;
 }
-
 </style>

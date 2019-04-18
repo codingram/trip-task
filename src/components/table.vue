@@ -1,17 +1,17 @@
 <template>
   <div class="table-outline">
     <b-container>
-      <div class="break-cancel-display">
-        <div>
-          <div class="breakfast-style">
-            <div class="text-center break-inc text-secondary">
+      <div>
+        <div class="break-cancel-display">
+          <div class="breakfast-style ">
+            <div class="text-secondary">
               <input type="checkbox" />Breakfast Included
             </div>
           </div>
         </div>
-        <div>
+        <div class="break-cancel-display">
           <div class="breakfast-style ">
-            <div class="text-center break-inc">
+            <div>
               <input type="checkbox" />
               <span class="text-secondary">
                 Free Cancellation

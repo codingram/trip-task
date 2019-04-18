@@ -2,24 +2,28 @@
   <div>
     <div>
       <div class="div-max-width ">
-        <span class="font-weight-bold heading-color">Standard room-Queen Size bed</span>
+        <span class="font-weight-bold heading-color">
+          Standard room-Queen Size bed
+        </span>
 
         <img src="../assets/ImagesS/roomimage.jpeg" height="120px" />
-        <div class="p-3 text-size text-secondary ">
-          <span class="div-padding"
-            ><font-awesome-icon :icon="['fas', 'check']" /> Hot/cold Running
-            Water</span
-          >
+        <div class=" text-size text-secondary ">
+          <span>
+            <span class="roomtype-facility-icon"> <font-awesome-icon :icon="['fas', 'check']"/></span>
+            <span class="roomtype-facility-text">Hot/cold Running Water</span>
+          </span>
 
           <div class="div-padding">
-            <font-awesome-icon :icon="['fas', 'torii-gate']" /> Desk in Room
+            <span> <font-awesome-icon :icon="['fas', 'torii-gate']"/></span>
+            <span>Desk in Room</span>
           </div>
           <div class="div-padding">
-            <font-awesome-icon :icon="['fas', 'check']" /> WIFI
+            <span> <font-awesome-icon :icon="['fas', 'check']"/></span>
+            <span> WIFI </span>
           </div>
           <div class="div-padding">
-            <font-awesome-icon :icon="['fas', 'shower']" /> Shower Facility
-            Available
+            <span> <font-awesome-icon :icon="['fas', 'shower']"/></span>
+            <span> Shower Facility Available </span>
           </div>
 
           <div class="about-room font-weight-bold pt-2">
@@ -43,12 +47,16 @@
   font-size: 13px;
   font-weight: 100;
 }
-.div-padding {
+.roomtype-facility-icon {
   padding: 6px;
-  font-size: 11px;
+  font-size: 10px;
   color: $allgraytextcolor;
 }
-.heading-color{
+.roomtype-facility-text {
+  font-size: 12px;
+  color: $allgraytextcolor;
+}
+.heading-color {
   color: $alltextheadcolor;
 }
 </style>

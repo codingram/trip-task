@@ -10,15 +10,15 @@
 .outline-whole-row {
   border: 1px solid #8080807a;
   font-size: 10px;
-  border-radius: 6px;
+  border-radius: 3px;
   box-shadow: 0.01px 0.01px 0.01px 0.01px grey;
   height: 158px;
 }
-.outline-whole-row-review 
+.roominfo-col3-review 
 {
   border: 1px solid #8080807a;
   font-size: 12px;
-  border-radius: 6px;
+  border-radius: 3px;
   box-shadow: 0.01px 0.01px 0.01px 0.01px grey;
   height: 104px;
 }
@@ -30,10 +30,6 @@
 .outline-button {
   margin-left: 25px;
 }
-.img-row-p {
-  padding-left: 15px;
-  padding-right: 15px;
-}
 .outline-whole-row2 {
   border: 1px solid #8080807a;
   font-size: 12px;
@@ -41,16 +37,16 @@
   height: 112px;
   border-radius: 6px;
 }
-.outline-whole-row3 {
-  border: 1px solid #8080807a;
+.roominfo-col-3 {
   font-size: 11px;
-  padding: 3px;
-  width: 274px;
+  width: 277px;
   height: 28px;
   text-align: center;
   border-radius: 3px;
   color: red;
   background-color: #ff00002e;
+  margin-top: -28px;
+  padding: 6px 6px 6px 0px;
 }
 .price-per-night-text
 {
@@ -71,11 +67,12 @@
   background-size: 16px 44px;
 }
 .div-back-image-restaurant {
-  background: linear-gradient(rgba(13, 14, 14, 0.12), rgba(19, 21, 21, 0.83)),
+  background:
     url("../assets/ImagesS/rest.jpeg");
 
   height: 104px;
   width: 164px;
+  position: relative;
 }
 .div-back-image-map {
   background: linear-gradient(rgba(13, 14, 14, 0.12), rgba(19, 21, 21, 0.83)),
@@ -91,26 +88,35 @@
   margin-top: 87px;
   margin-left: 11px;
   font-weight: bold;
+  position: absolute;
+  bottom: 5px;
+  left: 8px;
 }
 .div-back-image-room {
-  background: linear-gradient(rgba(13, 14, 14, 0.12), rgba(19, 21, 21, 0.28)),
+  background-image:
     url("../assets/ImagesS/room.jpeg");
 
   height: 158px;
-  width: 340px;
+  width: 100%;
   border-radius: 0px 3px 3px 0px;
+  position: relative;
+  background-repeat: round;
 }
 .font-room {
   color: white;
   font-size: 10px;
   margin-top: 108px;
   font-weight: bold;
+  position: absolute;
+  bottom: 5px;
+  left: 8px;
+
 }
 .border-style {
   border-top: 1px solid #80808057;
 }
 .bed-queen {
-  font-size: 10px;
+  font-size: 12px;
   color: $alltextbluecolor;
 }
 .price-per-night {
@@ -151,8 +157,8 @@
   background-color: $textgreencolor;
   color: white;
   height: 30px;
-  width: 56px;
-  border-radius: 5px;
+  width: 48px;
+  border-radius: 3px;
   text-align: center;
   font-size: 15px;
   padding-top: 3px;
@@ -169,22 +175,30 @@
   font-size: 11px;
   padding-bottom: 5px;
   color: $alltextheadcolor;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  width: 244px;
+  height: 3.2em;
+  white-space: nowrap;
 }
 .north-star {
   font-size: 10px;
   color:$allgraytextcolor;
 }
-.star-padding{
+.hotel-star-size{
   font-size: 9px;
+  display: inline-block;
+  vertical-align: middle;
 }
 .more-review-font {
   color: $alltextbluecolor;
 }
-.ibis-font {
+.ibis-hotel-head {
   font-size: 18px;
-  display: inline-flex;
+  display: inline-block;
+    vertical-align: baseline;
 }
-.ibis-hotel-below {
+.ibis-hotel-subhead {
   color: $alltextbluecolor;
   font-size: 13px;
   margin-top: -7px;
@@ -203,4 +217,14 @@
 .room-only-refund-tick{
   font-size: 9px;
   color: $textgreencolor;
+}
+.northstar-text-overflow{
+  text-overflow: ellipsis;
+  overflow: hidden;
+  width: 78px;
+  height: 3.2em;
+  white-space: nowrap;
+}
+.standard-room-div-width{
+  width: 60%;
 }

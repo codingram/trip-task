@@ -7,7 +7,7 @@
             <div class="zero-bg-color m-0 ">
               <div class="mx-auto">
                 <div>
-                  <span class="mx-auto zero-font">4.0</span>
+                  <span class="mx-auto zero-font font-weight-bold">4.0</span>
                 </div>
                 <div>
                   <span class="review-font">920 Reviews</span>
@@ -53,7 +53,7 @@
           </div>
         </b-col>
         <b-col md="7">
-          <div class="loc-sleep-display">
+          <div class="review-col-3">
             <div class="location-margin">
               <div class="my-auto ">
                 <font-awesome-icon :icon="['fas', 'dot-circle']" />
@@ -130,7 +130,7 @@
             <font-awesome-icon :icon="['far', 'circle']" />
           </span>
         </div>
-        <div class="nt-text-color pb-2">
+        <div class="comment-lightgray-head pb-2">
           {{ review.reviewname }}
         </div>
         <div class="para-font-size">{{ review.reviewpara }}</div>
@@ -201,7 +201,7 @@ export default {
   box-shadow: 1px 1px 1px 1px #8888882b;
 }
 .grade-review {
-  margin-left: -66px;
+  margin-left: -87px;
   margin-top: 6px;
 }
 .icon-color {
@@ -209,9 +209,9 @@ export default {
   font-size: 14px;
   vertical-align: middle;
 }
-.nt-text-color {
-  color: #80808059;
-  font-size: 13px;
+.comment-lightgray-head {
+  color: $alllightgraytext;
+  font-size: 12px;
 }
 .para-font-size {
   font-size: 13px;
@@ -232,7 +232,7 @@ export default {
   font-size: 13px;
 }
 .icon-size {
-  font-size: 14px;
+  font-size: 10px;
 }
 .zero-font {
   font-size: 30px;
@@ -244,7 +244,7 @@ export default {
 .zero-col-border {
   border: 1px solid $textgreencolor;
   border-radius: 4px;
-  width: 106px;
+  width: 94px;
 }
 
 .review-number-size {
@@ -253,7 +253,7 @@ export default {
 }
 .review-border {
   border-right: 1px solid #b6b3b32e;
-  margin-right: 71px;
+  margin-right: 103px;
 }
 .location-margin {
   margin-top: 33px;
@@ -279,8 +279,9 @@ export default {
   text-decoration: none;
   color: $alltextbluecolor;
 }
-.loc-sleep-display {
-  display: inline-flex;
+.review-col-3{
+  display:flex;
+  margin-left:-55px;
 }
 .review-dot-icon {
   font-size: 10px;

@@ -2,29 +2,44 @@
   <div>
     <b-container fluid>
       <div class="srcol-head-tab">
-        <div class="row-display-inline">
-          <div id="f" class="p-2 div-curosor-point" v-scroll-to="'#table'">
+        <div>
+          <div
+            class=" scroll-tab p-2 row-display-inline  scrolltab-cursor-point"
+            v-scroll-to="'#table'"
+          >
             <a href="#" class="link-text-scroll text-center m-3">
               ROOMS
             </a>
           </div>
-          <div id="f" class="p-2 div-curosor-point" v-scroll-to="'#facility'">
+          <div
+            class="p-2 scroll-tab row-display-inline scrolltab-cursor-point"
+            v-scroll-to="'#facility'"
+          >
             <a href="#" class="link-text-scroll text-center m-3 ">
               FACILITIES
             </a>
           </div>
 
-          <div id="f" class="p-2 div-curosor-point" v-scroll-to="'#table'">
+          <div
+            class="p-2 scroll-tab row-display-inline scrolltab-cursor-point"
+            v-scroll-to="'#table'"
+          >
             <a href="#table" class="link-text-scroll text-center m-3">
               LOCATIONS
             </a>
           </div>
-          <div id="f" class="p-2 div-curosor-point" v-scroll-to="'#table'">
+          <div
+            class="p-2 scroll-tab row-display-inline scrolltab-cursor-point"
+            v-scroll-to="'#table'"
+          >
             <a href="#table" class="link-text-scroll text-center m-3">
               POLICIES
             </a>
           </div>
-          <div id="f" class="p-2 div-curosor-point" v-scroll-to="'#review'">
+          <div
+            class="p-2 scroll-tab row-display-inline scrolltab-cursor-point"
+            v-scroll-to="'#review'"
+          >
             <a href="#review" class="link-text-scroll text-center m-3"
               >RATINGS AND REVIEWS</a
             >
@@ -77,14 +92,15 @@ export default {
   color: $alltextbluecolor;
   text-decoration: none;
 }
-#f:hover {
+.scroll-tab:hover {
   border-bottom: 3px solid $alltextbluecolor;
   color: $alltextbluecolor;
 }
 .row-display-inline {
-  display: inline-flex;
+  display: inline-block;
 }
-.div-curosor-point {
+.scrolltab-cursor-point {
   cursor: pointer;
+  border-bottom: 3px solid transparent;
 }
 </style>
