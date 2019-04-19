@@ -5,7 +5,7 @@
       <button class="recomm-button">RECOMMENDED</button>
     </div>
     <div>
-      <div class="room-only-color pb-1 pt-3 pl-2">
+      <div class="room-only-color mb-1 mt-3 ml-2">
         <span class="mr-2 non-icon-size">
           <font-awesome-icon :icon="['fas', 'times-circle']"
         /></span>

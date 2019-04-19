@@ -28,30 +28,62 @@
           <div class="review-col2-numsize my-auto w-75 ">
             <div class="review-col2-border pr-3 ml-3 d-flex ">
               <div class="w-100">
-                <div>
-                  <span>EXCELLENT</span>
-                  <span class="float-right">395 Reviews</span>
-                  <hr />
+                <div class="review-col2-relative">
+                  <span
+                    class="review-col2-div-bgwhite font-weight-bold p-1 grade-fontsize"
+                    >EXCELLENT</span
+                  >
+                  <span
+                    class="float-right review-col2-div-bgwhite review-numsize p-1"
+                    >395 Reviews</span
+                  >
+                  <hr class="review-hr-position" />
                 </div>
-                <div>
-                  <span>VERY GOOD</span>
-                  <span class="float-right">300 Reviews</span>
-                  <hr />
+                <div class="review-col2-relative">
+                  <span
+                    class="review-col2-div-bgwhite font-weight-bold p-1 grade-fontsize p-1"
+                    >VERY GOOD</span
+                  >
+                  <span
+                    class="float-right review-col2-div-bgwhite review-numsize p-1"
+                    >300 Reviews</span
+                  >
+                  <hr class="review-hr-position" />
                 </div>
-                <div>
-                  <span>AVERAGE</span>
-                  <span class="float-right">130 Reviews</span>
-                  <hr />
+                <div class="review-col2-relative">
+                  <span
+                    class="review-col2-div-bgwhite font-weight-bold p-1 grade-fontsize"
+                    >AVERAGE</span
+                  >
+                  <span
+                    class="float-right review-col2-div-bgwhite review-numsize p-1"
+                    >130 Reviews</span
+                  >
+                  <hr class="review-hr-position" />
                 </div>
-                <div>
-                  <span>POOR</span>
-                  <span class="float-right">44 Reviews</span>
-                  <hr />
+                <div class="review-col2-relative">
+                  <span
+                    class="review-col2-div-bgwhite font-weight-bold p-1 grade-fontsize"
+                    >POOR</span
+                  >
+                  <span
+                    class="float-right review-col2-div-bgwhite review-numsize p-1"
+                    >44 Reviews</span
+                  >
+                  <hr class="review-hr-position" />
                 </div>
-                <div>
-                  <span>BAD</span>
-                  <span class="float-right">51 Reviews</span>
-                  <hr />
+                <div class="review-col2-relative">
+                  <span
+                    class="review-col2-div-bgwhite font-weight-bold p-1 grade-fontsize"
+                  >
+                    BAD</span
+                  >
+                  <span
+                    class="float-right review-col2-div-bgwhite review-numsize p-1"
+                  >
+                    51 Reviews</span
+                  >
+                  <hr class="review-hr-position" />
                 </div>
               </div>
               <!-- <div class="w-75">
@@ -335,14 +367,33 @@ export default {
 .review-col1-icon {
   display: inline-block;
 }
-.review-hr-text {
-  display: inline-block;
-  width: 32%;
-  margin: 8px 10px;
-  vertical-align: middle;
-  position: absolute;
-}
+// .review-hr-text {
+//   display: inline-block;
+//   width: 32%;
+//   margin: 8px 10px;
+//   vertical-align: middle;
+//   position: absolute;
+// }
 .review-grade-db {
   display: block;
+}
+.review-col2-relative {
+  position: relative;
+}
+.review-col2-div-bgwhite {
+  background-color: white;
+}
+.review-hr-position {
+  position: absolute;
+  top: -8px;
+  z-index: -1;
+  width: 100%;
+}
+.grade-fontsize {
+  font-size: 12px;
+  color: $allgraytextcolor;
+}
+.review-numsize {
+  font-size: 7px;
 }
 </style>

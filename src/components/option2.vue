@@ -16,13 +16,13 @@
       <div class="pb-1 pl-2 pr-3">
         <div>
           <span class="room-only-color">
-            <span class="mr-2 non-icon-size"
-              ><font-awesome-icon :icon="['fas', 'ticket-alt']"
-            /></span>
+            <span class="mr-2 non-icon-size">
+              <font-awesome-icon :icon="['fas', 'ticket-alt']" />
+            </span>
 
-            <span class="font-weight-bold">Free Cancellation</span></span
-          >
-          <span class="till-time-date"> till 22-apr-2019 07:00 PM IST</span>
+            <span class="font-weight-bold">Free Cancellation</span>
+            <span class="till-time-date"> till 22-apr-2019 07:00 PM IST</span>
+          </span>
         </div>
       </div>
     </div>
