@@ -19,6 +19,6 @@
 .include-row-style {
   border: 1px solid #dee2e6;
   padding: 0px;
-  max-width: 80px;
+  max-width: 60px;
 }
 </style>

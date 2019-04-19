@@ -34,7 +34,7 @@
   display: flex;
   flex-direction: column;
   padding: 7px 16px;
-  margin: -13px -33px 15px;
+  margin: -12px -33px 15px;
 }
 .price-color {
   font-size: 17px;

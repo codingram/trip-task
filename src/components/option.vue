@@ -38,7 +38,7 @@
   border: none;
   font-weight: bold;
   font-size: 10px;
-  padding: 5px 10px;
+  padding: 0px 10px;
 }
 .room-only-color {
   color: $textgreencolor;

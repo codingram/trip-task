@@ -2,9 +2,13 @@
   <div>
     <div>
       <div class="div-max-width ">
-        <span class="font-weight-bold heading-color">Standard room-Queen Size bed</span>
+        <span class="font-weight-bold heading-color">
+          Standard room-Two single beds</span
+        >
 
-        <img src="../assets/ImagesS/roomimage.jpeg" height="120px" />
+        <div class="mt-2">
+          <img src="../assets/ImagesS/roomimage.jpeg" height="120px" />
+        </div>
       </div>
     </div>
   </div>

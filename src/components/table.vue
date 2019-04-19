@@ -5,7 +5,7 @@
         <div class="break-cancel-display">
           <div class="breakfast-style ">
             <div class="text-secondary">
-              <input type="checkbox" />Breakfast Included
+              <input type="checkbox" /> Breakfast Included
             </div>
           </div>
         </div>
