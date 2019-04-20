@@ -11,15 +11,16 @@ ul > li {
   font-size: 16px;
   padding-right: 3px;
 }
-.my-button {
-  border-radius: 365%;
+.login-icon {
+  border-radius: 50%;
   color: white;
   background-image: $mybuttoncolor;
   border: none;
-  height: 22px;
-  width: 22px;
+  height: 24px;
+  width: 24px;
   text-align: center;
   font-size: 10px;
+  padding: 4px;
 }
 .login-font-size {
   font-size: 10px;

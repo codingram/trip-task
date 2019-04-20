@@ -83,9 +83,12 @@
       </div>
       <!-- login account -->
       <div class="ml-auto login-text-display">
-        <button class="my-button active mr-2">my</button>
+        <div class="login-icon active mr-2">my</div>
         <div class="login-font-size font-weight-bold">
-          <a href="#" class="login-font-size">Login or <br> Create Account</a><br />
+          <a href="" class="login-font-size">
+            Login or <br />
+            Create Account
+          </a>
         </div>
       </div>
     </b-navbar>

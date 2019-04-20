@@ -1,25 +1,21 @@
 <template>
   <div class="table-outline">
     <b-container>
-      <div>
-        <div class="break-cancel-display">
-          <div class="breakfast-style ">
-            <div class="text-secondary">
-              <input type="checkbox" /> Breakfast Included
-            </div>
-          </div>
+      <div class="d-flex">
+        <div class="breakfast-style ">
+          <span class="text-secondary">
+            <input type="checkbox" />
+            Breakfast Included
+          </span>
         </div>
-        <div class="break-cancel-display">
-          <div class="breakfast-style ">
-            <div>
-              <input type="checkbox" />
-              <span class="text-secondary">
-                Free Cancellation
-              </span>
-            </div>
-          </div>
+        <div class="breakfast-style ">
+          <input type="checkbox" />
+          <span class="text-secondary">
+            Free Cancellation
+          </span>
         </div>
       </div>
+
       <b-row>
         <b-col>
           <table class="table table-bordered mb-0">
@@ -33,7 +29,7 @@
             </thead>
             <tbody>
               <tr>
-                <th scope="row" rowspan="4"><roomtype1></roomtype1></th>
+                <td scope="row" rowspan="4"><roomtype1></roomtype1></td>
                 <td class="option-row-style option-bg p-0">
                   <options></options>
                 </td>
@@ -58,13 +54,11 @@
                 <td class=" price-td-width px-5"><price></price></td>
               </tr>
             </tbody>
-          </table>
-          <table class="table table-bordered">
             <tbody>
               <tr>
-                <th scope="row" rowspan="4" class="roomtype-width">
+                <td scope="row" rowspan="4" class="roomtype-width">
                   <roomtype2></roomtype2>
-                </th>
+                </td>
               </tr>
               <tr>
                 <td class="table2-option-row-style p-0">

@@ -1,15 +1,11 @@
 <template>
-  <div>
-    <div>
-      <div class="div-max-width ">
-        <span class="font-weight-bold heading-color">
-          Standard room-Two single beds</span
-        >
+  <div class="div-max-width ">
+    <span class="font-weight-bold heading-color">
+      Standard room-Two single beds
+    </span>
 
-        <div class="mt-2">
-          <img src="../assets/ImagesS/roomimage.jpeg" height="120px" />
-        </div>
-      </div>
+    <div class="mt-3">
+      <img src="../assets/ImagesS/roomimage.jpeg" height="120px" />
     </div>
   </div>
 </template>

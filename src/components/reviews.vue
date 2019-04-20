@@ -5,9 +5,7 @@
         <b-col md="5" class="d-flex pl-0">
           <div class="text-center review-col1-divborder w-25">
             <div class="review-col1-bg m-0 ">
-              <div>
-                <span class="review-div1-numsize font-weight-bold">4.0</span>
-              </div>
+              <span class="review-div1-numsize font-weight-bold">4.0</span>
               <div>
                 <span class="review-div1-fontsize">920 Reviews</span>
               </div>
@@ -86,70 +84,6 @@
                   <hr class="review-hr-position" />
                 </div>
               </div>
-              <!-- <div class="w-75">
-                <span class="review-grade-db"
-                  >EXCELLENT
-                  <hr class="review-hr-text"
-                /></span>
-                <span class="review-grade-db"
-                  >VERY GOOD
-                  <hr class="review-hr-text"
-                /></span>
-                <span class="review-grade-db"
-                  >AVERGAGE
-                  <hr class="review-hr-text"
-                /></span>
-                <span class="review-grade-db"
-                  >POOR
-                  <hr class="review-hr-text"
-                /></span>
-                <span class="review-grade-db"
-                  >BAD
-                  <hr class="review-hr-text"
-                /></span>
-              </div>
-              <div class="75">
-                <span class="review-grade-db">
-                  395 Reviews
-                </span>
-                <span class="review-grade-db">
-                  395 Reviews
-                </span>
-                <span class="review-grade-db">
-                  395 Reviews
-                </span>
-                <span class="review-grade-db">
-                  395 Reviews
-                </span>
-                <span class="review-grade-db">
-                  395 Reviews
-                </span>
-              </div> -->
-              <!-- <div>
-                <span class="font-weight-bold text-left">EXCELLENT</span>
-                <hr class="review-hr-text" />
-                <span class="text-right">395 Reviews</span>
-              </div>
-              <div>
-                <span class="font-weight-bold text-left">VERY GOOD</span>
-                <hr class="review-hr-text" />
-                <span class="text-right">300 Reviews</span>
-              </div>
-              <div>
-                <span class="font-weight-bold text-left">AVERGAGE</span>
-                <hr class="review-hr-text" />
-                <span class="text-right">395 Reviews</span>
-              </div>
-              <div>
-                <span class="font-weight-bold text-left">POOR</span>
-                <hr class="review-hr-text" />
-                <span class="text-right">44 Reviews</span>
-              </div>
-              <div>
-                <span class="font-weight-bold text-left">BAD</span>
-                <hr class="review-hr-text" />
-                <span class="text-right">51 Reviews</span>
-              </div> -->
             </div>
           </div>
         </b-col>
@@ -215,18 +149,18 @@
             <font-awesome-icon :icon="['far', 'circle']" />
           </span>
         </div>
-        <div class="comment-lightgray-head pb-2">
+        <div class="comment-lightgray-head mb-2">
           {{ review.reviewname }}
         </div>
         <div class="para-font-size">{{ review.reviewpara }}</div>
       </div>
     </b-row>
     <b-row>
-      <div class="text-left powered-div mb-5">
+      <div class="powered-fontsize">
         <span class="powered-font-color mr-2"> Powered by </span>
         <span class="cursor-pointer-text">
-          <span><font-awesome-icon :icon="['fab', 'tripadvisor']"/></span>
-          <span class="font-weight-bold">trip</span>
+          <span><font-awesome-icon :icon="['fab', 'tripadvisor']" /> </span>
+          <span class="font-weight-bold"> trip</span>
           <span class="advisor-font-color font-weight-bold">advisor</span>
         </span>
       </div>
@@ -310,7 +244,7 @@ export default {
 .powered-font-color {
   color: $allgraytextcolor;
 }
-.powered-div {
+.powered-fontsize {
   font-size: 12px;
 }
 .icon-size {

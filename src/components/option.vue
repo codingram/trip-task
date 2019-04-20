@@ -1,28 +1,25 @@
 <template>
-  <div class="p-3 pl-3  whole-div-font">
-    <div class="option-div-display">
+  <div class="p-3 pl-3  table-fontsize">
+    <div class="d-flex">
       <div class="pr-2 font-weight-bold option-head-color">OPTION 1</div>
       <button class="recomm-button">RECOMMENDED</button>
     </div>
-    <div>
-      <div class="room-only-color mb-1 mt-3 ml-2">
-        <span class="mr-2 non-icon-size">
-          <font-awesome-icon :icon="['fas', 'times-circle']"
-        /></span>
-        <span class="font-weight-bold "> Room Only</span>
-      </div>
+
+    <div class="room-only-color mb-1 mt-3 ml-2">
+      <span class="mr-2 non-icon-size">
+        <font-awesome-icon :icon="['fas', 'times-circle']" />
+      </span>
+      <span class="font-weight-bold "> Room Only</span>
     </div>
-    <div>
-      <div class="pb-1 pl-2 none-refund">
-        <span class="mr-2 non-icon-size">
-          <font-awesome-icon :icon="['fab', 'creative-commons-nc']"
-        /></span>
-        <span class="font-weight-bold">Non-Refundable</span>
-      </div>
+
+    <div class="mb-1 ml-2 none-refund">
+      <span class="mr-2 non-icon-size">
+        <font-awesome-icon :icon="['fab', 'creative-commons-nc']" />
+      </span>
+      <span class="font-weight-bold">Non-Refundable</span>
     </div>
-    <div>
-      <div class="read-more pl-4 ml-2">Read More</div>
-    </div>
+
+    <div class="read-more pl-4 ml-2">Read More</div>
   </div>
 </template>
 <style lang="scss">
@@ -52,17 +49,13 @@
   margin-top: -5px;
   margin-left: 3px;
 }
-.whole-div-font {
-  font-size: 12px;
+.table-fontsize {
+  font-size: 11px;
 }
 .non-icon-size {
   font-size: 16px;
 }
 .option-head-color {
   color: $alltextheadcolor;
-}
-.option-div-display
-{
-  display: inline-flex;
 }
 </style>

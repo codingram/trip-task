@@ -42,7 +42,7 @@
           <div class="roominfo-col-3 ">
             <span>Hurry! Last few rooms remaining for your dates</span>
           </div>
-          <div class="outline-whole-row p-2 pl-3 pr-3">
+          <div class="outline-whole-row">
             <div>
               <div class="float-left standard-room-div-width">
                 <div
@@ -76,19 +76,17 @@
                   ₹ 3,177
                 </div>
                 <div class="col3-saveing-price font-weight-bold mb-2">
-                  Saving₹ 353
+                  Saving ₹ 353
                 </div>
               </div>
             </div>
             <div class="clearfix"></div>
             <div class="col3-pricedetails-below-border"></div>
             <div class="mt-2 d-flex">
-              <div
-                class="div-display-inline-block all-blue-color col3-others-room-text"
-              >
+              <div class=" all-blue-color col3-others-room-text">
                 OTHER ROOMS
               </div>
-              <div class="div-display-inline-block ml-auto">
+              <div class=" ml-auto">
                 <button class="booknow-box-button">
                   BOOK THIS NOW
                 </button>
@@ -96,18 +94,20 @@
             </div>
             <div class="clearfix"></div>
           </div>
-          <div class="roominfo-col3-review p-2 pl-3 pr-3 mt-2">
-            <div class="col3-advisor-button-sm div-display-inline-block">
-              <span>
-                <font-awesome-icon :icon="['fab', 'tripadvisor']" />
-              </span>
-              <span class="font-weight-bold"> 4.0</span>
-            </div>
-            <div class="div-display-inline-block">
-              <span class="my-auto review-color pl-2">920 Reviews</span>
+          <div class="roominfo-col3-review mt-2">
+            <div class="d-flex">
+              <div class="col3-advisor-button-sm d-flex justify-content-center">
+                <span class="my-auto">
+                  <font-awesome-icon :icon="['fab', 'tripadvisor']" />
+                </span> 
+                <span class="font-weight-bold my-auto"> 4.0</span>
+              </div>
+              <div class="my-auto">
+                <span class="my-auto review-color ml-2">920 Reviews</span>
+              </div>
             </div>
 
-            <div class="review-below font-weight-bold pt-2">
+            <div class="review-below font-weight-bold mt-2">
               It is a business hotel, in a very nice area, metro station just on
               the
             </div>
@@ -115,30 +115,30 @@
               <div class="float-left northstar-text-overflow">
                 Northstar77098|B
               </div>
-              <div class="float-right more-review-font">MORE REVIEWS</div>
+              <div class="float-right more-review-font font-weight-bold">
+                MORE REVIEWS
+              </div>
             </div>
           </div>
         </b-col>
       </div>
 
-      <div>
-        <div class="mt-2">
-          <div class="ibis-hotel-head font-weight-bold">
-            Ibis one Central Hotel
-          </div>
-          <div class="hotel-star-size  ml-2">
-            <font-awesome-icon :icon="['fas', 'star']" />
-            <font-awesome-icon :icon="['fas', 'star']" />
-            <font-awesome-icon :icon="['fas', 'star']" />
-            <span class="star-color">
-              <font-awesome-icon :icon="['fas', 'star']" />
-              <font-awesome-icon :icon="['fas', 'star']" />
-            </span>
-          </div>
+      <div class="mt-2">
+        <div class="ibis-hotel-head font-weight-bold">
+          Ibis one Central Hotel
         </div>
-        <div class="ibis-hotel-subhead font-weight-bold">
-          Trade Center, Dubai, 9914, United Arab Emibrates
+        <div class="hotel-star-size  ml-2">
+          <font-awesome-icon :icon="['fas', 'star']" />
+          <font-awesome-icon :icon="['fas', 'star']" />
+          <font-awesome-icon :icon="['fas', 'star']" />
+          <span class="star-color">
+            <font-awesome-icon :icon="['fas', 'star']" />
+            <font-awesome-icon :icon="['fas', 'star']" />
+          </span>
         </div>
+      </div>
+      <div class="ibis-hotel-subhead font-weight-bold">
+        Trade Center, Dubai, 9914, United Arab Emibrates
       </div>
     </b-container>
   </div>

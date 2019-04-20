@@ -6,7 +6,6 @@
           <b-tab title="TRIPADVISOR " class="headfont">
             <reviews></reviews>
           </b-tab>
-
           <b-tab title="MAKEMYTRIP ">
             <reviews></reviews>
           </b-tab>

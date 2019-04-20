@@ -2,48 +2,46 @@
   <div>
     <b-container fluid>
       <div class="srcol-head-tab">
-        <div>
-          <div
-            class=" scroll-tab p-2 row-display-inline  scrolltab-cursor-point"
-            v-scroll-to="'#table'"
-          >
-            <a href="#" class="link-text-scroll text-center m-3">
-              ROOMS
-            </a>
-          </div>
-          <div
-            class="p-2 scroll-tab row-display-inline scrolltab-cursor-point"
-            v-scroll-to="'#facility'"
-          >
-            <a href="#" class="link-text-scroll text-center m-3 ">
-              FACILITIES
-            </a>
-          </div>
+        <div
+          class=" scroll-tab p-2 row-display-inline  scrolltab-cursor-point"
+          v-scroll-to="'#table'"
+        >
+          <a href="#" class="link-text-scroll text-center m-3">
+            ROOMS
+          </a>
+        </div>
+        <div
+          class="p-2 scroll-tab row-display-inline scrolltab-cursor-point"
+          v-scroll-to="'#facility'"
+        >
+          <a href="#" class="link-text-scroll text-center m-3 ">
+            FACILITIES
+          </a>
+        </div>
 
-          <div
-            class="p-2 scroll-tab row-display-inline scrolltab-cursor-point"
-            v-scroll-to="'#table'"
+        <div
+          class="p-2 scroll-tab row-display-inline scrolltab-cursor-point"
+          v-scroll-to="'#table'"
+        >
+          <a href="#table" class="link-text-scroll text-center m-3">
+            LOCATIONS
+          </a>
+        </div>
+        <div
+          class="p-2 scroll-tab row-display-inline scrolltab-cursor-point"
+          v-scroll-to="'#table'"
+        >
+          <a href="#table" class="link-text-scroll text-center m-3">
+            POLICIES
+          </a>
+        </div>
+        <div
+          class="p-2 scroll-tab row-display-inline scrolltab-cursor-point"
+          v-scroll-to="'#review'"
+        >
+          <a href="#review" class="link-text-scroll text-center m-3"
+            >RATINGS AND REVIEWS</a
           >
-            <a href="#table" class="link-text-scroll text-center m-3">
-              LOCATIONS
-            </a>
-          </div>
-          <div
-            class="p-2 scroll-tab row-display-inline scrolltab-cursor-point"
-            v-scroll-to="'#table'"
-          >
-            <a href="#table" class="link-text-scroll text-center m-3">
-              POLICIES
-            </a>
-          </div>
-          <div
-            class="p-2 scroll-tab row-display-inline scrolltab-cursor-point"
-            v-scroll-to="'#review'"
-          >
-            <a href="#review" class="link-text-scroll text-center m-3"
-              >RATINGS AND REVIEWS</a
-            >
-          </div>
         </div>
       </div>
     </b-container>

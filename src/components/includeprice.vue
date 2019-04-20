@@ -1,9 +1,7 @@
 <template>
   <div class="p-3 pl-3">
-    <div>
-      <div class="text-style till-time-date ">
-        <font-awesome-icon :icon="['fas', 'check']" /> Buy 1 Get 1 on F&B
-      </div>
+    <div class="text-style till-time-date ">
+      <font-awesome-icon :icon="['fas', 'check']" /> Buy 1 Get 1 on F&B
     </div>
   </div>
 </template>
