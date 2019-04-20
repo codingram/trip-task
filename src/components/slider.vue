@@ -3,7 +3,7 @@
     <b-row>
       <b-col md="12">
         <!-- swiper -->
-        <div class="mb-5 mt-4">
+        <div class="mb-4 mt-4">
           <swiper
             :options="swiperOption"
             v-for="text in texts"
@@ -13,7 +13,7 @@
             <swiper-slide>
               <div class="d-flex">
                 <div class="swiper-icon mr-2">
-                  <font-awesome-icon :icon="['fas', 'thumbs-up']" />
+                  <font-awesome-icon :icon="['far', 'thumbs-up']" />
                 </div>
                 <div class="swiper-font text-justify">
                   {{ text.para }}
@@ -23,7 +23,7 @@
             <swiper-slide>
               <div class="d-flex">
                 <div class="swiper-icon mr-2">
-                  <font-awesome-icon :icon="['fas', 'thumbs-up']" />
+                  <font-awesome-icon :icon="['far', 'thumbs-up']" />
                 </div>
                 <div class="swiper-font text-justify">
                   {{ text.para }}
@@ -33,7 +33,7 @@
             <swiper-slide>
               <div class="d-flex">
                 <div class="swiper-icon mr-2">
-                  <font-awesome-icon :icon="['fas', 'thumbs-up']" />
+                  <font-awesome-icon :icon="['far', 'thumbs-up']" />
                 </div>
                 <div class="swiper-font text-justify">
                   {{ text.para }}
@@ -43,7 +43,7 @@
             <swiper-slide>
               <div class="d-flex">
                 <div class="swiper-icon mr-2">
-                  <font-awesome-icon :icon="['fas', 'thumbs-up']" />
+                  <font-awesome-icon :icon="['far', 'thumbs-up']" />
                 </div>
                 <div class="swiper-font text-justify">
                   {{ text.para }}
@@ -53,7 +53,7 @@
             <swiper-slide>
               <div class="d-flex">
                 <div class="swiper-icon mr-2">
-                  <font-awesome-icon :icon="['fas', 'thumbs-up']" />
+                  <font-awesome-icon :icon="['far', 'thumbs-up']" />
                 </div>
                 <div class="swiper-font text-justify">
                   {{ text.para }}
@@ -63,7 +63,7 @@
             <swiper-slide>
               <div class="d-flex">
                 <div class="swiper-icon mr-2">
-                  <font-awesome-icon :icon="['fas', 'thumbs-up']" />
+                  <font-awesome-icon :icon="['far', 'thumbs-up']" />
                 </div>
                 <div class="swiper-font text-justify">
                   {{ text.para }}
@@ -73,7 +73,7 @@
             <swiper-slide>
               <div class="d-flex">
                 <div class="swiper-icon mr-2">
-                  <font-awesome-icon :icon="['fas', 'thumbs-up']" />
+                  <font-awesome-icon :icon="['far', 'thumbs-up']" />
                 </div>
                 <div class="swiper-font text-justify">
                   {{ text.para }}
@@ -83,7 +83,7 @@
             <swiper-slide>
               <div class="d-flex">
                 <div class="swiper-icon mr-2">
-                  <font-awesome-icon :icon="['fas', 'thumbs-up']" />
+                  <font-awesome-icon :icon="['far', 'thumbs-up']" />
                 </div>
                 <div class="swiper-font text-justify">
                   {{ text.para }}
@@ -93,7 +93,7 @@
             <swiper-slide>
               <div class="d-flex">
                 <div class="swiper-icon mr-2">
-                  <font-awesome-icon :icon="['fas', 'thumbs-up']" />
+                  <font-awesome-icon :icon="['far', 'thumbs-up']" />
                 </div>
                 <div class="swiper-font text-justify">
                   {{ text.para }}
@@ -143,11 +143,11 @@ export default {
   font-size: 13px;
   color: #808080eb;
   line-height: 15px;
+  word-spacing: -2px;
 }
 .swiper-icon {
-  margin-right: -21px;
-  font-size: 17px;
-  color: #675f5f;
+  font-size: 20px;
+  color: #193e37;
 }
 .swiper-container {
   position: inherit;
@@ -155,12 +155,18 @@ export default {
 .swiper-button-prev,
 .swiper-button-next {
   background-size: 13px 40px;
-  margin-top: -37px;
+  margin-top: -20px;
 }
 .swiper-button-prev,
 .swiper-container-rtl .swiper-button-next {
-  // background-image: url(data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3Dhttp%3A%2F%2Fwww.w3.org%…19.9L22%2C44L0%2C22L0%2C22L0%2C22z%20fill%3D%23007aff%2F%3E%3C%2Fsvg%3E);
+  // background-image: url(../assets/ImagesS/arrow.png);
   left: 10px;
   right: auto;
+}
+.swiper-button-prev,
+.swiper-container-rtl .swiper-button-next {
+  left: 10px;
+  right: auto;
+  outline: none;
 }
 </style>

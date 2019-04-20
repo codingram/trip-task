@@ -1,7 +1,7 @@
 <template>
   <div class="table-outline">
     <b-container>
-      <div class="d-flex">
+      <div class="d-flex mt-1 mb-2">
         <div class="breakfast-style ">
           <span class="text-secondary">
             <input type="checkbox" />
@@ -15,75 +15,72 @@
           </span>
         </div>
       </div>
+      <div class="table-wrapper">
+        <table class="table table-bordered mb-0">
+          <thead>
+            <tr class="row-gray-color">
+              <th scope="col" class="roomtype-width">ROOM TYPE</th>
+              <th scope="col">OPTIONS</th>
+              <th scope="col" class="td-max-width">INCLUDED IN THIS PRICE</th>
+              <th scope="col">PRICE</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td scope="row" rowspan="4"><roomtype1></roomtype1></td>
+              <td class="option-row-style option-bg p-0">
+                <options></options>
+              </td>
+              <td class="include-row-style  option-bg p-0">
+                <options3></options3>
+              </td>
+              <td class="option-bg price-td-width px-5"><price></price></td>
+            </tr>
+            <tr>
+              <td class="option-row-style p-0"><options2></options2></td>
+              <td class="include-row-style  p-0"><options3></options3></td>
+              <td class=" price-td-width px-5"><price></price></td>
+            </tr>
+            <tr>
+              <td class="option-row-style p-0"><option4></option4></td>
+              <td class="option-row-style p-0"><options3></options3></td>
+              <td class=" price-td-width px-5"><price></price></td>
+            </tr>
+            <tr>
+              <td class="option-row-style p-0"><options2></options2></td>
+              <td class="option-row-style p-0"><options3></options3></td>
+              <td class=" price-td-width px-5"><price></price></td>
+            </tr>
+          </tbody>
+          <tbody>
+            <tr>
+              <td scope="row" rowspan="4" class="roomtype-width">
+                <roomtype2></roomtype2>
+              </td>
+            </tr>
+            <tr>
+              <td class="table2-option-row-style p-0">
+                <option4></option4>
+              </td>
+              <td class="include-row-style  p-0 td-max-width">
+                <options3></options3>
+              </td>
 
-      <b-row>
-        <b-col>
-          <table class="table table-bordered mb-0">
-            <thead>
-              <tr class="row-gray-color">
-                <th scope="col" class="roomtype-width">ROOM TYPE</th>
-                <th scope="col">OPTIONS</th>
-                <th scope="col" class="td-max-width">INCLUDED IN THIS PRICE</th>
-                <th scope="col">PRICE</th>
-              </tr>
-            </thead>
-            <tbody>
-              <tr>
-                <td scope="row" rowspan="4"><roomtype1></roomtype1></td>
-                <td class="option-row-style option-bg p-0">
-                  <options></options>
-                </td>
-                <td class="include-row-style  option-bg p-0">
-                  <options3></options3>
-                </td>
-                <td class="option-bg price-td-width px-5"><price></price></td>
-              </tr>
-              <tr>
-                <td class="option-row-style p-0"><options2></options2></td>
-                <td class="include-row-style  p-0"><options3></options3></td>
-                <td class=" price-td-width px-5"><price></price></td>
-              </tr>
-              <tr>
-                <td class="option-row-style p-0"><option4></option4></td>
-                <td class="option-row-style p-0"><options3></options3></td>
-                <td class=" price-td-width px-5"><price></price></td>
-              </tr>
-              <tr>
-                <td class="option-row-style p-0"><options2></options2></td>
-                <td class="option-row-style p-0"><options3></options3></td>
-                <td class=" price-td-width px-5"><price></price></td>
-              </tr>
-            </tbody>
-            <tbody>
-              <tr>
-                <td scope="row" rowspan="4" class="roomtype-width">
-                  <roomtype2></roomtype2>
-                </td>
-              </tr>
-              <tr>
-                <td class="table2-option-row-style p-0">
-                  <option4></option4>
-                </td>
-                <td class="include-row-style  p-0 td-max-width">
-                  <options3></options3>
-                </td>
-
-                <td class=" price-td-width px-5"><price></price></td>
-              </tr>
-              <tr>
-                <td class="option-row-style p-0"><options2></options2></td>
-                <td class="option-row-style p-0"><options3></options3></td>
-                <td class=" price-td-width px-5"><price></price></td>
-              </tr>
-              <tr>
-                <td class="option-row-style p-0"><options2></options2></td>
-                <td class="option-row-style p-0"><options3></options3></td>
-                <td class=" price-td-width px-5"><price></price></td>
-              </tr>
-            </tbody>
-          </table>
-        </b-col>
-      </b-row>
+              <td class=" price-td-width px-5"><price></price></td>
+            </tr>
+            <tr>
+              <td class="option-row-style p-0"><options2></options2></td>
+              <td class="option-row-style p-0"><options3></options3></td>
+              <td class=" price-td-width px-5"><price></price></td>
+            </tr>
+            <tr>
+              <td class="option-row-style p-0"><options2></options2></td>
+              <td class="option-row-style p-0"><options3></options3></td>
+              <td class=" price-td-width px-5"><price></price></td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
     </b-container>
   </div>
 </template>

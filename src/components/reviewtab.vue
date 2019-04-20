@@ -42,12 +42,11 @@ export default {
   color: #495057;
   background-color: #fff;
   border-color: #dee2e6 #dee2e6 #fff;
-  border-bottom: 2px solid #008cff;
+  border-bottom: 3px solid #008cff;
   font-weight: bold;
 }
 .nav-link {
   color: $allgraytextcolor;
-
   padding-bottom: 5px;
   padding-left: 5px;
 }
@@ -69,5 +68,18 @@ export default {
 .tab-content > .active {
   display: block;
   outline: none;
+}
+.nav-link {
+  color: #545050;
+  padding-bottom: 0px;
+  padding-left: 0px;
+}
+.nav-link {
+  display: block;
+  padding: 0px;
+}
+.nav-tabs .nav-link {
+  padding: 0px 0px 10px 0px;
+  margin: 0px 35px 0px 0px;
 }
 </style>

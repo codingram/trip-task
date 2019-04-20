@@ -3,8 +3,8 @@ import App from "./App.vue";
 import router from "./router";
 import store from "./store";
 // Vue scroll import
-var VueScrollTo = require('vue-scrollto'); 
-Vue.use(VueScrollTo)
+var VueScrollTo = require("vue-scrollto");
+Vue.use(VueScrollTo);
 
 // bootstrap import
 import BootstrapVue from "bootstrap-vue";
@@ -41,7 +41,6 @@ import {
   faParking,
   faSuitcaseRolling,
   faCheck,
-  faThumbsUp,
   faTimesCircle,
   faShower,
   faToriiGate,
@@ -54,7 +53,11 @@ import {
   faCentos,
   faCreativeCommonsNc
 } from "@fortawesome/free-brands-svg-icons"; //fab
-import { faCircle, faCalendarAlt } from "@fortawesome/free-regular-svg-icons"; //far
+import {
+  faCircle,
+  faCalendarAlt,
+  faThumbsUp
+} from "@fortawesome/free-regular-svg-icons"; //far
 
 library.add(
   faEnvelopeOpenText,
@@ -80,14 +83,19 @@ library.add(
   faParking,
   faSuitcaseRolling,
   faCheck,
-  faThumbsUp,
   faTimesCircle,
   faShower,
   faToriiGate,
   faTicketAlt
 ); //fas
-library.add(faEnvelope, faCircle, faCalendarAlt); //far
-library.add(faFacebookF, faTwitter, faTripadvisor, faCentos, faCreativeCommonsNc); //fab
+library.add(faEnvelope, faCircle, faCalendarAlt, faThumbsUp); //far
+library.add(
+  faFacebookF,
+  faTwitter,
+  faTripadvisor,
+  faCentos,
+  faCreativeCommonsNc
+); //fab
 
 Vue.component("font-awesome-icon", FontAwesomeIcon);
 

@@ -14,7 +14,7 @@
 }
 
 .star-color {
-  color: #8080805c;
+  color: #e0dddd;
 }
 .swiper-style {
   height: 270px;
@@ -159,10 +159,9 @@
 .col3-advisor-button-sm {
   background-color: $textgreencolor;
   color: white;
-  height: 30px;
-  width: 48px;
   border-radius: 3px;
   font-size: 15px;
+  padding: 3px 5px;
 }
 .booknow-button {
   padding: 0px;
@@ -203,12 +202,12 @@
 .ibis-hotel-head {
   font-size: 18px;
   display: inline-block;
-    vertical-align: baseline;
+    vertical-align: middle;
 }
 .ibis-hotel-subhead {
   color: $alltextbluecolor;
-  font-size: 13px;
-  line-height: 2px;
+  font-size: 12px;
+  line-height: 3px;
 }
 .sec-th-margin {
   margin-left: 6px;

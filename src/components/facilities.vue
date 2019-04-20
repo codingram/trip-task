@@ -2,15 +2,15 @@
   <div>
     <b-container>
       <div class="mt-4 mb-3">
-      <div class="ibis-facility-head ">
-        Facilities at Ibis One Central Hotel
-      </div>
-      <div class="ibis-facility-subhead mb-4 font-weight-bold">
-        Facilities here have been
-        <span class="heading2-span-font font-weight-bold">
-          rated 4 by 16 guests
-        </span>
-      </div>
+        <div class="ibis-facility-head ">
+          Facilities at Ibis One Central Hotel
+        </div>
+        <div class="ibis-facility-subhead mb-4">
+          Facilities here have been
+          <span class="heading2-span-font font-weight-bold">
+            rated 4 by 16 guests
+          </span>
+        </div>
       </div>
 
       <div class="d-flex div-border">
@@ -40,7 +40,7 @@
         </div>
       </div>
 
-      <div class="mx-auto div-bottom-border d-flex  ">
+      <div class="mx-auto div-bottom-border d-flex mt-2  ">
         <div class=" list-font flex-fill">
           <ul class="p-0 ">
             <div>
@@ -234,7 +234,7 @@
           </div>
         </div>
       </div>
-      <div class="mt-4 mb-3">
+      <div class="mt-4 mb-4">
         <div class="font-weight-bold verfiy-font">
           Verified Ratings & Reviews for Ibis One Central Hotel
         </div>
@@ -274,7 +274,7 @@
   font-size: 11px;
 }
 .div-bottom-border {
-  border-bottom: 2px solid #8080803d;
+  border-bottom: 2px solid #dee2e6;
 }
 .verfiy-font {
   font-size: 18px;

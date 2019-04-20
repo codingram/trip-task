@@ -6,15 +6,15 @@
           <div class="text-center review-col1-divborder w-25">
             <div class="review-col1-bg m-0 ">
               <span class="review-div1-numsize font-weight-bold">4.0</span>
-              <div>
+              <div class="div1-lineheight">
                 <span class="review-div1-fontsize">920 Reviews</span>
               </div>
             </div>
-            <div class=" p-1">
-              <div class="review-col1-icon">
+            <div class=" p-1 d-flex justify-content-center">
+              <div class="my-auto">
                 <font-awesome-icon :icon="['fab', 'tripadvisor']" />
               </div>
-              <div class="icon-color icon-size review-col1-icon">
+              <div class="icon-color icon-size my-auto">
                 <font-awesome-icon :icon="['fas', 'dot-circle']" />
                 <font-awesome-icon :icon="['fas', 'dot-circle']" />
                 <font-awesome-icon :icon="['fas', 'dot-circle']" />
@@ -89,7 +89,7 @@
         </b-col>
         <b-col md="7" class="my-auto">
           <div class="d-inline-flex">
-            <div class="location-margin mr-5 ml-3">
+            <div class="location-margin mr-5 ">
               <font-awesome-icon :icon="['fas', 'dot-circle']" />
               <font-awesome-icon :icon="['fas', 'dot-circle']" />
               <font-awesome-icon :icon="['fas', 'dot-circle']" />
@@ -139,9 +139,9 @@
       v-bind:key="review.index"
     >
       <div>
-        <div class="icon-color font-weight-bold">
-          {{ review.reviewhead }}
-          <span class="review-dot-icon">
+        <div class="icon-color font-weight-bold ">
+          <span>{{ review.reviewhead }}</span>
+          <span class="review-dot-icon ml-3">
             <font-awesome-icon :icon="['fas', 'dot-circle']" />
             <font-awesome-icon :icon="['fas', 'dot-circle']" />
             <font-awesome-icon :icon="['fas', 'dot-circle']" />
@@ -159,15 +159,24 @@
       <div class="powered-fontsize">
         <span class="powered-font-color mr-2"> Powered by </span>
         <span class="cursor-pointer-text">
-          <span><font-awesome-icon :icon="['fab', 'tripadvisor']" /> </span>
-          <span class="font-weight-bold"> trip</span>
-          <span class="advisor-font-color font-weight-bold">advisor</span>
+          <span class="trip-icon-color">
+            <font-awesome-icon :icon="['fab', 'tripadvisor']" />
+          </span>
+          <span class="font-weight-bold trip-advisor-fontsize"> trip</span>
+          <span
+            class="advisor-font-color font-weight-bold trip-advisor-fontsize"
+            >advisor</span
+          >
         </span>
       </div>
       <div class="ml-auto allreview-font font-weight-bold ">
-        <span class="mr-2 cursor-pointer-text">ALL REVIEWS</span>
+        <a href="" class="mr-2 cursor-pointer-text text-hover-color"
+          >ALL REVIEWS</a
+        >
         <span class="mr-2 slash-color">|</span>
-        <span class="cursor-pointer-text"> WRITE YOUR OWN REVIEW</span>
+        <a href="" class="cursor-pointer-text text-hover-color">
+          WRITE YOUR OWN REVIEW</a
+        >
       </div>
     </b-row>
   </b-container>
@@ -179,31 +188,31 @@ export default {
       reviews: [
         {
           reviewhead: "Good Value and well located",
-          reviewname: "NT Global, BUSSINESS Apr 03,2019",
+          reviewname: "NTGlobal, BUISNESS Apr 03,2019",
           reviewpara:
             "Lorem Ipsum is simply dummy text of the, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum Lorem Ipsum is simply dummy text of the, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum"
         },
         {
           reviewhead: "Good Value and well located",
-          reviewname: "NT Global, BUSSINESS Apr 03,2019",
+          reviewname: "NTGlobal, BUISNESS Apr 03,2019",
           reviewpara:
             "Lorem Ipsum is simply dummy text of the, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum Lorem Ipsum is simply dummy text of the, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum"
         },
         {
           reviewhead: "Good Value and well located",
-          reviewname: "NT Global, BUSSINESS Apr 03,2019",
+          reviewname: "NTGlobal, BUISNESS Apr 03,2019",
           reviewpara:
             "Lorem Ipsum is simply dummy text of the, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum Lorem Ipsum is simply dummy text of the, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum"
         },
         {
           reviewhead: "Good Value and well located",
-          reviewname: "NT Global, BUSSINESS Apr 03,2019",
+          reviewname: "NTGlobal, BUISNESS Apr 03,2019",
           reviewpara:
             "Lorem Ipsum is simply dummy text of the, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum Lorem Ipsum is simply dummy text of the, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum"
         },
         {
           reviewhead: "Good Value and well located",
-          reviewname: "NT Global, BUSSINESS Apr 03,2019",
+          reviewname: "NTGlobal, BUISNESS Apr 03,2019",
           reviewpara:
             "Lorem Ipsum is simply dummy text of the, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum Lorem Ipsum is simply dummy text of the, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum"
         }
@@ -227,15 +236,14 @@ export default {
 }
 .comment-lightgray-head {
   color: $alllightgraytext;
-  font-size: 12px;
+  font-size: 11px;
 }
 .para-font-size {
-  font-size: 13px;
-  font-size: 11px;
+  font-size: 12px;
   color: $allgraytextcolor;
 }
 .allreview-font {
-  font-size: 10px;
+  font-size: 11px;
   color: $alltextbluecolor;
 }
 .advisor-font-color {
@@ -243,9 +251,16 @@ export default {
 }
 .powered-font-color {
   color: $allgraytextcolor;
+  font-size: 10px;
 }
 .powered-fontsize {
   font-size: 12px;
+}
+.trip-advisor-fontsize {
+  font-size: 11px;
+}
+.trip-icon-color {
+  font-size: 13px;
 }
 .icon-size {
   font-size: 10px;
@@ -293,21 +308,11 @@ export default {
 }
 .review-dot-icon {
   font-size: 10px;
+  vertical-align: middle;
 }
 .cursor-pointer-text {
   cursor: pointer;
 }
-
-.review-col1-icon {
-  display: inline-block;
-}
-// .review-hr-text {
-//   display: inline-block;
-//   width: 32%;
-//   margin: 8px 10px;
-//   vertical-align: middle;
-//   position: absolute;
-// }
 .review-grade-db {
   display: block;
 }
@@ -329,5 +334,16 @@ export default {
 }
 .review-numsize {
   font-size: 7px;
+}
+.text-hover-color:hover {
+  text-decoration: none;
+  color: $alltextbluecolor;
+}
+.text-hover-color {
+  color: $alltextbluecolor;
+}
+.div1-lineheight {
+  line-height: 4px;
+  padding-bottom: 12px;
 }
 </style>

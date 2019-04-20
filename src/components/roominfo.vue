@@ -97,9 +97,9 @@
           <div class="roominfo-col3-review mt-2">
             <div class="d-flex">
               <div class="col3-advisor-button-sm d-flex justify-content-center">
-                <span class="my-auto">
+                <span class="my-auto mr-1">
                   <font-awesome-icon :icon="['fab', 'tripadvisor']" />
-                </span> 
+                </span>
                 <span class="font-weight-bold my-auto"> 4.0</span>
               </div>
               <div class="my-auto">
@@ -138,7 +138,7 @@
         </div>
       </div>
       <div class="ibis-hotel-subhead font-weight-bold">
-        Trade Center, Dubai, 9914, United Arab Emibrates
+        Trade Centre, Dubai, 9914, United Arab Emibrates
       </div>
     </b-container>
   </div>
