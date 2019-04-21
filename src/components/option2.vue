@@ -1,6 +1,6 @@
 <template>
   <div class="p-3 pl-3 table-fontsize">
-    <div class="pr-3 font-weight-bold option-head-color">OPTION 2</div>
+    <div class="font-weight-bold option-head-color">OPTION 2</div>
 
     <div class="room-only-color mb-1 mt-3 ml-2">
       <span class="mr-2 non-icon-size">
@@ -28,9 +28,6 @@
 
 .none-refund {
   color: $textredcolor;
-}
-.read-more {
-  color: $alltextbluecolor;
 }
 .till-time-date {
   color: $allgraytextcolor;

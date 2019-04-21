@@ -1,7 +1,7 @@
 <template>
   <div class="p-3 pl-3  table-fontsize">
     <div class="d-flex">
-      <div class="pr-2 font-weight-bold option-head-color">OPTION 1</div>
+      <div class="mr-2 font-weight-bold option-head-color">OPTION 1</div>
       <button class="recomm-button">RECOMMENDED</button>
     </div>
 
@@ -42,12 +42,6 @@
 }
 .none-refund {
   color: $textredcolor;
-}
-.read-more {
-  color: $alltextbluecolor;
-  font-size: 13px;
-  margin-top: -5px;
-  margin-left: 3px;
 }
 .table-fontsize {
   font-size: 11px;

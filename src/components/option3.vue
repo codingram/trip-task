@@ -1,6 +1,6 @@
 <template>
   <div class="p-3 pl-3 whole-div-font">
-    <div class="pr-3 font-weight-bold option-head-color">OPTION 3</div>
+    <div class="font-weight-bold option-head-color">OPTION 3</div>
     <div class="room-only-color mb-1 mt-3 ml-2">
       <span class="mr-2 non-icon-size">
         <font-awesome-icon :icon="['fas', 'times-circle']" />
@@ -13,7 +13,7 @@
       </span>
       <span class="font-weight-bold">Non-Refundable</span>
     </div>
-    <div class="read-more pl-4 ml-2">Read More</div>
+    <div class="read-more ml-4 pl-2">Read More</div>
   </div>
 </template>
 <style lang="scss">
@@ -27,8 +27,6 @@
 .read-more {
   color: $alltextbluecolor;
   font-size: 13px;
-  margin-top: -5px;
-  margin-left: 3px;
 }
 .whole-div-font {
   font-size: 12px;
