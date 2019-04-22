@@ -15,7 +15,7 @@
                 <div class="swiper-icon mr-2">
                   <font-awesome-icon :icon="['far', 'thumbs-up']" />
                 </div>
-                <div class="swiper-font text-justify">
+                <div class="swiper-font">
                   {{ text.para }}
                 </div>
               </div>
@@ -25,7 +25,7 @@
                 <div class="swiper-icon mr-2">
                   <font-awesome-icon :icon="['far', 'thumbs-up']" />
                 </div>
-                <div class="swiper-font text-justify">
+                <div class="swiper-font">
                   {{ text.para }}
                 </div>
               </div>
@@ -35,7 +35,7 @@
                 <div class="swiper-icon mr-2">
                   <font-awesome-icon :icon="['far', 'thumbs-up']" />
                 </div>
-                <div class="swiper-font text-justify">
+                <div class="swiper-font">
                   {{ text.para }}
                 </div>
               </div>
@@ -45,7 +45,7 @@
                 <div class="swiper-icon mr-2">
                   <font-awesome-icon :icon="['far', 'thumbs-up']" />
                 </div>
-                <div class="swiper-font text-justify">
+                <div class="swiper-font">
                   {{ text.para }}
                 </div>
               </div>
@@ -55,7 +55,7 @@
                 <div class="swiper-icon mr-2">
                   <font-awesome-icon :icon="['far', 'thumbs-up']" />
                 </div>
-                <div class="swiper-font text-justify">
+                <div class="swiper-font">
                   {{ text.para }}
                 </div>
               </div>
@@ -65,7 +65,7 @@
                 <div class="swiper-icon mr-2">
                   <font-awesome-icon :icon="['far', 'thumbs-up']" />
                 </div>
-                <div class="swiper-font text-justify">
+                <div class="swiper-font">
                   {{ text.para }}
                 </div>
               </div>
@@ -75,7 +75,7 @@
                 <div class="swiper-icon mr-2">
                   <font-awesome-icon :icon="['far', 'thumbs-up']" />
                 </div>
-                <div class="swiper-font text-justify">
+                <div class="swiper-font">
                   {{ text.para }}
                 </div>
               </div>
@@ -85,7 +85,7 @@
                 <div class="swiper-icon mr-2">
                   <font-awesome-icon :icon="['far', 'thumbs-up']" />
                 </div>
-                <div class="swiper-font text-justify">
+                <div class="swiper-font">
                   {{ text.para }}
                 </div>
               </div>
@@ -95,7 +95,7 @@
                 <div class="swiper-icon mr-2">
                   <font-awesome-icon :icon="['far', 'thumbs-up']" />
                 </div>
-                <div class="swiper-font text-justify">
+                <div class="swiper-font">
                   {{ text.para }}
                 </div>
               </div>
@@ -143,7 +143,6 @@ export default {
   font-size: 13px;
   color: #808080eb;
   line-height: 15px;
-  word-spacing: -2px;
 }
 .swiper-icon {
   font-size: 20px;

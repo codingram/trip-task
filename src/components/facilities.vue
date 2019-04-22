@@ -238,7 +238,7 @@
         <div class="font-weight-bold verfiy-font">
           Verified Ratings & Reviews for Ibis One Central Hotel
         </div>
-        <div class="verfiy-font-below mb-2">
+        <div class="verfiy-font-below">
           Take a look at <span class="font-weight-bold">Verified</span> rating
           and reviews posted by guests
         </div>
@@ -265,7 +265,7 @@
 .ibis-facility-subhead {
   font-size: 13px;
   color: $allgraytextcolor;
-  line-height: 8px;
+  line-height: 9px;
 }
 .heading2-span-font {
   color: $textgreencolor;

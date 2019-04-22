@@ -3,13 +3,13 @@
     <b-container>
       <div class="d-flex mt-1 mb-2">
         <div class="breakfast-style ">
-          <span class="text-secondary">
-            <input type="checkbox" />
+          <span class="text-secondary ">
+            <input type="checkbox" class="vertical-align-text" />
             Breakfast Included
           </span>
         </div>
         <div class="breakfast-style ">
-          <input type="checkbox" />
+          <input type="checkbox" class="vertical-align-text" />
           <span class="text-secondary">
             Free Cancellation
           </span>
@@ -57,8 +57,6 @@
               <td scope="row" rowspan="4" class="roomtype-width">
                 <roomtype2></roomtype2>
               </td>
-            </tr>
-            <tr>
               <td class="table2-option-row-style p-0">
                 <option4></option4>
               </td>

@@ -1,7 +1,7 @@
 <template>
   <div>
     <b-navbar toggleable="lg" class="mx-5 px-5 py-0">
-      <b-navbar-brand href="#">
+      <b-navbar-brand href="">
         <img
           src="../assets/ImagesS/sitelogo.png"
           alt="sitelogo"
@@ -15,62 +15,62 @@
           <div class="icon-text-font">
             <b-collapse id="nav-collapse" is-nav>
               <b-navbar-nav>
-                <b-nav-item href="#" class=" text-center pr-2">
-                  <span class="icon-img-hover"
-                    ><font-awesome-icon :icon="['fas', 'plane']"
-                  /></span>
+                <b-nav-item href="" class=" text-hover text-center mr-2">
+                  <span class="icon-img-hover">
+                    <font-awesome-icon :icon="['fas', 'plane']" />
+                  </span>
                   <span class="icon-display"> Flights </span>
                 </b-nav-item>
-                <b-nav-item href="#" class=" text-center pr-2">
+                <b-nav-item href="" class=" text-center mr-2">
                   <span class="icon-img-hover active"
                     ><font-awesome-icon :icon="['fas', 'hotel']"
                   /></span>
                   <span class="icon-display"> Hotels </span>
                 </b-nav-item>
-                <b-nav-item href="#" class=" text-center pr-2">
+                <b-nav-item href="" class=" text-center mr-2">
                   <span class="icon-img-hover"
                     ><font-awesome-icon :icon="['fas', 'parachute-box']"
                   /></span>
                   <span class="icon-display"> Holidays </span>
                 </b-nav-item>
-                <b-nav-item href="#" class=" text-center pr-2">
+                <b-nav-item href="" class=" text-center mr-2">
                   <span class="icon-img-hover">
                     <font-awesome-icon :icon="['fas', 'train']"
                   /></span>
                   <span class="icon-display"> Trains </span>
                 </b-nav-item>
-                <b-nav-item href="#" class=" text-center pr-2">
+                <b-nav-item href="" class=" text-center mr-2">
                   <span class="icon-img-hover">
                     <font-awesome-icon :icon="['fas', 'bus']"
                   /></span>
                   <span class="icon-display"> Buses </span>
                 </b-nav-item>
-                <b-nav-item href="#" class=" text-center pr-2">
+                <b-nav-item href="" class=" text-center mr-2">
                   <span class="icon-img-hover">
                     <font-awesome-icon :icon="['fas', 'taxi']"
                   /></span>
                   <span class="icon-display"> Cabs </span>
                 </b-nav-item>
-                <b-nav-item href="#" class=" text-center pr-2">
+                <b-nav-item href="" class=" text-center mr-2">
                   <span class="icon-img-hover">
                     <font-awesome-icon :icon="['fas', 'passport']"
                   /></span>
 
                   <span class="icon-display"> Visa </span>
                 </b-nav-item>
-                <b-nav-item href="#" class=" text-center pr-2">
+                <b-nav-item href="" class=" text-center mr-2">
                   <span class="icon-img-hover"
                     ><font-awesome-icon :icon="['fas', 'home']"
                   /></span>
                   <span class="icon-display"> Homestays </span>
                 </b-nav-item>
-                <b-nav-item href="#" class=" text-center pr-2">
+                <b-nav-item href="" class=" text-center mr-2">
                   <span class="icon-img-hover">
                     <font-awesome-icon :icon="['fas', 'gift']"
                   /></span>
                   <span class="icon-display"> Giftcards </span>
                 </b-nav-item>
-                <b-nav-item href="#" class=" text-center pr-2">
+                <b-nav-item href="" class=" text-center mr-2">
                   <span class="icon-img-hover"
                     ><font-awesome-icon :icon="['fas', 'ellipsis-h']"
                   /></span>

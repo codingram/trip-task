@@ -36,7 +36,10 @@
       </div>
 
       <div class="about-room font-weight-bold pt-2">
-        MORE ABOUT THIS ROOM--->
+        MORE ABOUT THIS ROOM
+        <span class="ml-2">
+          <font-awesome-icon :icon="['fas', 'arrow-right']" />
+        </span>
       </div>
     </div>
   </div>

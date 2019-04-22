@@ -78,7 +78,7 @@ export default {
 .srcol-head-tab {
   border-bottom: 1px solid #8080805c;
   box-shadow: 0px 9px 0px 1px #b1a8a812;
-  padding-left: 78px;
+  padding-left: 64px;
   font-size: 13px;
   font-weight: bold;
 }

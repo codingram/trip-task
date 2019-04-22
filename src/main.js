@@ -44,7 +44,8 @@ import {
   faTimesCircle,
   faShower,
   faToriiGate,
-  faTicketAlt
+  faTicketAlt,
+  faArrowRight
 } from "@fortawesome/free-solid-svg-icons"; //fas fa
 import {
   faFacebookF,
@@ -86,7 +87,8 @@ library.add(
   faTimesCircle,
   faShower,
   faToriiGate,
-  faTicketAlt
+  faTicketAlt,
+  faArrowRight
 ); //fas
 library.add(faEnvelope, faCircle, faCalendarAlt, faThumbsUp); //far
 library.add(

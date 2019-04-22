@@ -46,7 +46,7 @@
             <div>
               <div class="float-left standard-room-div-width">
                 <div
-                  class="col3-room-queen-font all-blue-color font-weight-bold"
+                  class="col3-room-queen-font all-blue-color font-weight-bold mb-1"
                 >
                   Standard room-Queen size bed
                 </div>

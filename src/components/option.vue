@@ -12,21 +12,19 @@
       <span class="font-weight-bold "> Room Only</span>
     </div>
 
-    <div class="mb-1 ml-2 none-refund">
+    <div class="mb-1 ml-2 mt-2 none-refund">
       <span class="mr-2 non-icon-size">
         <font-awesome-icon :icon="['fab', 'creative-commons-nc']" />
       </span>
       <span class="font-weight-bold">Non-Refundable</span>
+      <div class="read-more pl-4 mb-5">Read More</div>
     </div>
 
-    <div class="read-more pl-4 ml-2">Read More</div>
+    
   </div>
 </template>
 <style lang="scss">
 @import "../assets/scss/_svariables.scss";
-.option-bg {
-  background-color: $optionbgcolor;
-}
 .recomm-button {
   text-align: center;
   background: linear-gradient(96deg, #53b2fe, #065af3);
@@ -34,7 +32,7 @@
   border-radius: 20px;
   border: none;
   font-weight: bold;
-  font-size: 10px;
+  font-size: 8px;
   padding: 0px 10px;
 }
 .room-only-color {

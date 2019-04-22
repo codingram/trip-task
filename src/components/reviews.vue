@@ -287,7 +287,7 @@ export default {
   font-size: 11px;
 }
 .location-margin {
-  font-size: 11px;
+  font-size: 10px;
   color: #1ea270c4;
   text-align: center;
 }
@@ -318,6 +318,8 @@ export default {
 }
 .review-col2-relative {
   position: relative;
+  clear: both;
+  line-height: 10px;
 }
 .review-col2-div-bgwhite {
   background-color: white;
@@ -329,11 +331,12 @@ export default {
   width: 100%;
 }
 .grade-fontsize {
-  font-size: 12px;
+  font-size: 10px;
   color: $allgraytextcolor;
+  float: left;
 }
 .review-numsize {
-  font-size: 7px;
+  font-size: 9px;
 }
 .text-hover-color:hover {
   text-decoration: none;

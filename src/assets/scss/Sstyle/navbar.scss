@@ -25,6 +25,7 @@ ul > li {
 .login-font-size {
   font-size: 10px;
   color: $alltextheadcolor;
+  line-height: 12px;
 }
 .icon-display {
   display: block;
@@ -35,6 +36,11 @@ button:focus{
 }
 .icon-img-hover:hover{
   color:$alltextbluecolor
+}
+.nav-link:hover{
+  .icon-img-hover{
+    color:$alltextbluecolor
+  }
 }
 .login-font-size:hover{
   text-decoration: none;

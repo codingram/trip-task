@@ -7,8 +7,8 @@
         hours, T&C apply
       </span>
     </div>
-    <div class="d-flex">
-      <div>
+    <div class="d-flex mt-4">
+      <div class="text-lineheight">
         <div class="pt-2 price-table-prices table-price-strike ">₹3529</div>
         <div class="price-color font-weight-bold">₹ 3,177</div>
         <div class="price-table-prices">Per Night</div>
@@ -24,7 +24,7 @@
 <style lang="scss">
 @import "../assets/scss/_svariables.scss";
 .button-style {
-  font-size: 11px;
+  font-size: 10px;
 }
 .price-title {
   background-color: #d7fae2;
@@ -63,5 +63,8 @@
   border-top-color: $tablepricebgcolor;
   border-width: 14px;
   margin-left: -15px;
+}
+.text-lineheight{
+  line-height: 16px;
 }
 </style>
