@@ -1,6 +1,7 @@
+@import "../assets/scss/_svariables.scss";
 .breadcrum-style {
-    background-color: white;
-    font-size: 10px;
+    background-color: $textwhitecolor;
+    font-size: 0.625rem;
   }
   .breadcrumb-item + .breadcrumb-item::before {
     content: ">" !important;

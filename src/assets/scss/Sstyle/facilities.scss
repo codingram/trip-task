@@ -1,40 +1,40 @@
 @import "../assets/scss/_svariables.scss";
 .div-border {
-  border: 1px solid #80808059;
-  border-radius: 6px;
-  box-shadow: 1px 1px 1px 1px #8888882b;
-  padding: 13px;
-  font-size: 14px;
+  border: 0.0625rem solid $bordergraycolor;
+  border-radius: 0.375rem;
+  box-shadow: 0.0625rem 0.0625rem 0.0625rem 0.0625rem $boxshadow;
+  padding: 0.8125rem;
+  font-size: 0.875rem;
   font-weight: bold;
   color: $alltextheadcolor;
 }
 .ibis-facility-head {
-  font-size: 18px;
+  font-size: 1.125rem;
   font-weight: bold;
   color: $alltextheadcolor;
 }
 .ibis-facility-subhead {
-  font-size: 13px;
+  font-size: 0.8125rem;
   color: $allgraytextcolor;
-  line-height: 9px;
+  line-height: 0.5625rem;
 }
 .heading2-span-font {
   color: $textgreencolor;
 }
 .list-font {
-  font-size: 11px;
+  font-size: 0.6875rem;
 }
 .div-bottom-border {
-  border-bottom: 2px solid #dee2e6;
+  border-bottom: 0.125rem solid $lightgrayborder;
 }
 .verfiy-font {
-  font-size: 18px;
+  font-size: 1.125rem;
   color: $alltextheadcolor;
 }
 .verfiy-font-below {
-  font-size: 13px;
+  font-size: 0.8125rem;
   color: $allgraytextcolor;
-  line-height: 8px;
+  line-height: 0.5rem;
 }
 .text-hover-facility:hover {
   text-decoration: none;

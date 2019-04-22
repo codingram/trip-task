@@ -6,34 +6,31 @@
   background-color: $citysearchWdivbox;
 }
 .boxhead-font-size {
-  font-size: 10px;
+  font-size: 0.625rem;
   color: $alltextbluecolor;
 }
 .boxtext-font-size {
-  font-size: 12px;
-  color: #fff;
+  font-size: 0.75rem;
+  color: $textwhitecolor;
   text-overflow: ellipsis;
   overflow: hidden;
   width: 112px;
-  height: 1.2em;
   white-space: nowrap;
 }
 .boxhead-style {
-  border-radius: 2px;
-  height: 37px;
+  border-radius: 4px;
+  padding: 3px 30px 3px 10px;
   text-align: left;
-  width: 150px;
+ 
 }
 .city-display {
   margin: 10px 6px 10px 0px;
 }
 .search-box-margin {
-  text-align: center;
   background: $allgradientbluecolor;
   color: $textwhitecolor;
-  border-radius: 20px;
+  border-radius: 1.25rem;
   border: none;
-  font-weight: bold;
-  font-size: 19px;
+  font-size: 1.1875rem;
   padding: 3px 25px;
 }

@@ -10,7 +10,7 @@
   color: $alltextbluecolor;
 }
 .star-color {
-  color: #e0dddd;
+  color: $lightgray;
 }
 .swiper-style {
   height: 270px;
@@ -18,51 +18,49 @@
   border-radius: 3px 0px 0px 3px;
 }
 .outline-whole-row {
-  border: 1px solid #8080807a;
-  font-size: 10px;
+  border: 1px solid $bordergraycolor;
+  font-size: 0.625rem;
   border-radius: 3px;
-  box-shadow: 0.01px 0.01px 0.01px 0.01px grey;
+  box-shadow: 0.01px 0.01px 0.01px 0.01px;
   padding: 9px 16px 18px 16px;
 }
 .roominfo-col3-review 
 {
-  border: 1px solid #8080807a;
-  font-size: 12px;
+  border: 1px solid $bordergraycolor;
+  font-size: 0.75rem;
   border-radius: 3px;
-  box-shadow: 0.01px 0.01px 0.01px 0.01px grey;
+  box-shadow: 0.01px 0.01px 0.01px 0.01px;
   padding: 9px 16px 27px 16px;
 }
 .col3-others-room-text{
   font-size: 0.7rem;
   font-weight: bold;
   cursor: pointer;
-  line-height: 25px;
+  line-height: 1.5625rem;
 }
 .outline-button {
-  margin-left: 25px;
+  margin-left: 1.5625rem;
 }
 .outline-whole-row2 {
-  border: 1px solid #8080807a;
-  font-size: 12px;
-  margin-top: 10px;
-  height: 112px;
+  border: 1px solid $bordergraycolor;
+  font-size: 0.75rem;
+  margin-top: 0.625rem;
+  height: 7rem;
   border-radius: 6px;
 }
 .roominfo-col-3 {
-  font-size: 11px;
-  width: 277px;
-  height: 28px;
+  font-size: 0.6875rem;
   text-align: center;
   border-radius: 3px;
-  color: red;
-  background-color: #ff00002e;
-  margin-top: -28px;
+  color: $textredcolor;
+  background-color: $lightred;
+  margin-top: -1.75rem;
   padding: 6px 6px 6px 0px;
 }
 
 .booknow-box-button {
   background: $allgradientbluecolor;
-  border-radius: 20px;
+  border-radius: 1.25rem;
   border: none;
   font-weight: bold;
   font-size: 0.7rem;
@@ -77,33 +75,33 @@
   background:
     url("../assets/ImagesS/rest.jpeg");
 
-  height: 104px;
-  width: 164px;
+  height: 6.5rem;
+  width: 10.25rem;
   position: relative;
 }
 .div-back-image-map {
   background: linear-gradient(rgba(13, 14, 14, 0.12), rgba(19, 21, 21, 0.83)),
     url("../assets/ImagesS/rest.jpeg");
 
-  height: 48px;
-  width: 167px;
-  border-radius: 3px;
+  height: 3rem;
+  width: 10.4375rem;
+  border-radius: 0.1875rem;
 }
 .font-rest {
   color: white;
-  font-size: 10px;
-  margin-top: 87px;
-  margin-left: 11px;
+  font-size: 0.625rem;
+  margin-top: 5.4375rem;
+  margin-left: 0.6875rem;
   font-weight: bold;
   position: absolute;
-  bottom: 5px;
-  left: 8px;
+  bottom: 0.3125rem ;
+  left: 0.5rem;
 }
 .div-back-image-room {
   background-image:
     url("../assets/ImagesS/room.jpeg");
 
-  height: 158px;
+  height: 9.875rem;
   width: 100%;
   border-radius: 0px 3px 3px 0px;
   position: relative;
@@ -111,66 +109,67 @@
 }
 .font-room {
   color: white;
-  font-size: 10px;
+  font-size: 0.625rem;
   margin-top: 108px;
   font-weight: bold;
   position: absolute;
-  bottom: 5px;
-  left: 8px;
+  bottom: 0.3125rem ;
+  left: 0.5rem;
 
 }
 .col3-price-per-night-text
 {
     color: $alllightgraytext;
-    font-size: 10px;
+    font-size: 0.625rem;
 }
 .col3-pricedetails-below-border {
   border-top: 1px solid #80808057;
 }
 .col3-room-queen-font {
-  font-size: 13px;
-  line-height: 14px;
+  font-size: 0.8125rem;
+  line-height: 0.875rem;
 }
 .col3-price-line-through {
   text-decoration: line-through;
   color: $allgraytextcolor;
 }
 .col3-price-details {
-  font-size: 17px;
-  line-height: 20px;
+  font-size: 1.0625rem;
+  line-height: 1.25rem;
 }
 .col3-saveing-price {
-  font-size: 9px;
+  font-size: 0.5625rem;
   color: $textredcolor;
 }
 .col3-tick-icon{
-  font-size: 9px;
+  font-size:0.5625rem;
   color: $textgreencolor;
 }
 .col3-2adults
 {
-  line-height: 7px;
+  line-height: 0.4375rem;
   color: $allgraytextcolor;
-  font-size: 10px;
+  font-size: 0.625rem;
 }
 .col3-advisor-button-sm {
   background-color: $textgreencolor;
   color: white;
   border-radius: 3px;
-  font-size: 15px;
+  font-size: 0.9375rem;
   padding: 3px 5px;
 }
 .booknow-button {
   padding: 0px;
-  margin-left: 65px;
+  margin-left: 4.0625rem;
 }
 .whole-div-font-size {
-  font-size: 9px;}
+  font-size: 0.5625rem;
+}
 
 .review-color {
   color: $textgreencolor;
   font-weight: bold;
-  font-size: 10px;
+  font-size: 0.625rem;
 }
 .review-margin {
   margin-top: -7px;
@@ -189,18 +188,18 @@
   color:$allgraytextcolor;
 }
 .hotel-star-size{
-  font-size: 9px;
+  font-size: 0.5625rem;
 }
 .more-review-font {
   color: $alltextbluecolor;
 }
 .ibis-hotel-head {
-  font-size: 18px;
+  font-size: 1.125rem;
 
 }
 .ibis-hotel-subhead {
   color: $alltextbluecolor;
-  font-size: 12px;
+  font-size: 0.75rem;
   line-height: 3px;
 }
 .sec-th-margin {

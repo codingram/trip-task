@@ -82,7 +82,7 @@
         </b-col>
       </div>
       <!-- login account -->
-      <div class="ml-auto">
+      <div class="ml-auto d-flex">
         <div class="login-icon active mr-2">my</div>
         <div class="login-font-size font-weight-bold">
           <a href="" class="login-font-size">

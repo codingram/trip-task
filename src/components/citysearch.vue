@@ -7,13 +7,15 @@
           v-bind:key="city.index"
           class="city-display p-0"
         >
-          <div class="col-blue-color p-1 pl-2  boxhead-style ">
+          <div class="col-blue-color boxhead-style ">
             <div class="boxhead-font-size">{{ city.cityhead }}</div>
             <div class="boxtext-font-size">{{ city.cityname }}</div>
           </div>
         </li>
         <li class="my-auto">
-          <button class="search-box-margin ml-4">SEARCH</button>
+          <button class="search-box-margin text-center font-weight-bold ml-4">
+            SEARCH
+          </button>
         </li>
       </ul>
     </b-container>

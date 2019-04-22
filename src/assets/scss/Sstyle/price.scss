@@ -1,6 +1,6 @@
 @import "../assets/scss/_svariables.scss";
 .button-style {
-  font-size: 10px;
+  font-size: 0.625rem;
 }
 .price-title {
   background-color: #d7fae2;
@@ -11,12 +11,12 @@
   margin: -12px -33px 15px;
 }
 .price-color {
-  font-size: 17px;
+  font-size: 1.0625rem;
   color: $alltextheadcolor;
 }
 .price-table-prices {
   color: $alllightgraytext;
-  font-size: 10px;
+  font-size: 0.625rem;
 }
 .price-table-head {
   color: $allgraytextcolor;
@@ -27,7 +27,7 @@
 .price-title::before {
   background-color: $tablepricebgcolor;
   position: relative;
-  padding: 10px 16px;
+  padding: 0.625rem 1rem;
   margin: -16px -20px 15px;
 }
 .price-table-head::after {
@@ -37,7 +37,7 @@
   content: " ";
   position: absolute;
   border-top-color: $tablepricebgcolor;
-  border-width: 14px;
+  border-width: 0.875rem;
 }
 .text-lineheight {
   line-height: 16px;

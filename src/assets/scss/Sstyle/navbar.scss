@@ -8,34 +8,31 @@ ul > li {
   list-style-type: none;
 }
 .icon-text-font {
-  font-size: 16px;
-  padding-right: 3px;
+  font-size: 1rem;
+  padding-right: 0.1875rem;
 }
 .login-icon {
   border-radius: 50%;
   color: white;
   background-image: $mybuttoncolor;
   border: none;
-  height: 24px;
-  width: 24px;
+  height: 1.5rem;
+  width: 1.5rem;
   text-align: center;
-  font-size: 10px;
-  padding: 4px;
+  font-size: 0.625rem;
+  padding: 0.25rem;
 }
 .login-font-size {
-  font-size: 10px;
+  font-size: 0.625rem;
   color: $alltextheadcolor;
-  line-height: 12px;
+  line-height: 0.75rem;
 }
 .icon-display {
   display: block;
-  font-size:11px;
+  font-size:0.6875rem;
 }
 button:focus{
     outline: none;
-}
-.icon-img-hover:hover{
-  color:$alltextbluecolor
 }
 .nav-link:hover{
   .icon-img-hover{
