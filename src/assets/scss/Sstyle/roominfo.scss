@@ -9,10 +9,6 @@
 .all-blue-color{
   color: $alltextbluecolor;
 }
-.div-display-inline-block{
-  display: inline-block;
-}
-
 .star-color {
   color: #e0dddd;
 }
@@ -194,16 +190,13 @@
 }
 .hotel-star-size{
   font-size: 9px;
-  display: inline-block;
-  vertical-align: middle;
 }
 .more-review-font {
   color: $alltextbluecolor;
 }
 .ibis-hotel-head {
   font-size: 18px;
-  display: inline-block;
-    vertical-align: middle;
+
 }
 .ibis-hotel-subhead {
   color: $alltextbluecolor;
@@ -213,13 +206,6 @@
 .sec-th-margin {
   margin-left: 6px;
   border-radius: 3px;
-}
-.roominfo-fulldiv-display
-{
-  display: flex;
-}
-.review-display-flex{
-  display: inline-flex;
 }
 
 .northstar-text-overflow{

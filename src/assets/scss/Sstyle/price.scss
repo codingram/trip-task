@@ -1,0 +1,44 @@
+@import "../assets/scss/_svariables.scss";
+.button-style {
+  font-size: 10px;
+}
+.price-title {
+  background-color: #d7fae2;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  padding: 7px 16px;
+  margin: -12px -33px 15px;
+}
+.price-color {
+  font-size: 17px;
+  color: $alltextheadcolor;
+}
+.price-table-prices {
+  color: $alllightgraytext;
+  font-size: 10px;
+}
+.price-table-head {
+  color: $allgraytextcolor;
+}
+.table-price-strike {
+  text-decoration: line-through;
+}
+.price-title::before {
+  background-color: $tablepricebgcolor;
+  position: relative;
+  padding: 10px 16px;
+  margin: -16px -20px 15px;
+}
+.price-table-head::after {
+  top: 100%;
+  left: 7%;
+  border: solid transparent;
+  content: " ";
+  position: absolute;
+  border-top-color: $tablepricebgcolor;
+  border-width: 14px;
+}
+.text-lineheight {
+  line-height: 16px;
+}

@@ -4,7 +4,7 @@
       <div class="mt-3">
         <breadcum></breadcum>
       </div>
-      <div class="roominfo-fulldiv-display">
+      <div class="d-flex">
         <b-col md="5" class="p-0">
           <!-- swiper -->
           <swiper :options="swiperOption">
@@ -28,7 +28,7 @@
             <span class="font-room">ROOM IMAGES</span>
           </div>
 
-          <div class="roominfo-fulldiv-display">
+          <div class="d-flex">
             <div class="div-back-image-restaurant mr-2">
               <span class="font-rest">RESTAURANT</span>
             </div>
@@ -123,11 +123,11 @@
         </b-col>
       </div>
 
-      <div class="mt-2">
+      <div class="mt-2 d-flex">
         <div class="ibis-hotel-head font-weight-bold">
           Ibis one Central Hotel
         </div>
-        <div class="hotel-star-size  ml-2">
+        <div class="hotel-star-size my-auto ml-2">
           <font-awesome-icon :icon="['fas', 'star']" />
           <font-awesome-icon :icon="['fas', 'star']" />
           <font-awesome-icon :icon="['fas', 'star']" />

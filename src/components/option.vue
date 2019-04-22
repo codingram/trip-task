@@ -19,35 +19,8 @@
       <span class="font-weight-bold">Non-Refundable</span>
       <div class="read-more pl-4 mb-5">Read More</div>
     </div>
-
-    
   </div>
 </template>
 <style lang="scss">
-@import "../assets/scss/_svariables.scss";
-.recomm-button {
-  text-align: center;
-  background: linear-gradient(96deg, #53b2fe, #065af3);
-  color: #fff;
-  border-radius: 20px;
-  border: none;
-  font-weight: bold;
-  font-size: 8px;
-  padding: 0px 10px;
-}
-.room-only-color {
-  color: $textgreencolor;
-}
-.none-refund {
-  color: $textredcolor;
-}
-.table-fontsize {
-  font-size: 11px;
-}
-.non-icon-size {
-  font-size: 16px;
-}
-.option-head-color {
-  color: $alltextheadcolor;
-}
+@import "../assets/scss/Sstyle/option.scss";
 </style>

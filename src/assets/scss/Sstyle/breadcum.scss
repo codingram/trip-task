@@ -1,0 +1,7 @@
+.breadcrum-style {
+    background-color: white;
+    font-size: 10px;
+  }
+  .breadcrumb-item + .breadcrumb-item::before {
+    content: ">" !important;
+  }

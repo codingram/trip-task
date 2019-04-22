@@ -1,0 +1,15 @@
+@import "../assets/scss/_svariables.scss";
+.option-bg {
+  background-color: $optionbgcolor;
+}
+.text-style {
+  font-size: 12px;
+}
+.include-row-style {
+  border: 1px solid #dee2e6;
+  padding: 0px;
+  max-width: 60px;
+}
+.tick-iconsize {
+  font-size: 10px;
+}

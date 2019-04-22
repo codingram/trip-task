@@ -1,0 +1,24 @@
+@import "../assets/scss/_svariables.scss";
+.div-max-width {
+  max-width: 183px;
+}
+.about-room {
+  font-size: 10px;
+  color: $alltextbluecolor;
+}
+.text-size {
+  font-size: 13px;
+  font-weight: 100;
+}
+.roomtype-facility-icon {
+  padding-right: 4px;
+  font-size: 10px;
+  color: $allgraytextcolor;
+}
+.roomtype-facility-text {
+  font-size: 12px;
+  color: $allgraytextcolor;
+}
+.heading-color {
+  color: $alltextheadcolor;
+}

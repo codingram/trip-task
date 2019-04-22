@@ -24,17 +24,5 @@
   </div>
 </template>
 <style lang="scss">
-@import "../assets/scss/_svariables.scss";
-
-.none-refund {
-  color: $textredcolor;
-}
-.till-time-date {
-  color: $allgraytextcolor;
-}
-.lineheight {
-  color: #008cff;
-  font-size: 11px;
-  line-height: 1.7;
-}
+@import "../assets/scss/Sstyle/option2.scss";
 </style>

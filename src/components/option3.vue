@@ -17,19 +17,5 @@
   </div>
 </template>
 <style lang="scss">
-@import "../assets/scss/_svariables.scss";
-.none-refund {
-  color: $textredcolor;
-}
-.read-more {
-  color: $alltextbluecolor;
-  font-size: 11px;
-  line-height: 5px;
-}
-.whole-div-font {
-  font-size: 12px;
-}
-.non-icon-size {
-  font-size: 16px;
-}
+@import "../assets/scss/Sstyle/option3.scss";
 </style>

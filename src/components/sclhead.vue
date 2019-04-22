@@ -1,9 +1,9 @@
 <template>
   <div>
     <b-container fluid>
-      <div class="srcol-head-tab">
+      <div class="srcol-head-tab d-flex">
         <div
-          class=" scroll-tab p-2 row-display-inline  scrolltab-cursor-point"
+          class=" scroll-tab p-2   scrolltab-cursor-point"
           v-scroll-to="'#table'"
         >
           <a href="#" class="link-text-scroll text-center m-3">
@@ -11,7 +11,7 @@
           </a>
         </div>
         <div
-          class="p-2 scroll-tab row-display-inline scrolltab-cursor-point"
+          class="p-2 scroll-tab  scrolltab-cursor-point"
           v-scroll-to="'#facility'"
         >
           <a href="#" class="link-text-scroll text-center m-3 ">
@@ -20,7 +20,7 @@
         </div>
 
         <div
-          class="p-2 scroll-tab row-display-inline scrolltab-cursor-point"
+          class="p-2 scroll-tab  scrolltab-cursor-point"
           v-scroll-to="'#table'"
         >
           <a href="#table" class="link-text-scroll text-center m-3">
@@ -28,7 +28,7 @@
           </a>
         </div>
         <div
-          class="p-2 scroll-tab row-display-inline scrolltab-cursor-point"
+          class="p-2 scroll-tab  scrolltab-cursor-point"
           v-scroll-to="'#table'"
         >
           <a href="#table" class="link-text-scroll text-center m-3">
@@ -36,7 +36,7 @@
           </a>
         </div>
         <div
-          class="p-2 scroll-tab row-display-inline scrolltab-cursor-point"
+          class="p-2 scroll-tab  scrolltab-cursor-point"
           v-scroll-to="'#review'"
         >
           <a href="#review" class="link-text-scroll text-center m-3"
@@ -74,34 +74,5 @@ export default {
 };
 </script>
 <style lang="scss">
-@import "../assets/scss/_svariables.scss";
-.srcol-head-tab {
-  border-bottom: 1px solid #8080805c;
-  box-shadow: 0px 9px 0px 1px #b1a8a812;
-  padding-left: 64px;
-  font-size: 13px;
-  font-weight: bold;
-}
-.link-text-scroll {
-  color: $alltextheadcolor;
-  text-decoration: none;
-}
-.link-text-scroll:hover {
-  color: $alltextbluecolor;
-  text-decoration: none;
-}
-.scroll-tab:hover {
-  border-bottom: 3px solid $alltextbluecolor;
-  color: $alltextbluecolor;
-}
-.row-display-inline {
-  display: inline-block;
-}
-.scrolltab-cursor-point {
-  cursor: pointer;
-  border-bottom: 3px solid transparent;
-}
-.scroll-tab:hover > a {
-  color: $alltextbluecolor;
-}
+@import "../assets/scss/Sstyle/scrollhead.scss";
 </style>

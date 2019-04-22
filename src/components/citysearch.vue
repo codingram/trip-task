@@ -1,7 +1,7 @@
 <template>
   <div class="whole-div">
     <b-container>
-      <ul class="pl-0 text-vertical-align">
+      <ul class="pl-0  d-flex">
         <li
           v-for="city in cities"
           v-bind:key="city.index"
@@ -12,7 +12,7 @@
             <div class="boxtext-font-size">{{ city.cityname }}</div>
           </div>
         </li>
-        <li>
+        <li class="my-auto">
           <button class="search-box-margin ml-4">SEARCH</button>
         </li>
       </ul>

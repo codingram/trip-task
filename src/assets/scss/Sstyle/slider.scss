@@ -1,0 +1,32 @@
+.swiper-margin {
+    margin-left: 85px;
+  }
+  .swiper-font {
+    font-size: 13px;
+    color: #808080eb;
+    line-height: 15px;
+  }
+  .swiper-icon {
+    font-size: 20px;
+    color: #193e37;
+  }
+  .swiper-container {
+    position: inherit;
+  }
+  .swiper-button-prev,
+  .swiper-button-next {
+    background-size: 13px 40px;
+    margin-top: -20px;
+  }
+  .swiper-button-prev,
+  .swiper-container-rtl .swiper-button-next {
+    // background-image: url(../assets/ImagesS/arrow.png);
+    left: 10px;
+    right: auto;
+  }
+  .swiper-button-prev,
+  .swiper-container-rtl .swiper-button-next {
+    left: 10px;
+    right: auto;
+    outline: none;
+  }

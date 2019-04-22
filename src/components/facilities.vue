@@ -247,52 +247,5 @@
   </div>
 </template>
 <style lang="scss">
-@import "../assets/scss/_svariables.scss";
-.div-border {
-  border: 1px solid #80808059;
-  border-radius: 6px;
-  box-shadow: 1px 1px 1px 1px #8888882b;
-  padding: 13px;
-  font-size: 14px;
-  font-weight: bold;
-  color: $alltextheadcolor;
-}
-.ibis-facility-head {
-  font-size: 18px;
-  font-weight: bold;
-  color: $alltextheadcolor;
-}
-.ibis-facility-subhead {
-  font-size: 13px;
-  color: $allgraytextcolor;
-  line-height: 9px;
-}
-.heading2-span-font {
-  color: $textgreencolor;
-}
-.list-font {
-  font-size: 11px;
-}
-.div-bottom-border {
-  border-bottom: 2px solid #dee2e6;
-}
-.verfiy-font {
-  font-size: 18px;
-  color: $alltextheadcolor;
-}
-.verfiy-font-below {
-  font-size: 13px;
-  color: $allgraytextcolor;
-  line-height: 8px;
-}
-.text-hover-facility:hover {
-  text-decoration: none;
-  color: $allgraytextcolor;
-}
-.text-hover-facility {
-  color: $allgraytextcolor;
-}
-.facility-display {
-  display: inline-flex;
-}
+@import "../assets/scss/Sstyle/facilities.scss";
 </style>
